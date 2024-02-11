@@ -69,16 +69,16 @@
 					}
 				}
 			} {
-				var selectedDoorStyle = a;
+				var d = a;
 				mappedRoomConnections = {};
 				let B;
-				for (B = 1; B <= selectedDoorStyle.n_rooms; B++) a: {
+				for (B = 1; B <= d.n_rooms; B++) a: {
 					let l;
-					var dungeonState = selectedDoorStyle,
-						c = selectedDoorStyle.room[B];
-					let q = ca(dungeonState, c);
+					var g = d,
+						c = d.room[B];
+					let q = ca(g, c);
 					if (!q.length) {
-						selectedDoorStyle = dungeonState;
+						d = g;
 						break a
 					} {
 						let p = Math.floor(Math.sqrt(((c.east - c.west) / 2 + 1) * ((c.south - c.north) / 2 + 1)));
@@ -88,21 +88,21 @@
 					for (l = 0; l < w; l++) {
 						let p = q.splice(random(q.length), 1).shift();
 						if (!p) break;
-						if (!(dungeonState.cell[p.door_r][p.door_c] & 4128768)) {
+						if (!(g.cell[p.door_r][p.door_c] & 4128768)) {
 							let r;
 							if (r = p.out_id) {
 								let x = [c.id, r].sort(N).join(",");
-								mappedRoomConnections[x] || (dungeonState = da(dungeonState, c, p), mappedRoomConnections[x] = 1)
-							} else dungeonState = da(dungeonState, c, p)
+								mappedRoomConnections[x] || (g = da(g, c, p), mappedRoomConnections[x] = 1)
+							} else g = da(g, c, p)
 						}
 					}
-					selectedDoorStyle = dungeonState
+					d = g
 				}
 			} {
-				var h = selectedDoorStyle;
-				let roomIdIterator;
-				for (roomIdIterator = 1; roomIdIterator <= h.n_rooms; roomIdIterator++) {
-					let l = h.room[roomIdIterator],
+				var h = d;
+				let B;
+				for (B = 1; B <= h.n_rooms; B++) {
+					let l = h.room[B],
 						q = l.id.toString(),
 						w = q.length,
 						p = Math.floor((l.north + l.south) / 2),
@@ -154,10 +154,10 @@
 			var A = dungeon;
 			if (A.remove_deadends) {
 				{
-					var dungeonStateWithStairs = A;
-					let B = L("remove_deadends", dungeonStateWithStairs);
-					dungeonStateWithStairs.remove_pct = B.pct;
-					A = fa(dungeonStateWithStairs, dungeonStateWithStairs.remove_pct, deadEndRemovalRules)
+					var I = A;
+					let B = L("remove_deadends", I);
+					I.remove_pct = B.pct;
+					A = fa(I, I.remove_pct, deadEndRemovalRules)
 				}
 			}
 			A.remove_deadends && ("errant" == A.corridor_layout ? A.close_arcs = A.remove_pct : "straight" == A.corridor_layout && (A.close_arcs = A.remove_pct));
@@ -188,7 +188,7 @@
 					l.cell_size).toString() + "px sans-serif";
 				var n = l
 			}
-			let dungeon = new_image("map", n.width, n.height),
+			let H = new_image("map", n.width, n.height),
 				B = ra(n);
 			n.palette = B; {
 				let l = new Element("canvas");
@@ -204,17 +204,17 @@
 				var sa = l
 			}
 			n.base_layer = sa; {
-				var compositeMapLayer = dungeon;
+				var O = H;
 				let l = n.max_x,
 					q = n.max_y,
 					w = n.palette,
 					p;
-				(p = w.fill) ? fill_rect(compositeMapLayer, 0, 0, l, q, p): fill_rect(compositeMapLayer, 0, 0, l, q, w.black);
-				(p = w.fill) && fill_rect(compositeMapLayer,
+				(p = w.fill) ? fill_rect(O, 0, 0, l, q, p): fill_rect(O, 0, 0, l, q, w.black);
+				(p = w.fill) && fill_rect(O,
 					0, 0, l, q, p);
-				(p = w.fill_grid) ? S(v, n, p, compositeMapLayer): (p = w.grid) && S(v, n, p, compositeMapLayer)
+				(p = w.fill_grid) ? S(v, n, p, O): (p = w.grid) && S(v, n, p, O)
 			} {
-				var ta = dungeon;
+				var ta = H;
 				let l = n.cell_size,
 					q = n.base_layer,
 					w;
@@ -228,7 +228,7 @@
 						}
 				}
 			} {
-				var applyWallShading = dungeon;
+				var F = H;
 				let l = n.cell_size,
 					q = Math.floor(l / 4);
 				3 > q && (q = 3);
@@ -245,16 +245,16 @@
 						let D = C * l,
 							G = D + l;
 						if (p = w.bevel_nw) {
-							if (v.cell[r][C - 1] & 6 || draw_line(applyWallShading, D - 1, x, D - 1,
-									E, p), v.cell[r - 1][C] & 6 || draw_line(applyWallShading, D, x - 1, G, x - 1, p), p = w.bevel_se) v.cell[r][C + 1] & 6 || draw_line(applyWallShading, G + 1, x + 1, G + 1, E, p), v.cell[r + 1][C] & 6 || draw_line(applyWallShading, D + 1, E + 1, G, E + 1, p)
-						} else if (p = w.wall_shading) v.cell[r - 1][C - 1] & 6 || K(applyWallShading, D - q, x - q, D - 1, x - 1, p), v.cell[r - 1][C] & 6 || K(applyWallShading, D, x - q, G, x - 1, p), v.cell[r - 1][C + 1] & 6 || K(applyWallShading, G + 1, x - q, G + q, x - 1, p), v.cell[r][C - 1] & 6 || K(applyWallShading, D - q, x, D - 1, E, p), v.cell[r][C + 1] & 6 || K(applyWallShading, G + 1, x, G + q, E, p), v.cell[r + 1][C - 1] & 6 || K(applyWallShading, D - q, E + 1, D - 1, E + q, p), v.cell[r + 1][C] & 6 || K(applyWallShading, D, E + 1, G, E + q, p), v.cell[r + 1][C + 1] & 6 || K(applyWallShading, G + 1, E + 1, G + q, E + q, p);
-						if (p = w.wall) v.cell[r - 1][C] & 6 || draw_line(applyWallShading, D, x, G, x, p), v.cell[r][C - 1] & 6 || draw_line(applyWallShading, D, x, D, E, p), v.cell[r][C + 1] & 6 || draw_line(applyWallShading, G, x, G, E, p), v.cell[r + 1][C] & 6 || draw_line(applyWallShading, D, E, G, E, p)
+							if (v.cell[r][C - 1] & 6 || draw_line(F, D - 1, x, D - 1,
+									E, p), v.cell[r - 1][C] & 6 || draw_line(F, D, x - 1, G, x - 1, p), p = w.bevel_se) v.cell[r][C + 1] & 6 || draw_line(F, G + 1, x + 1, G + 1, E, p), v.cell[r + 1][C] & 6 || draw_line(F, D + 1, E + 1, G, E + 1, p)
+						} else if (p = w.wall_shading) v.cell[r - 1][C - 1] & 6 || K(F, D - q, x - q, D - 1, x - 1, p), v.cell[r - 1][C] & 6 || K(F, D, x - q, G, x - 1, p), v.cell[r - 1][C + 1] & 6 || K(F, G + 1, x - q, G + q, x - 1, p), v.cell[r][C - 1] & 6 || K(F, D - q, x, D - 1, E, p), v.cell[r][C + 1] & 6 || K(F, G + 1, x, G + q, E, p), v.cell[r + 1][C - 1] & 6 || K(F, D - q, E + 1, D - 1, E + q, p), v.cell[r + 1][C] & 6 || K(F, D, E + 1, G, E + q, p), v.cell[r + 1][C + 1] & 6 || K(F, G + 1, E + 1, G + q, E + q, p);
+						if (p = w.wall) v.cell[r - 1][C] & 6 || draw_line(F, D, x, G, x, p), v.cell[r][C - 1] & 6 || draw_line(F, D, x, D, E, p), v.cell[r][C + 1] & 6 || draw_line(F, G, x, G, E, p), v.cell[r + 1][C] & 6 || draw_line(F, D, E, G, E, p)
 					}
 				}
-				draw_pixels(applyWallShading)
+				draw_pixels(F)
 			}
-			v.door && ua(v, n, dungeon); {
-				var va = dungeon;
+			v.door && ua(v, n, H); {
+				var va = H;
 				let l = n.cell_size,
 					q = Math.floor(l / 2),
 					w = n.font,
@@ -277,7 +277,7 @@
 					}
 				}
 			}
-			v.stair && wa(v, n, dungeon)
+			v.stair && wa(v, n, H)
 		}
 	}
 
@@ -337,25 +337,25 @@
 
 	function za(a) {
 		let b = Math.floor(a.n_rows / 2),
-			adjacentRoomId;
-		for (adjacentRoomId = 0; adjacentRoomId <= a.n_rows; adjacentRoomId++) {
-			let d = Math.floor(.57735 * Math.abs(adjacentRoomId - b)) + 1,
+			f;
+		for (f = 0; f <= a.n_rows; f++) {
+			let d = Math.floor(.57735 * Math.abs(f - b)) + 1,
 				g = a.n_cols - d,
 				c;
 			for (c = 0; c <= a.n_cols; c++)
-				if (c < d || c > g) a.cell[adjacentRoomId][c] = 1
+				if (c < d || c > g) a.cell[f][c] = 1
 		}
 		return a
 	}
 
 	function Aa(a) {
 		let b = a.n_rows / 2,
-			adjacentRoomId = a.n_cols / 2,
-			selectedDoorStyle;
-		for (selectedDoorStyle = 0; selectedDoorStyle <= a.n_rows; selectedDoorStyle++) {
-			let g = Math.pow(selectedDoorStyle / b - 1, 2),
+			f = a.n_cols / 2,
+			d;
+		for (d = 0; d <= a.n_rows; d++) {
+			let g = Math.pow(d / b - 1, 2),
 				c;
-			for (c = 0; c <= a.n_cols; c++) 1 < Math.sqrt(g + Math.pow(c / adjacentRoomId - 1, 2)) && (a.cell[selectedDoorStyle][c] = 1)
+			for (c = 0; c <= a.n_cols; c++) 1 < Math.sqrt(g + Math.pow(c / f - 1, 2)) && (a.cell[d][c] = 1)
 		}
 		return a
 	}
