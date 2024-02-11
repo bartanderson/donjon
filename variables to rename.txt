@@ -1,0 +1,96 @@
+a=>randomName                         n=>mapStyleInfo                                                             
+A=>stairColumn                        N=>numericSort                                                               
+aa=>updateDungeonConfiguration        n_rooms=>roomCount                                                                           
+b=>dungeonConfig                      Na=>stairDimensions                                                            
+  B=>roomIdIterator                   O=>compositeMapLayer                                                            
+  B=>roomSizeConfig                   oa=>findStairPlacements                                                         
+ba=>calculateRoomCount                P=>directionRowOffsets                                                                         
+Ba=>shuffleDirectionList                p=>doorCenterRow                                                                       
+  c=>aspectRatio                        p=>roomColumnIndex                                                           
+  c=>roomData                           pa=>deadEndRemovalRules                                                        
+C=>doorLabelCode                        pa=>deadEndRemovalRules                                                   
+Ca=>allDirectionsList                 q=>availableDoors                                                                   
+complex_rooms=>isComplexRoomEnabled   Q=>initHandler                                                                                    
+D=>doorLabelCharacter                 q=>roomIndex                                                                        
+d=>selectedDoorStyle                  qa=>synchronizeDoors                                                               
+Da=>oppositeDirectionsMap             r=>doorCenterColumn                                                                     
+dungeon_name=>dungeonNameInput        R=>generateRoom                                                                              
+dungeon_title=>dungeonTitleElement    r=>roomCoordinate                                                                                
+E=>doorLabelString                    ra=>selectColorPalette                                                           
+e=>roomHeight                         room=>roomsList                                                             
+Ea=>colorFallbackChain                S=>drawGridLines                                                                     
+ea=>connectCorridor                   sa=>baseLayerCanvas                                                               
+f=>adjacentRoomId                     t=>doorRow                                                                      
+F=>applyWallShading                   T=>getColor                                                                       
+fa=>closeDeadEndsInSection            ta=>compositeBaseLayer                                                                   
+Fa=>initializeStairInfo                 u=>cellData                                                                           
+G=>cachedPixelsEnabled                  u=>midRow                                                               
+g=>dungeonState                       U=>isDoorPositionValid                                                                     
+Ga=>drawUpStairs                      ua=>drawDoors                                                                  
+H=>dungeon                            V=>colorPalettes                                                         
+h=>roomWidth                          v=>dungeonStateWithoutWallFlags                                            
+  ha=>closeDeadEnds                   va=>drawRoomLabels                                                              
+  ha=>fullyCloseDeadEnds              W=>mappedRoomConnections                                                         
+Ha=>drawDownStairs                      w=>maxDoorsToCreate                                                                  
+huge_rooms=>isHugeRoomEnabled           w=>roomRowIndex                                                                             
+I=>dungeonStateWithStairs             wa=>drawStairs                                                                          
+Ia=>exportMapImage                      x=>cellIndex                                                                     
+ia=>isValidStairLabel                   x=>doorIndex                                                                        
+J=>dungeonConfigConstants             X=>stairPlacementRules                                                                  
+ja=>isStairPlacementValid               y=>isValid                                                                              
+K=>applyShading                         y=>randomIndex                                                                
+k=>roomId                             Y=>windowObject                                                         
+ka=>closeDeadEnd                        z=>doorColumn                                                                  
+  l=>roomData                           z=>midColumn                                                              
+  l=>roomLayoutConfig                 Z=>updateDungeonTitle                                                             
+la=>calculateStairOffsets             za=>initializeBackgroundLayers                                                          
+m=>adjacentRoomId                                                                      
+M=>directionColumnOffsets                                                                       
+ma=>deadEndRemovalPercentage                                                                       
+ma=>defaultDungeonConfig                                                                       
+                                                       
+                                                      
+                                                          
+                                                           
+                                                            
+                                                               
+                                                             
+                                                              
+                                                        
+                                                          
+                                                               
+                                                               
+                                                         
+                                                      
+                                                    
+                                                            
+                                                           
+                                                       
+                                                         
+                                                              
+                                                       
+                                                        
+                                                           
+                                                  
+                                                   
+                                                              
+                                                   
+                                                              
+                                                 
+                                                     
+                                                        
+                                                                       
+                                                          
+                                                                
+                                                           
+                                                       
+                                                      
+                                                    
+                                                    
+                                                              
+                                                  
+                                                      
+                                                       
+                                                     
+                                                    
+                                                             

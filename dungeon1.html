@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Dungeon Generator v1.0.4</title>
+        <script type="text/javascript">
+            // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            // this is a completely self-contained random dungeon generator,
+            // implemented in HTML5 and JavaScript.
+            //
+            //   version 1.0.4      es2015 updates
+            //   version 1.0.3      updated save_canvas to use filename
+            //   version 1.0.2      linked to generator.js version 2.0
+            //   version 1.0.1      cache set_pixel() for performance
+            //   version 1.0        initial release
+            //
+            // written by drow [drow@bin.sh]
+            // http://creativecommons.org/licenses/by-nc/3.0/
+
+            // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </script>
+        <link rel="stylesheet" href="dungeon.css">
+    </head>
+    <body>
+        <form class="scripted">
+            <h1>Random Dungeon Generator</h1>
+            <table id="form" class="center">
+                <tr>
+                    <td class="key">Dungeon Name:</td>
+                    <td colspan="5" class="value">
+                        <input id="dungeon_name" size="60"/>
+                        &nbsp;<input type="button" id="new_name" value="New"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="key">Map Style:</td>
+                    <td class="value">
+                        <select id="map_style"></select>
+                    </td>
+                    <td class="key">Grid:</td>
+                    <td class="value">
+                        <select id="grid"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="key">Dungeon Layout:</td>
+                    <td class="value">
+                        <select id="dungeon_layout"></select>
+                    </td>
+                    <td class="key">Size:</td>
+                    <td class="value">
+                        <select id="dungeon_size"></select>
+                    </td>
+                    <td class="key">Stairs?</td>
+                    <td class="value">
+                        <select id="add_stairs"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="key">Room Layout:</td>
+                    <td class="value">
+                        <select id="room_layout"></select>
+                    </td>
+                    <td class="key">Size:</td>
+                    <td class="value">
+                        <select id="room_size"></select>
+                    </td>
+                    <td class="key">Doors:</td>
+                    <td class="value">
+                        <select id="doors"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="key">Corridors:</td>
+                    <td class="value">
+                        <select id="corridor_layout"></select>
+                    </td>
+                    <td class="key">Trim?</td>
+                    <td class="value">
+                        <select id="remove_deadends"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6"></td>
+                </tr>
+                <tr>
+                    <td colspan="6" class="center" style="background: #dedede;">
+                        <input id="save_map" type="button" value="Save as PNG"/>
+                        &nbsp;<input id="print_map" type="button" value="Print"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div class="center">
+            <h1 id="dungeon_title" class="title"></h1>
+            <canvas id="map" width="1" height="1">
+                <p>Your web browser does not appear to support the HTML5 &lt;canvas &gt;element.</p>
+            </canvas>
+            <p>
+                <img src="image.gif" alt="Legend" width="540" height="31">
+            </p>
+            <p>
+                Random Dungeon Generator<br/>http://donjon.bin.sh/
+            </p>
+        </div>
+        <script src="sizzle.js"></script>
+        <script src="dungeon.js"></script>
+        <script src="canvas.js"></script>
+        <script src="dice.js"></script>
+        <script src="generator.js"></script>
+        <script src="name.js"></script>
+        <script src="prng.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sizzle/2.3.5/sizzle.min.js"></script> -->
+        <script src="dungeon/gen_data.js"></script>
+        <script src="dungeon/name_set.js"></script>
+
+        <div id="debug"></div>
+    </body>
+</html>

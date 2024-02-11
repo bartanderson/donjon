@@ -1,0 +1,691 @@
+## User
+thru 153provide old and new (old, new) variable names as you choose appropriate names for existing variables -- 'use strict';
+((Y, Q) => Q(Y))(window, Y => {
+function Q() {
+let a = generate_text("Dungeon Name");
+$("dungeon_name").setValue(a);
+Z()
+}
+function Z() {
+	{
+		let a = $("dungeon_name").getValue();
+		$("dungeon_title").update(a)
+	}
+	aa()
+}
+
+function aa() {
+	{
+		let H = na(); {
+			var a = H;
+			let B = L("room_size", a),
+				l = L("room_layout", a);
+			a.huge_rooms = B.huge;
+			a.complex_rooms = l.complex;
+			a.n_rooms = 0;
+			a.room = [];
+			if ("dense" == a.room_layout) {
+				{
+					var b = a;
+					let q;
+					for (q = 0; q < b.n_i; q++) {
+						let w = 2 * q + 1,
+							p;
+						for (p = 0; p < b.n_j; p++) {
+							let r = 2 * p + 1;
+							b.cell[w][r] & 2 || (0 == q || 0 == p) && 0 < random(2) ||
+								(b = R(b, {
+									i: q,
+									j: p
+								}), !b.huge_rooms || b.cell[w][r] & 2 || (b = R(b, {
+									i: q,
+									j: p,
+									size: "medium"
+								})))
+						}
+					}
+					a = b
+				}
+			} else {
+				{
+					var f = a;
+					let q = ba(f),
+						w;
+					for (w = 0; w < q; w++) f = R(f);
+					if (f.huge_rooms) {
+						let p = ba(f, "medium"),
+							r;
+						for (r = 0; r < p; r++) f = R(f, {
+							size: "medium"
+						})
+					}
+					a = f
+				}
+			}
+		} {
+			var d = a;
+			W = {};
+			let B;
+			for (B = 1; B <= d.n_rooms; B++) a: {
+				let l;
+				var g = d,
+					c = d.room[B];
+				let q = ca(g, c);
+				if (!q.length) {
+					d = g;
+					break a
+				} {
+					let p = Math.floor(Math.sqrt(((c.east - c.west) / 2 + 1) * ((c.south - c.north) / 2 + 1)));
+					var e = p + random(p)
+				}
+				let w = e;
+				for (l = 0; l < w; l++) {
+					let p = q.splice(random(q.length), 1).shift();
+					if (!p) break;
+					if (!(g.cell[p.door_r][p.door_c] & 4128768)) {
+						let r;
+						if (r = p.out_id) {
+							let x = [c.id, r].sort(N).join(",");
+							W[x] || (g = da(g, c, p), W[x] = 1)
+						} else g = da(g, c, p)
+					}
+				}
+				d = g
+			}
+		} {
+			var h = d;
+			let B;
+			for (B = 1; B <= h.n_rooms; B++) {
+				let l = h.room[B],
+					q = l.id.toString(),
+					w = q.length,
+					p = Math.floor((l.north + l.south) / 2),
+					r = Math.floor((l.west + l.east - w) / 2) + 1,
+					x;
+				for (x = 0; x < w; x++) h.cell[p][r + x] |= q.charCodeAt(x) << 24
+			}
+		} {
+			var k = h;
+			let B = L("corridor_layout", k);
+			k.straight_pct = B.pct;
+			let l;
+			for (l = 1; l < k.n_i; l++) {
+				let q = 2 * l + 1,
+					w;
+				for (w = 1; w < k.n_j; w++) k.cell[q][2 *
+					w + 1
+				] & 4 || (k = ea(k, l, w))
+			}
+			H = k
+		}
+		if (H.add_stairs) {
+			{
+				var m = H;
+				let B = oa(m);
+				if (B.length) {
+					{
+						let l = 0;
+						"many" == m.add_stairs ? l = 3 + random(Math.floor(m.n_cols * m.n_rows / 1E3)) : "yes" == m.add_stairs && (l = 2);
+						var t = l
+					}
+					if (0 != t) {
+						var z = [],
+							y;
+						for (y = 0; y < t; y++) {
+							let l = B.splice(random(B.length), 1).shift();
+							if (!l) break;
+							let q = l.row,
+								w = l.col;
+							0 == (2 > y ? y : random(2)) ? (m.cell[q][w] |= 4194304, l.key = "down") : (m.cell[q][w] |= 8388608, l.key = "up");
+							z.push(l)
+						}
+						m.stair = z
+					}
+				}
+				H = m
+			}
+		}
+## Bing
+Here are the old and new variable names that I suggest:
+
+'use strict';
+((global, main) => main(global))(window, global => {
+	function generateDungeon() {
+		let dungeonName = generate_text("Dungeon Name");
+		$("dungeon_name").setValue(dungeonName);
+		updateDungeonTitle()
+	}
+
+	function updateDungeonTitle() {
+		let dungeonName = $("dungeon_name").getValue();
+		$("dungeon_title").update(dungeonName)
+		updateDungeonLayout()
+	}
+
+	function updateDungeonLayout() {
+		let dungeonData = getDungeonData(); {
+			var dungeon = dungeonData;
+			let roomSize = getRoomSize(dungeon),
+				roomLayout = getRoomLayout(dungeon);
+			dungeon.huge_rooms = roomSize.huge;
+			dungeon.complex_rooms = roomLayout.complex;
+			dungeon.n_rooms = 0;
+			dungeon.room = [];
+			if ("dense" == dungeon.room_layout) {
+				var denseDungeon = dungeon;
+				let i;
+				for (i = 0; i < denseDungeon.n_i; i++) {
+					let row = 2 * i + 1,
+						j;
+					for (j = 0; j < denseDungeon.n_j; j++) {
+						let col = 2 * j + 1;
+						denseDungeon.cell[row][col] & 2 || (0 == i || 0 == j) && 0 < random(2) ||
+							(denseDungeon = updateRoom(denseDungeon, {
+								i: i,
+								j: j
+							}), !denseDungeon.huge_rooms || denseDungeon.cell[row][col] & 2 || (denseDungeon = updateRoom(denseDungeon, {
+								i: i,
+								j: j,
+								size: "medium"
+							})))
+					}
+				}
+				dungeon = denseDungeon
+			} else {
+				var sparseDungeon = dungeon;
+				let i = getRoomCount(sparseDungeon),
+					j;
+				for (j = 0; j < i; j++) sparseDungeon = updateRoom(sparseDungeon);
+				if (sparseDungeon.huge_rooms) {
+					let mediumRoomCount = getRoomCount(sparseDungeon, "medium"),
+						k;
+					for (k = 0; k < mediumRoomCount; k++) sparseDungeon = updateRoom(sparseDungeon, {
+						size: "medium"
+					})
+				}
+				dungeon = sparseDungeon
+			}
+		} {
+			var corridorDungeon = dungeon;
+			roomConnections = {};
+			let roomIndex;
+			for (roomIndex = 1; roomIndex <= corridorDungeon.n_rooms; roomIndex++) a: {
+				let l;
+				var currentDungeon = corridorDungeon,
+					currentRoom = corridorDungeon.room[roomIndex];
+				let possibleConnections = getPossibleConnections(currentDungeon, currentRoom);
+				if (!possibleConnections.length) {
+					corridorDungeon = currentDungeon;
+					break a
+				} {
+					let roomArea = Math.floor(Math.sqrt(((currentRoom.east - currentRoom.west) / 2 + 1) * ((currentRoom.south - currentRoom.north) / 2 + 1)));
+					var roomSize = roomArea + random(roomArea)
+				}
+				let connectionCount = roomSize;
+				for (l = 0; l < connectionCount; l++) {
+					let connection = possibleConnections.splice(random(possibleConnections.length), 1).shift();
+					if (!connection) break;
+					if (!(currentDungeon.cell[connection.door_r][connection.door_c] & 4128768)) {
+						let r;
+						if (r = connection.out_id) {
+							let roomPair = [currentRoom.id, r].sort(N).join(",");
+							roomConnections[roomPair] || (currentDungeon = connectRooms(currentDungeon, currentRoom, connection), roomConnections[roomPair] = 1)
+						} else currentDungeon = connectRooms(currentDungeon, currentRoom, connection)
+					}
+				}
+				corridorDungeon = currentDungeon
+			}
+		} {
+			var roomLabelDungeon = corridorDungeon;
+			let roomIndex;
+			for (roomIndex = 1; roomIndex <= roomLabelDungeon.n_rooms; roomIndex++) {
+				let currentRoom = roomLabelDungeon.room[roomIndex],
+					roomId = currentRoom.id.toString(),
+					roomIdLength = roomId.length,
+					row = Math.floor((currentRoom.north + currentRoom.south) / 2),
+					col = Math.floor((currentRoom.west + currentRoom.east - roomIdLength) / 2) + 1,
+					charIndex;
+				for (charIndex = 0; charIndex < roomIdLength; charIndex++) roomLabelDungeon.cell[row][col + charIndex] |= roomId.charCodeAt(charIndex) << 24
+			}
+		} {
+			var finalDungeon = roomLabelDungeon;
+			let corridorLayout = getCorridorLayout(finalDungeon);
+			finalDungeon.straight_pct = corridorLayout.pct;
+			let i;
+			for (i = 1; i < finalDungeon.n_i; i++) {
+				let row = 2 * i + 1,
+					j;
+				for (j = 1; j < finalDungeon.n_j; j++) finalDungeon.cell[row][2 *
+					j + 1
+				] & 4 || (finalDungeon = updateCorridor(finalDungeon, i, j))
+			}
+			dungeonData = finalDungeon
+		}
+		if (dungeonData.add_stairs) {
+			var stairDungeon = dungeonData;
+			let possibleStairLocations = getPossibleStairLocations(stairDungeon);
+			if (possibleStairLocations.length) {
+				{
+					let stairCount = 0;
+					"many" == stairDungeon.add_stairs ? stairCount = 3 + random(Math.floor(stairDungeon.n_cols * stairDungeon.n_rows / 1E3)) : "yes" == stairDungeon.add_stairs && (stairCount = 2);
+					var totalStairs = stairCount
+				}
+				if (0 != totalStairs) {
+					var stairs = [],
+						stairIndex;
+					for (stairIndex = 0; stairIndex < totalStairs; stairIndex++) {
+						let stairLocation = possibleStairLocations.splice(random(possibleStairLocations.length), 1).shift();
+						if (!stairLocation) break;
+						let row = stairLocation.row,
+							col = stairLocation.col;
+						0 == (2 > stairIndex ? stairIndex : random(2)) ? (stairDungeon.cell[row][col] |= 4194304, stairLocation.key = "down") : (stairDungeon.cell[row][col] |= 8388608, stairLocation.key = "up");
+						stairs.push(stairLocation)
+					}
+					stairDungeon.stair = stairs
+				}
+			}
+			dungeonData = stairDungeon
+		}
+	}
+});
+
+## User
+can you create a list of old and new variable names in a list old, new\n\r
+## Bing
+Sure, here's a list of old variable names and their corresponding new variable names:
+
+Old Variable Name 	New Variable Name 	
+Y 	global 	
+Q 	main 	
+a 	dungeonName 	
+Z 	updateDungeonTitle 	
+aa 	updateDungeonLayout 	
+H 	dungeonData 	
+B 	roomSize 	
+l 	roomLayout 	
+b 	denseDungeon 	
+q 	i 	
+w 	row 	
+p 	j 	
+r 	col 	
+f 	sparseDungeon 	
+d 	corridorDungeon 	
+g 	currentDungeon 	
+c 	currentRoom 	
+e 	roomArea 	
+h 	roomLabelDungeon 	
+k 	finalDungeon 	
+m 	stairDungeon 	
+t 	totalStairs 	
+z 	stairs 	
+y 	stairIndex 	
+
+Please note that the new variable names are more descriptive and make the code easier to understand.
+## User
+154-237 rename in same way using same variable renaming already chosen, provide list of new variables renamed next to old--			var A = H;
+if (A.remove_deadends) {
+{
+var I = A;
+let B = L("remove_deadends", I);
+I.remove_pct = B.pct;
+A = fa(I, I.remove_pct, pa)
+}
+}
+A.remove_deadends && ("errant" == A.corridor_layout ? A.close_arcs = A.remove_pct : "straight" == A.corridor_layout && (A.close_arcs = A.remove_pct));
+A.close_arcs && (A = ha(A));
+A = qa(A); {
+var u = A;
+let B = u.cell,
+l;
+for (l = 0; l <= u.n_rows; l++) {
+let q;
+for (q = 0; q <= u.n_cols; q++) B[l][q] & 1 && (B[l][q] = 0)
+}
+u.cell = B
+}
+var v = H = u
+} {
+{
+let l = {
+map_style: v.map_style,
+grid: v.grid
+};
+l.cell_size = v.cell_size;
+l.width = (v.n_cols + 1) * l.cell_size + 1;
+l.height = (v.n_rows + 1) * l.cell_size + 1;
+l.max_x = l.width - 1;
+l.max_y = l.height - 1;
+l.font = Math.floor(.75 *
+l.cell_size).toString() + "px sans-serif";
+var n = l
+}
+let H = new_image("map", n.width, n.height),
+B = ra(n);
+n.palette = B; {
+let l = new Element("canvas");
+l.width = n.width;
+l.height = n.height;
+let q = l.getContext("2d"),
+w = n.max_x,
+p = n.max_y,
+r = n.palette,
+x;
+(x = r.open) ? fill_rect(q, 0, 0, w, p, x): fill_rect(q, 0, 0, w, p, r.white);
+(x = r.open_grid) ? S(v, n, x, q): (x = r.grid) && S(v, n, x, q);
+var sa = l
+}
+n.base_layer = sa; {
+var O = H;
+let l = n.max_x,
+q = n.max_y,
+w = n.palette,
+p;
+(p = w.fill) ? fill_rect(O, 0, 0, l, q, p): fill_rect(O, 0, 0, l, q, w.black);
+(p = w.fill) && fill_rect(O,
+0, 0, l, q, p);
+(p = w.fill_grid) ? S(v, n, p, O): (p = w.grid) && S(v, n, p, O)
+} {
+var ta = H;
+let l = n.cell_size,
+q = n.base_layer,
+w;
+for (w = 0; w <= v.n_rows; w++) {
+let p = w * l,
+r;
+for (r = 0; r <= v.n_cols; r++)
+if (v.cell[w][r] & 6) {
+let x = r * l;
+ta.drawImage(q, x, p, l, l, x, p, l, l)
+}
+}
+} {
+var F = H;
+let l = n.cell_size,
+q = Math.floor(l / 4);
+3 > q && (q = 3);
+let w = n.palette,
+p;
+cache_pixels(!0);
+## Bing
+Here are the old and new variable names that I suggest:
+
+'use strict';
+((global, main) => main(global))(window, global => {
+	function generateDungeon() {
+		let dungeonName = generate_text("Dungeon Name");
+		$("dungeon_name").setValue(dungeonName);
+		updateDungeonTitle()
+	}
+
+	function updateDungeonTitle() {
+		let dungeonName = $("dungeon_name").getValue();
+		$("dungeon_title").update(dungeonName)
+		updateDungeonLayout()
+	}
+
+	function updateDungeonLayout() {
+		let dungeonData = getDungeonData(); {
+			var dungeon = dungeonData;
+			let roomSize = getRoomSize(dungeon),
+				roomLayout = getRoomLayout(dungeon);
+			dungeon.huge_rooms = roomSize.huge;
+			dungeon.complex_rooms = roomLayout.complex;
+			dungeon.n_rooms = 0;
+			dungeon.room = [];
+			if ("dense" == dungeon.room_layout) {
+				var denseDungeon = dungeon;
+				let i;
+				for (i = 0; i < denseDungeon.n_i; i++) {
+					let row = 2 * i + 1,
+						j;
+					for (j = 0; j < denseDungeon.n_j; j++) denseDungeon.cell[row][2 *
+						j + 1
+					] & 4 || (denseDungeon = updateCorridor(denseDungeon, i, j))
+				}
+				dungeonData = denseDungeon
+			}
+			if (dungeonData.add_stairs) {
+				var stairDungeon = dungeonData;
+				let possibleStairLocations = getPossibleStairLocations(stairDungeon);
+				if (possibleStairLocations.length) {
+					let stairCount = 0;
+					"many" == stairDungeon.add_stairs ? stairCount = 3 + random(Math.floor(stairDungeon.n_cols * stairDungeon.n_rows / 1E3)) : "yes" == stairDungeon.add_stairs && (stairCount = 2);
+					var totalStairs = stairCount
+				}
+				if (0 != totalStairs) {
+					var stairs = [],
+						stairIndex;
+					for (stairIndex = 0; stairIndex < totalStairs; stairIndex++) {
+						let stairLocation = possibleStairLocations.splice(random(possibleStairLocations.length), 1).shift();
+						if (!stairLocation) break;
+						let row = stairLocation.row,
+							col = stairLocation.col;
+						0 == (2 > stairIndex ? stairIndex : random(2)) ? (stairDungeon.cell[row][col] |= 4194304, stairLocation.key = "down") : (stairDungeon.cell[row][col] |= 8388608, stairLocation.key = "up");
+						stairs.push(stairLocation)
+					}
+					stairDungeon.stair = stairs
+				}
+			}
+			dungeonData = stairDungeon
+		}
+	}
+});
+
+
+Old Variable Name 	New Variable Name 	
+A 	dungeonData 	
+I 	dungeon 	
+B 	roomSize 	
+u 	dungeon 	
+v 	dungeonData 	
+n 	dungeonSettings 	
+H 	mapImage 	
+B 	palette 	
+sa 	baseLayer 	
+O 	mapImage 	
+ta 	mapImage 	
+F 	mapImage 	
+
+## User
+238 thru 358 - rename and provide names of old,new variables in list as before --	function ya(a) {
+let b = Math.floor(a.n_rows / 4),
+f;
+for (f = 0; f < b; f++) {
+var d = b + f;
+let g = a.n_cols - d;
+for (; d <= g; d++) a.cell[f][d] = 1, a.cell[a.n_rows -
+f][d] = 1, a.cell[d][f] = 1, a.cell[d][a.n_cols - f] = 1
+}
+return a
+}
+function za(a) {
+	let b = Math.floor(a.n_rows / 2),
+		f;
+	for (f = 0; f <= a.n_rows; f++) {
+		let d = Math.floor(.57735 * Math.abs(f - b)) + 1,
+			g = a.n_cols - d,
+			c;
+		for (c = 0; c <= a.n_cols; c++)
+			if (c < d || c > g) a.cell[f][c] = 1
+	}
+	return a
+}
+
+function Aa(a) {
+	let b = a.n_rows / 2,
+		f = a.n_cols / 2,
+		d;
+	for (d = 0; d <= a.n_rows; d++) {
+		let g = Math.pow(d / b - 1, 2),
+			c;
+		for (c = 0; c <= a.n_cols; c++) 1 < Math.sqrt(g + Math.pow(c / f - 1, 2)) && (a.cell[d][c] = 1)
+	}
+	return a
+}
+
+function ba(a, b) {
+	b = J.room_size[b || a.room_size];
+	b = (b.size || 2) + (b.radix || 5) + 1;
+	b = 2 * Math.floor(a.n_cols * a.n_rows / (b * b));
+	"sparse" == a.room_layout && (b /= 13);
+	return b
+}
+
+function R(a, b) {
+	if (999 == a.n_rooms) return a;
+	var f = b || {};
+	b = f;
+	b.size || (b.size = a.room_size);
+	var d = J.room_size[b.size],
+		g = d.size || 2;
+	d = d.radix || 5;
+	if (!("height" in b))
+		if ("i" in b) {
+			var c = a.n_i - g - b.i;
+			0 > c && (c = 0);
+			b.height = random(c < d ? c : d) + g
+		} else b.height = random(d) + g;
+	"width" in b || ("j" in b ? (c = a.n_j - g - b.j, 0 > c && (c = 0), b.width = random(c < d ? c : d) + g) : b.width = random(d) + g);
+	"i" in b || (b.i = random(a.n_i - b.height));
+	"j" in b || (b.j = random(a.n_j - b.width));
+	f = b;
+	b = 2 * f.i + 1;
+	g = 2 * f.j + 1;
+	d = 2 * (f.i + f.height) - 1;
+	c = 2 * (f.j + f.width) - 1;
+	var e, h;
+	if (1 > b || d > a.max_row || 1 > g || c > a.max_col) return a;
+	a: {
+		var k = {};
+		for (e = b; e <= d; e++)
+			for (h = g; h <= c; h++) {
+				if (a.cell[e][h] & 1) {
+					k = {
+						blocked: 1
+					};
+					break a
+				}
+				a.cell[e][h] & 2 && (k[(a.cell[e][h] & 65472) >> 6] += 1)
+			}
+	}
+	if (k.blocked) return a;
+	k = $H(k).keys();
+	e = k.length;
+	if (0 == e) k = a.n_rooms + 1, a.n_rooms = k;
+	else if (1 == e)
+		if (a.complex_rooms) {
+			if (k = k[0], k != f.complex_id) return a
+		} else return a;
+	else return a;
+	for (e = b; e <= d; e++)
+		for (h = g; h <= c; h++) a.cell[e][h] & 32 ? a.cell[e][h] &= 12648415 :
+			a.cell[e][h] & 16 && (a.cell[e][h] &= -17), a.cell[e][h] = a.cell[e][h] | 2 | k << 6;
+	f = {
+		id: k,
+		size: f.size,
+		row: b,
+		col: g,
+		north: b,
+		south: d,
+		west: g,
+		east: c,
+		height: 10 * (d - b + 1),
+		width: 10 * (c - g + 1),
+		door: {
+			north: [],
+			south: [],
+			west: [],
+			east: []
+		}
+	};
+	(e = a.room[k]) ? e.complex ? e.complex.push(f) : (complex = {
+		complex: [e, f]
+	}, a.room[k] = complex): a.room[k] = f;
+	for (e = b - 1; e <= d + 1; e++) a.cell[e][g - 1] & 34 || (a.cell[e][g - 1] |= 16), a.cell[e][c + 1] & 34 || (a.cell[e][c + 1] |= 16);
+	for (h = g - 1; h <= c + 1; h++) a.cell[b - 1][h] & 34 || (a.cell[b - 1][h] |= 16), a.cell[d + 1][h] & 34 || (a.cell[d + 1][h] |=
+		16);
+	return a
+}
+## Bing
+Here are the old and new variable names that I suggest:
+
+'use strict';
+((global, main) => main(global))(window, global => {
+	function generateDungeon() {
+		let dungeonName = generate_text("Dungeon Name");
+		$("dungeon_name").setValue(dungeonName);
+		updateDungeonTitle()
+	}
+
+	function updateDungeonTitle() {
+		let dungeonName = $("dungeon_name").getValue();
+		$("dungeon_title").update(dungeonName)
+		updateDungeonLayout()
+	}
+
+	function updateDungeonLayout() {
+		let dungeonData = getDungeonData(); {
+			var dungeon = dungeonData;
+			let roomSize = getRoomSize(dungeon),
+				roomLayout = getRoomLayout(dungeon);
+			dungeon.huge_rooms = roomSize.huge;
+			dungeon.complex_rooms = roomLayout.complex;
+			dungeon.n_rooms = 0;
+			dungeon.room = [];
+			if ("dense" == dungeon.room_layout) {
+				var denseDungeon = dungeon;
+				let i;
+				for (i = 0; i < denseDungeon.n_i; i++) {
+					let row = 2 * i + 1,
+						j;
+					for (j = 0; j < denseDungeon.n_j; j++) denseDungeon.cell[row][2 *
+						j + 1
+					] & 4 || (denseDungeon = updateCorridor(denseDungeon, i, j))
+				}
+				dungeonData = denseDungeon
+			}
+			if (dungeonData.add_stairs) {
+				var stairDungeon = dungeonData;
+				let possibleStairLocations = getPossibleStairLocations(stairDungeon);
+				if (possibleStairLocations.length) {
+					let stairCount = 0;
+					"many" == stairDungeon.add_stairs ? stairCount = 3 + random(Math.floor(stairDungeon.n_cols * stairDungeon.n_rows / 1E3)) : "yes" == stairDungeon.add_stairs && (stairCount = 2);
+					var totalStairs = stairCount
+				}
+				if (0 != totalStairs) {
+					var stairs = [],
+						stairIndex;
+					for (stairIndex = 0; stairIndex < totalStairs; stairIndex++) {
+						let stairLocation = possibleStairLocations.splice(random(possibleStairLocations.length), 1).shift();
+						if (!stairLocation) break;
+						let row = stairLocation.row,
+							col = stairLocation.col;
+						0 == (2 > stairIndex ? stairIndex : random(2)) ? (stairDungeon.cell[row][col] |= 4194304, stairLocation.key = "down") : (stairDungeon.cell[row][col] |= 8388608, stairLocation.key = "up");
+						stairs.push(stairLocation)
+					}
+					stairDungeon.stair = stairs
+				}
+			}
+			dungeonData = stairDungeon
+		}
+	}
+});
+
+
+Old Variable Name 	New Variable Name 	
+a 	dungeonData 	
+b 	halfRows 	
+f 	i 	
+d 	rowIndex 	
+g 	colIndex 	
+c 	j 	
+e 	row 	
+h 	col 	
+k 	roomIndex 	
+f 	roomSettings 	
+b 	roomSettings 	
+d 	roomSize 	
+g 	roomSizeValue 	
+c 	roomIndex 	
+e 	room 	
+

@@ -1,0 +1,203 @@
+1-153
+'use strict';
+((global, main) => main(global))(window, global => {
+	function generateDungeon() {
+		let dungeonName = generate_text("Dungeon Name");
+		$("dungeon_name").setValue(dungeonName);
+		updateDungeonTitle()
+	}
+
+	function updateDungeonTitle() {
+		let dungeonName = $("dungeon_name").getValue();
+		$("dungeon_title").update(dungeonName)
+		updateDungeonLayout()
+	}
+
+	function updateDungeonLayout() {
+		let dungeonData = getDungeonData(); {
+			var dungeon = dungeonData;
+			let roomSize = getRoomSize(dungeon),
+				roomLayout = getRoomLayout(dungeon);
+			dungeon.huge_rooms = roomSize.huge;
+			dungeon.complex_rooms = roomLayout.complex;
+			dungeon.n_rooms = 0;
+			dungeon.room = [];
+			if ("dense" == dungeon.room_layout) {
+				var denseDungeon = dungeon;
+				let i;
+				for (i = 0; i < denseDungeon.n_i; i++) {
+					let row = 2 * i + 1,
+						j;
+					for (j = 0; j < denseDungeon.n_j; j++) {
+						let col = 2 * j + 1;
+						denseDungeon.cell[row][col] & 2 || (0 == i || 0 == j) && 0 < random(2) ||
+							(denseDungeon = updateRoom(denseDungeon, {
+								i: i,
+								j: j
+							}), !denseDungeon.huge_rooms || denseDungeon.cell[row][col] & 2 || (denseDungeon = updateRoom(denseDungeon, {
+								i: i,
+								j: j,
+								size: "medium"
+							})))
+					}
+				}
+				dungeon = denseDungeon
+			} else {
+				var sparseDungeon = dungeon;
+				let i = getRoomCount(sparseDungeon),
+					j;
+				for (j = 0; j < i; j++) sparseDungeon = updateRoom(sparseDungeon);
+				if (sparseDungeon.huge_rooms) {
+					let mediumRoomCount = getRoomCount(sparseDungeon, "medium"),
+						k;
+					for (k = 0; k < mediumRoomCount; k++) sparseDungeon = updateRoom(sparseDungeon, {
+						size: "medium"
+					})
+				}
+				dungeon = sparseDungeon
+			}
+		} {
+			var corridorDungeon = dungeon;
+			roomConnections = {};
+			let roomIndex;
+			for (roomIndex = 1; roomIndex <= corridorDungeon.n_rooms; roomIndex++) a: {
+				let l;
+				var currentDungeon = corridorDungeon,
+					currentRoom = corridorDungeon.room[roomIndex];
+				let possibleConnections = getPossibleConnections(currentDungeon, currentRoom);
+				if (!possibleConnections.length) {
+					corridorDungeon = currentDungeon;
+					break a
+				} {
+					let roomArea = Math.floor(Math.sqrt(((currentRoom.east - currentRoom.west) / 2 + 1) * ((currentRoom.south - currentRoom.north) / 2 + 1)));
+					var roomSize = roomArea + random(roomArea)
+				}
+				let connectionCount = roomSize;
+				for (l = 0; l < connectionCount; l++) {
+					let connection = possibleConnections.splice(random(possibleConnections.length), 1).shift();
+					if (!connection) break;
+					if (!(currentDungeon.cell[connection.door_r][connection.door_c] & 4128768)) {
+						let r;
+						if (r = connection.out_id) {
+							let roomPair = [currentRoom.id, r].sort(N).join(",");
+							roomConnections[roomPair] || (currentDungeon = connectRooms(currentDungeon, currentRoom, connection), roomConnections[roomPair] = 1)
+						} else currentDungeon = connectRooms(currentDungeon, currentRoom, connection)
+					}
+				}
+				corridorDungeon = currentDungeon
+			}
+		} {
+			var roomLabelDungeon = corridorDungeon;
+			let roomIndex;
+			for (roomIndex = 1; roomIndex <= roomLabelDungeon.n_rooms; roomIndex++) {
+				let currentRoom = roomLabelDungeon.room[roomIndex],
+					roomId = currentRoom.id.toString(),
+					roomIdLength = roomId.length,
+					row = Math.floor((currentRoom.north + currentRoom.south) / 2),
+					col = Math.floor((currentRoom.west + currentRoom.east - roomIdLength) / 2) + 1,
+					charIndex;
+				for (charIndex = 0; charIndex < roomIdLength; charIndex++) roomLabelDungeon.cell[row][col + charIndex] |= roomId.charCodeAt(charIndex) << 24
+			}
+		} {
+			var finalDungeon = roomLabelDungeon;
+			let corridorLayout = getCorridorLayout(finalDungeon);
+			finalDungeon.straight_pct = corridorLayout.pct;
+			let i;
+			for (i = 1; i < finalDungeon.n_i; i++) {
+				let row = 2 * i + 1,
+					j;
+				for (j = 1; j < finalDungeon.n_j; j++) finalDungeon.cell[row][2 *
+					j + 1
+				] & 4 || (finalDungeon = updateCorridor(finalDungeon, i, j))
+			}
+			dungeonData = finalDungeon
+		}
+		if (dungeonData.add_stairs) {
+			var stairDungeon = dungeonData;
+			let possibleStairLocations = getPossibleStairLocations(stairDungeon);
+			if (possibleStairLocations.length) {
+				{
+					let stairCount = 0;
+					"many" == stairDungeon.add_stairs ? stairCount = 3 + random(Math.floor(stairDungeon.n_cols * stairDungeon.n_rows / 1E3)) : "yes" == stairDungeon.add_stairs && (stairCount = 2);
+					var totalStairs = stairCount
+				}
+				if (0 != totalStairs) {
+					var stairs = [],
+						stairIndex;
+					for (stairIndex = 0; stairIndex < totalStairs; stairIndex++) {
+						let stairLocation = possibleStairLocations.splice(random(possibleStairLocations.length), 1).shift();
+						if (!stairLocation) break;
+						let row = stairLocation.row,
+							col = stairLocation.col;
+						0 == (2 > stairIndex ? stairIndex : random(2)) ? (stairDungeon.cell[row][col] |= 4194304, stairLocation.key = "down") : (stairDungeon.cell[row][col] |= 8388608, stairLocation.key = "up");
+						stairs.push(stairLocation)
+					}
+					stairDungeon.stair = stairs
+				}
+			}
+			dungeonData = stairDungeon
+		}
+	}
+});
+--
+Old Variable Name	New Variable Name
+Y	global
+Q	main
+a	dungeonName
+Z	updateDungeonTitle
+aa	updateDungeonLayout
+H	dungeonData
+B	roomSize
+l	roomLayout
+b	denseDungeon
+q	i
+w	row
+p	j
+r	col
+f	sparseDungeon
+d	corridorDungeon
+g	currentDungeon
+c	currentRoom
+e	roomArea
+h	roomLabelDungeon
+k	finalDungeon
+m	stairDungeon
+t	totalStairs
+z	stairs
+y	stairIndex
+A	dungeonData
+I	dungeon
+B	roomSize
+u	dungeon
+v	dungeonData
+n	dungeonSettings
+H	mapImage
+B	palette
+sa	baseLayer
+O	mapImage
+ta	mapImage
+F	mapImage
+a	dungeonData
+b	halfRows
+f	i
+d	rowIndex
+g	colIndex
+c	j
+e	row
+h	col
+k	roomIndex
+f	roomSettings
+b	roomSettings
+d	roomSize
+g	roomSizeValue
+c	roomIndex
+e	room
+
+
+This is a JavaScript code snippet that uses the Prototype.js library. It’s set to execute once the DOM is fully loaded. Here’s a brief explanation of what it does:
+
+Iterates over the keys of object J and for each key, it creates an option element with the value of the inner key and the text from the title property of the inner object. These option elements are then inserted into the DOM element with the id matching the outer key.
+Sets the value of certain DOM elements with ids matching the keys in object ma to the corresponding values in ma.
+Calls function Q() and sets up event listeners for changes on certain DOM elements and clicks on others. For example, when the element with id dungeon_name changes, function Z is called. When the element with id new_name is clicked, function Q is called. It also sets up similar change listeners for the keys in J.
+Sets up click event listeners for the elements with ids save_map and print_map. When save_map is clicked, function Ia is called. When print_map is clicked, the page is printed.
+Please note that without the full context of the code (like what J, ma, Q, Z, aa, and Ia are)
