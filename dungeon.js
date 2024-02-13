@@ -22,98 +22,100 @@
 
 	function updateDungeonConfiguration() {
 		{
-			let dungeon = stairDimensions(); {
-				var a = dungeon;
-				let roomSizeConfig = L("room_size", a),
-					roomLayoutConfig = L("room_layout", a);
-				a.isHugeRoomEnabled = roomSizeConfig.huge;
-				a.isComplexRoomEnabled = roomLayoutConfig.complex;
-				a.n_rooms = 0;
-				a.room = [];
-				if ("dense" == a.room_layout) {
+			let dungeonDimensions = stairDimensions(); {
+				var dungeonConfig = dungeonDimensions;
+				let roomSizeConfig = getDungeonConfigConstant("room_size", dungeonConfig),
+					roomLayoutConfig = getDungeonConfigConstant("room_layout", dungeonConfig);
+				dungeonConfig.isHugeRoomEnabled = roomSizeConfig.huge;
+				dungeonConfig.isComplexRoomEnabled = roomLayoutConfig.complex;
+				dungeonConfig.n_rooms = 0;
+				dungeonConfig.room = [];
+				if ("dense" == dungeonConfig.room_layout) {
 					{
-						var dungeonConfig = a;
-						let q;
-						for (q = 0; q < dungeonConfig.n_i; q++) {
-							let w = 2 * q + 1,
-								p;
-							for (p = 0; p < dungeonConfig.n_j; p++) {
-								let r = 2 * p + 1;
-								dungeonConfig.cell[w][r] & 2 || (0 == q || 0 == p) && 0 < random(2) ||
-									(dungeonConfig = R(dungeonConfig, {
-										i: q,
-										j: p
-									}), !dungeonConfig.isHugeRoomEnabled || dungeonConfig.cell[w][r] & 2 || (dungeonConfig = R(dungeonConfig, {
-										i: q,
-										j: p,
+						var dungeonConfig = dungeonConfig;
+						let rowNum;
+						for (rowNum = 0; rowNum < dungeonConfig.n_i; rowNum++) {
+							let w = 2 * rowNum + 1,
+								colNum;
+							for (colNum = 0; colNum < dungeonConfig.n_j; colNum++) {
+								let r = 2 * colNum + 1;
+								dungeonConfig.cell[w][r] & 2 || (0 == rowNum || 0 == colNum) && 0 < random(2) ||
+									(dungeonConfig = addRoomToDungeon(dungeonConfig, {
+										i: rowNum,
+										j: colNum
+									}), !dungeonConfig.isHugeRoomEnabled || dungeonConfig.cell[w][r] & 2 || (dungeonConfig = addRoomToDungeon(dungeonConfig, {
+										i: rowNum,
+										j: colNum,
 										size: "medium"
 									})))
 							}
 						}
-						a = dungeonConfig
+						dungeonConfig = dungeonConfig
 					}
 				} else {
 					{
-						var adjacentRoomId = a;
-						let q = calculateRoomCount(adjacentRoomId),
-							w;
-						for (w = 0; w < q; w++) adjacentRoomId = R(adjacentRoomId);
+						// not dense
+						var adjacentRoomId = dungeonConfig;
+						let numRoomsToAdd = calculateRoomCount(adjacentRoomId),
+							currentRoomToAdd;
+						for (currentRoomToAdd = 0; currentRoomToAdd < numRoomsToAdd; currentRoomToAdd++) adjacentRoomId = addRoomToDungeon(adjacentRoomId);
 						if (adjacentRoomId.isHugeRoomEnabled) {
-							let p = calculateRoomCount(adjacentRoomId, "medium"),
-								r;
-							for (r = 0; r < p; r++) adjacentRoomId = R(adjacentRoomId, {
+							let numMediumSizeRoomsToAdd = calculateRoomCount(adjacentRoomId, "medium"),
+								currentMediumSizeRoomBeingAdded;
+							for (currentMediumSizeRoomBeingAdded = 0; currentMediumSizeRoomBeingAdded < numMediumSizeRoomsToAdd; currentMediumSizeRoomBeingAdded++) adjacentRoomId = addRoomToDungeon(adjacentRoomId, {
 								size: "medium"
 							})
 						}
-						a = adjacentRoomId
+						dungeonConfig = adjacentRoomId
 					}
 				}
 			} {
-				var selectedDoorStyle = a;
+				var currentDungeonConfig = dungeonConfig;
 				mappedRoomConnections = {};
-				let B;
-				for (B = 1; B <= selectedDoorStyle.n_rooms; B++) a: {
-					let l;
-					var dungeonState = selectedDoorStyle,
-						c = selectedDoorStyle.room[B];
-					let q = ca(dungeonState, c);
-					if (!q.length) {
-						selectedDoorStyle = dungeonState;
+				let roomIdIterator;
+				for (roomIdIterator = 1; roomIdIterator <= currentDungeonConfig.n_rooms; roomIdIterator++) a: {
+					let numberOfDoors;
+					var dungeonState = currentDungeonConfig,
+						currentRoom = currentDungeonConfig.room[roomIdIterator];
+					let potentialDoorConnections = calculatePotentialDoorConnections(dungeonState, currentRoom);
+					if (!potentialDoorConnections.length) {
+						currentDungeonConfig = dungeonState;
 						break a
 					} {
-						let p = Math.floor(Math.sqrt(((c.east - c.west) / 2 + 1) * ((c.south - c.north) / 2 + 1)));
-						var e = p + random(p)
+						let roomIndex = Math.floor(Math.sqrt(((currentRoom.east - currentRoom.west) / 2 + 1) * ((currentRoom.south - currentRoom.north) / 2 + 1)));
+						var e = roomIndex + random(roomIndex)
 					}
 					let w = e;
-					for (l = 0; l < w; l++) {
-						let p = q.splice(random(q.length), 1).shift();
+					for (numberOfDoors = 0; numberOfDoors < w; numberOfDoors++) {
+						let p = potentialDoorConnections.splice(random(potentialDoorConnections.length), 1).shift();
 						if (!p) break;
 						if (!(dungeonState.cell[p.door_r][p.door_c] & 4128768)) {
 							let r;
 							if (r = p.out_id) {
-								let x = [c.id, r].sort(N).join(",");
-								mappedRoomConnections[x] || (dungeonState = da(dungeonState, c, p), mappedRoomConnections[x] = 1)
-							} else dungeonState = da(dungeonState, c, p)
+								let x = [currentRoom.id, r].sort(N).join(",");
+								mappedRoomConnections[x] || (dungeonState = da(dungeonState, currentRoom, p), mappedRoomConnections[x] = 1)
+							} else dungeonState = da(dungeonState, currentRoom, p)
 						}
 					}
-					selectedDoorStyle = dungeonState
+					currentDungeonConfig = dungeonState
 				}
 			} {
-				var h = selectedDoorStyle;
+				var h = currentDungeonConfig;
 				let roomIdIterator;
+				// iterate over each room in the dungeon
 				for (roomIdIterator = 1; roomIdIterator <= h.n_rooms; roomIdIterator++) {
 					let l = h.room[roomIdIterator],
 						q = l.id.toString(),
 						w = q.length,
-						p = Math.floor((l.north + l.south) / 2),
-						r = Math.floor((l.west + l.east - w) / 2) + 1,
+						middleRow = Math.floor((l.north + l.south) / 2),
+						middleColumn = Math.floor((l.west + l.east - w) / 2) + 1,
 						x;
-					for (x = 0; x < w; x++) h.cell[p][r + x] |= q.charCodeAt(x) << 24
+					for (x = 0; x < w; x++) h.cell[middleRow][middleColumn + x] |= q.charCodeAt(x) << 24
 				}
 			} {
 				var k = h;
-				let B = L("corridor_layout", k);
-				k.straight_pct = B.pct;
+				let layoutType = getDungeonConfigConstant("corridor_layout", k);
+				k.straight_pct = layoutType.pct;
 				let l;
 				for (l = 1; l < k.n_i; l++) {
 					let q = 2 * l + 1,
@@ -122,12 +124,12 @@
 						w + 1
 					] & 4 || (k = ea(k, l, w))
 				}
-				dungeon = k
+				dungeonDimensions = k
 			}
-			if (dungeon.add_stairs) {
+			if (dungeonDimensions.add_stairs) {
 				{
-					var m = dungeon;
-					let B = oa(m);
+					var m = dungeonDimensions;
+					let B = calculatePotentialStairLocations(m);
 					if (B.length) {
 						{
 							let l = 0;
@@ -148,21 +150,21 @@
 							m.stair = z
 						}
 					}
-					dungeon = m
+					dungeonDimensions = m
 				}
 			}
-			var A = dungeon;
+			var A = dungeonDimensions;
 			if (A.remove_deadends) {
 				{
 					var dungeonStateWithStairs = A;
-					let B = L("remove_deadends", dungeonStateWithStairs);
+					let B = getDungeonConfigConstant("remove_deadends", dungeonStateWithStairs);
 					dungeonStateWithStairs.remove_pct = B.pct;
-					A = fa(dungeonStateWithStairs, dungeonStateWithStairs.remove_pct, deadEndRemovalRules)
+					A = removeDeadEnds(dungeonStateWithStairs, dungeonStateWithStairs.remove_pct, deadEndRemovalRules)
 				}
 			}
 			A.remove_deadends && ("errant" == A.corridor_layout ? A.close_arcs = A.remove_pct : "straight" == A.corridor_layout && (A.close_arcs = A.remove_pct));
 			A.close_arcs && (A = ha(A));
-			A = qa(A); {
+			A = connectRoomsConsistently(A); {
 				var u = A;
 				let B = u.cell,
 					l;
@@ -172,7 +174,7 @@
 				}
 				u.cell = B
 			}
-			var v = dungeon = u
+			var v = dungeonDimensions = u
 		} {
 			{
 				let l = {
@@ -288,8 +290,8 @@
 		Object.keys(dungeonConfigConstants).forEach(c => {
 			a[c] = $(c).getValue()
 		});
-		var b = L("dungeon_size", a);
-		let f = L("dungeon_layout", a);
+		var b = getDungeonConfigConstant("dungeon_size", a);
+		let f = getDungeonConfigConstant("dungeon_layout", a);
 		var d = b.size;
 		b = b.cell;
 		a.n_i = Math.floor(d * f.aspect / b);
@@ -307,7 +309,7 @@
 		return a
 	}
 
-	function L(a, b) {
+	function getDungeonConfigConstant(a, b) {
 		return dungeonConfigConstants[a][b[a]]
 	}
 
@@ -368,7 +370,7 @@
 		return b
 	}
 
-	function R(a, b) {
+	function addRoomToDungeon(a, b) {
 		if (999 == a.n_rooms) return a;
 		var f = b || {};
 		b = f;
@@ -448,11 +450,11 @@
 		return a - b
 	}
 
-	function ca(a, b) {
+	function calculatePotentialDoorConnections(a, b) {
 		let f = a.cell,
 			d = [];
 		if (b.complex) b.complex.forEach(h => {
-			h = ca(a, h);
+			h = calculatePotentialDoorConnections(a, h);
 			h.length && (d = d.concat(h))
 		});
 		else {
@@ -505,7 +507,7 @@
 	}
 
 	function da(a, b, f) {
-		var d = L("doors", a).table;
+		var d = getDungeonConfigConstant("doors", a).table;
 		let g = f.door_r,
 			c = f.door_c;
 		var e = f.sill_r;
@@ -586,7 +588,7 @@
 		return f
 	}
 
-	function oa(a) {
+	function calculatePotentialStairLocations(a) {
 		let b = a.cell,
 			f = [],
 			d;
@@ -630,10 +632,10 @@
 	}
 
 	function ha(a) {
-		return fa(a, a.close_arcs, ha)
+		return removeDeadEnds(a, a.close_arcs, ha)
 	}
 
-	function fa(a, b, f) {
+	function removeDeadEnds(a, b, f) {
 		let d = 100 == b,
 			g;
 		for (g = 0; g < a.n_i; g++) {
@@ -641,13 +643,13 @@
 				e;
 			for (e = 0; e < a.n_j; e++) {
 				let h = 2 * e + 1;
-				a.cell[c][h] & 6 && !(a.cell[c][h] & 12582912) && (d || random(100) < b) && (a = ka(a, c, h, f))
+				a.cell[c][h] & 6 && !(a.cell[c][h] & 12582912) && (d || random(100) < b) && (a = removeDeadEnd(a, c, h, f))
 			}
 		}
 		return a
 	}
 
-	function ka(a, b, f, d) {
+	function removeDeadEnd(a, b, f, d) { // removes deadend specifiec by second parameter
 		let g = a.cell;
 		if (!(a.cell[b][f] & 6)) return a;
 		Object.keys(d).forEach(c => {
@@ -657,7 +659,7 @@
 					g[b + h[0]][f + h[1]] = 0
 				});
 				if (e = d[c].open) g[b + e[0]][f + e[1]] |= 4;
-				if (c = d[c].recurse) a = ka(a,
+				if (c = d[c].recurse) a = removeDeadEnd(a,
 					b + c[0], f + c[1], d)
 			}
 		});
@@ -665,7 +667,10 @@
 		return a
 	}
 
-	function qa(a) {
+	function connectRoomsConsistently(a) {
+		//It ensures that each door in the dungeon correctly connects to another room or to a corridor.
+		// This is important for the functionality of the dungeon, as it ensures that all rooms are accessible
+		// and that the dungeon layout is consistent.
 		let b = {},
 			f = [];
 		a.room.forEach(d => {
