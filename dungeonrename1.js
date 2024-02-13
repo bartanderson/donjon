@@ -1212,29 +1212,29 @@
 	});
 	let mappedRoomConnections = {};
 	dungeonConfigConstants.doors.none.table = {
-		"01-15": 65536
+		"01-15": 65536 // Bit position: 0 arch/Archway - the first part percentage occurence
 	};
 	dungeonConfigConstants.doors.basic.table = {
-		"01-15": 65536,
-		"16-60": 131072
+		"01-15": 65536, // Bit position: 0 arch/Archway
+		"16-60": 131072 // Bit position: 1 open/Unlocked Door
 	};
 	dungeonConfigConstants.doors.secure.table = {
-		"01-15": 65536,
-		"16-60": 131072,
-		"61-75": 262144
+		"01-15": 65536,  // Bit position: 0 arch/Archway
+		"16-60": 131072, // Bit position: 1 open/Unlocked Door
+		"61-75": 262144  // Bit position: 2 lock/Locked Door
 	};
-	dungeonConfigConstants.doors.standard.table = {
-		"01-15": 65536,
-		"16-60": 131072,
-		"61-75": 262144,
-		"76-90": 524288,
-		"91-100": 1048576,
-		"101-110": 2097152
+	dungeonConfigConstants.doors.standard.table = { // bitmasks relate the type of door
+		"01-15": 65536,    // Bit position: 0 arch/Archway
+		"16-60": 131072,   // Bit position: 1 open/Unlocked Door
+		"61-75": 262144,   // Bit position: 2 lock/Locked Door
+		"76-90": 524288,   // Bit position: 3 trap/Trapped Door
+		"91-100": 1048576, // Bit position: 4 secret/Secret Door
+		"101-110": 2097152 // Bit position: 5 portc/Portcullis
 	};
 	dungeonConfigConstants.doors.deathtrap.table = {
-		"01-15": 65536,
-		"16-30": 524288,
-		"31-40": 1048576
+		"01-15": 65536,  // Bit position: 0 arch/Archway
+		"16-30": 524288, // Bit position: 3 trap/Trapped Door
+		"31-40": 1048576 // Bit position: 4 secret/Secret Door
 	};
 	let stairPlacementRules = {
 			north: {
