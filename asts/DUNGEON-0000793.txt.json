@@ -1,0 +1,143 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    {
+                                                      "declarations": [
+                                                        {
+                                                          "init": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "VariableDeclarator"
+                                                        }
+                                                      ],
+                                                      "kind": "let",
+                                                      "type": "VariableDeclaration"
+                                                    },
+                                                    {
+                                                      "declarations": [
+                                                        {
+                                                          "id": {
+                                                            "name": "d",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "init": {
+                                                            "arguments": [
+                                                              {
+                                                                "name": "a",
+                                                                "type": "Identifier"
+                                                              }
+                                                            ],
+                                                            "callee": {
+                                                              "name": "$",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "type": "CallExpression"
+                                                          },
+                                                          "type": "VariableDeclarator"
+                                                        },
+                                                        {
+                                                          "id": {
+                                                            "name": "g",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "init": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "name": "d",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "property": {
+                                                              "name": "insert",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

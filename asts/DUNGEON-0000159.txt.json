@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "test": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "w",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "applyWallShading",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeon",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell_size",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

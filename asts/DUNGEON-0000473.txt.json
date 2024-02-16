@@ -1,0 +1,225 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            {
+                              "expression": {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "|=",
+                                "right": {
+                                  "raw": "32",
+                                  "type": "Literal",
+                                  "value": 32
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "init": {
+                          "left": {
+                            "name": "m",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "test": {
+                          "left": {
+                            "raw": "3",
+                            "type": "Literal",
+                            "value": 3
+                          },
+                          "operator": ">",
+                          "right": {
+                            "name": "m",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "m",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "arguments": [
+                              {
+                                "name": "d",
+                                "type": "Identifier"
+                              }
+                            ],
+                            "callee": {
+                              "name": "select_from_table",
+                              "type": "Identifier"
+                            },
+                            "type": "CallExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "e",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "properties": [
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "row",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "g",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "col",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                }
+                              }
+                            ],
+                            "type": "ObjectExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "alternate": {
+                                  "alternate": {
+                                    "left": {
+                                      "left": {
+                                        "raw": "2097152",
+                                        "type": "Literal",
+                                        "value": 2097152
+                                      },
+                                      "operator": "==",
+                                      "right": {
+                                        "name": "d",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "operator": "&&",
+                                    "right": {
+                                      "expressions": [
+                                        {
+                                          "left": {
+                                            "computed": true,
+                                            "object": {
+                                              "computed": true,
+                                              "object": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "a",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "cell",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[0].init.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[0].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1] = {};
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].id = {};
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].id.name = "k";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].id.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init = {};
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.computed = false;
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.object = {};
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.object.name = "f";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.property = {};
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.property.name = "dir";
+json.body[1].expression.arguments[1].body.body[14].body.body[3].declarations[1].init.property.type = "Identifier";

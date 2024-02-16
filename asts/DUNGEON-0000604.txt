@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.left = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.left.name = "colIndex";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.operator = "+";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.computed = true;
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.object = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.object.name = "e";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.property = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.property.raw = "1";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.property.type = "Literal";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[2].consequent.expression.left.property.right.property.value = 1;

@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "test": {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "ConditionalExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "name": "stairObject",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "name": "stairsConfig",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "forEach",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

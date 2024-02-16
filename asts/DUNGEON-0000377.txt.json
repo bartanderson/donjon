@@ -1,0 +1,95 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "test": {
+                                    "expressions": [
+                                      {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      {
+                                        "left": {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "!=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "f",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "complex_id",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

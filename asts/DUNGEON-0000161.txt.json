@@ -1,0 +1,113 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              {
+                                "declarations": [
+                                  null,
+                                  {
+                                    "init": {
+                                      "callee": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "left": {
+                                      "raw": "3",
+                                      "type": "Literal",
+                                      "value": 3
+                                    },
+                                    "operator": ">",
+                                    "right": {
+                                      "name": "q",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "&&",
+                                  "right": {
+                                    "left": {
+                                      "name": "q",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "raw": "3",
+                                      "type": "Literal",
+                                      "value": 3
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "LogicalExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "w",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "palette",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

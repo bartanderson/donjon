@@ -1,0 +1,76 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "test": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "ConditionalExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "left": {
+                                      "name": "p",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "w",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "fill",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

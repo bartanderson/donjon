@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          {
+                                                            "declarations": [
+                                                              {
+                                                                "init": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "type": "VariableDeclarator"
+                                                              },
+                                                              {
+                                                                "id": {
+                                                                  "name": "colIndex",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "init": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "door",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "col",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

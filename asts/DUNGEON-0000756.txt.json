@@ -1,0 +1,88 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "init": {
+                            "expressions": [
+                              {
+                                "right": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              {
+                                "arguments": [
+                                  {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "selectedDoorStyle",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "push",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

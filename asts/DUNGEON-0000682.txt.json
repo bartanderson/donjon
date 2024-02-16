@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "alternate": {
+                            "test": {
+                              "right": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "IfStatement"
+                          },
+                          "consequent": {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "dungeonDimensions",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell_size",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

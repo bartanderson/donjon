@@ -1,0 +1,91 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "consequent": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    {
+                                                      "expression": {
+                                                        "right": {
+                                                          "expressions": [
+                                                            null,
+                                                            {
+                                                              "left": {
+                                                                "right": {
+                                                                  "left": {
+                                                                    "object": {
+                                                                      "type": "MemberExpression"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "r",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

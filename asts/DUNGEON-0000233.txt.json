@@ -1,0 +1,227 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "body": {
+                                              "body": [
+                                                null,
+                                                null,
+                                                null,
+                                                {
+                                                  "expression": {
+                                                    "right": {
+                                                      "test": {
+                                                        "right": {
+                                                          "callee": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "LogicalExpression"
+                                                      },
+                                                      "type": "ConditionalExpression"
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "type": "ExpressionStatement"
+                                                }
+                                              ],
+                                              "type": "BlockStatement"
+                                            },
+                                            "label": {
+                                              "name": "a",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "LabeledStatement"
+                                          },
+                                          {
+                                            "declarations": [
+                                              {
+                                                "id": {
+                                                  "name": "E",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "name": "ia",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              }
+                                            ],
+                                            "kind": "let",
+                                            "type": "VariableDeclaration"
+                                          },
+                                          {
+                                            "expression": {
+                                              "left": {
+                                                "name": "E",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "&&",
+                                              "right": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "va",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "E",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "left": {
+                                                      "left": {
+                                                        "name": "x",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "operator": "*",
+                                                      "right": {
+                                                        "name": "l",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "type": "BinaryExpression"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "name": "q",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  {
+                                                    "left": {
+                                                      "left": {
+                                                        "left": {
+                                                          "name": "r",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "*",
+                                                        "right": {
+                                                          "name": "l",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "type": "BinaryExpression"
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "name": "q",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "type": "BinaryExpression"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "raw": "1",
+                                                      "type": "Literal",
+                                                      "value": 1
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  {
+                                                    "name": "w",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "p",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "draw_string",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "LogicalExpression"
+                                            },
+                                            "type": "ExpressionStatement"
+                                          }
+                                        ],
+                                        "type": "BlockStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "v",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "n_cols",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

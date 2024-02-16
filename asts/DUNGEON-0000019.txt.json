@@ -1,0 +1,107 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "consequent": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "test": {
+                                            "right": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "ForStatement",
+                                          "update": {
+                                            "argument": {
+                                              "name": "rowNum",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "++",
+                                            "prefix": false,
+                                            "type": "UpdateExpression"
+                                          }
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "dungeonConfig",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "name": "dungeonConfig",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "test": {
+                                  "left": {
+                                    "raw": "\"dense\"",
+                                    "type": "Literal",
+                                    "value": "dense"
+                                  },
+                                  "operator": "==",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "dungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "room_layout",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

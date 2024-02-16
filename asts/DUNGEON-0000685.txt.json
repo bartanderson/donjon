@@ -1,0 +1,478 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "consequent": {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "right": {
+                                    "left": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "operator": "/",
+                                    "right": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "e",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "h",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "left": {
+                                                "raw": "3",
+                                                "type": "Literal",
+                                                "value": 3
+                                              },
+                                              "operator": "*",
+                                              "right": {
+                                                "name": "e",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "operator": "*",
+                                            "right": {
+                                              "name": "dungeonConfigObject",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "k",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "h",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "name": "dungeonConfigObject",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "m",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "h",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "left": {
+                                                "raw": "3",
+                                                "type": "Literal",
+                                                "value": 3
+                                              },
+                                              "operator": "*",
+                                              "right": {
+                                                "name": "dungeonConfigObject",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "t",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "argument": {
+                                              "raw": "0",
+                                              "type": "Literal",
+                                              "value": 0
+                                            },
+                                            "operator": "void",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "var",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "body": {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "id": {
+                                                  "name": "z",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "left": {
+                                                    "name": "t",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "*",
+                                                  "right": {
+                                                    "name": "g",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              },
+                                              {
+                                                "id": {
+                                                  "name": "y",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "left": {
+                                                    "name": "z",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "g",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              }
+                                            ],
+                                            "kind": "var",
+                                            "type": "VariableDeclaration"
+                                          },
+                                          {
+                                            "expression": {
+                                              "alternate": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "canvasDrawingContext",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "k",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "z",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "h",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "y",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "colorPalette",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "draw_line",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "consequent": {
+                                                "expressions": [
+                                                  {
+                                                    "arguments": [
+                                                      {
+                                                        "name": "canvasDrawingContext",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "h",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "z",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "k",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "y",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "colorPalette",
+                                                        "type": "Identifier"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "name": "draw_line",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  {
+                                                    "arguments": [
+                                                      {
+                                                        "name": "canvasDrawingContext",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "k",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "y",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "m",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "y",
+                                                        "type": "Identifier"
+                                                      },
+                                                      {
+                                                        "name": "colorPalette",
+                                                        "type": "Identifier"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "name": "draw_line",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  }
+                                                ],
+                                                "type": "SequenceExpression"
+                                              },
+                                              "test": {
+                                                "left": {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                "operator": "!=",
+                                                "right": {
+                                                  "left": {
+                                                    "left": {
+                                                      "name": "e",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "name": "t",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "%",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "type": "ConditionalExpression"
+                                            },
+                                            "type": "ExpressionStatement"
+                                          }
+                                        ],
+                                        "type": "BlockStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "t",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "t",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<",
+                                        "right": {
+                                          "name": "dungeonDimensions",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "ForStatement",
+                                      "update": {
+                                        "argument": {
+                                          "name": "t",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "++",
+                                        "prefix": false,
+                                        "type": "UpdateExpression"
+                                      }
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "0",
+                                    "type": "Literal",
+                                    "value": 0
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<",
+                                  "right": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          "test": {
+                            "left": {
+                              "raw": "\"hex\"",
+                              "type": "Literal",
+                              "value": "hex"
+                            },
+                            "operator": "==",
+                            "right": {
+                              "computed": false,
+                              "object": {
+                                "name": "dungeonConfigObject",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "grid",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

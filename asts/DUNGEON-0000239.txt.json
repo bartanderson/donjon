@@ -1,0 +1,85 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "callee": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "CallExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "arguments": [
+                                {
+                                  "name": "dungeonConfigConstants",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "name": "Object",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "keys",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

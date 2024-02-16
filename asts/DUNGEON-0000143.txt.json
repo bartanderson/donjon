@@ -1,0 +1,91 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "=",
+                              "right": {
+                                "name": "sa",
+                                "type": "Identifier"
+                              },
+                              "type": "AssignmentExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "compositeMapLayer",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeon",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "max_x",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

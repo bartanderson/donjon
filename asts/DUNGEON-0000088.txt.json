@@ -1,0 +1,81 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "test": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "IfStatement"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "name": "dungeonDimensions",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "name": "m",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                }
+                              ],
+                              "type": "BlockStatement"
+                            },
+                            "test": {
+                              "computed": false,
+                              "object": {
+                                "name": "dungeonDimensions",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "add_stairs",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

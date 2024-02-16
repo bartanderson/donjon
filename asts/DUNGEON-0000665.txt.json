@@ -1,0 +1,68 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "callee": {
+                              "object": {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "property": {
+                                "name": "forEach",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

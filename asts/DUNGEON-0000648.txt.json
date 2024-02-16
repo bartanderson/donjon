@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "test": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "type": "ConditionalExpression"
+                                                },
+                                                "type": "ExpressionStatement"
+                                              }
+                                            ],
+                                            "type": "BlockStatement"
+                                          },
+                                          "expression": false,
+                                          "generator": false,
+                                          "id": null,
+                                          "params": [
+                                            {
+                                              "name": "doorType",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "type": "ArrowFunctionExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "arguments": [
+                                            {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "room",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "door",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

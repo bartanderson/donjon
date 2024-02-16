@@ -1,0 +1,67 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "d",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "size",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

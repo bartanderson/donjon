@@ -1,0 +1,47 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "left": {
+                                "object": {
+                                  "type": "MemberExpression"
+                                },
+                                "property": {
+                                  "name": "length",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

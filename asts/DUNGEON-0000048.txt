@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[1].init.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[1].init.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[1].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].id = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].id.name = "w";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].id.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.object.name = "q";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.property.name = "length";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[2].init.property.type = "Identifier";

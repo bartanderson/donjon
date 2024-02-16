@@ -1,0 +1,78 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "right": {
+                              "arguments": [
+                                {
+                                  "left": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "/",
+                                  "right": {
+                                    "left": {
+                                      "name": "b",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "*",
+                                    "right": {
+                                      "name": "b",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "name": "Math",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "floor",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

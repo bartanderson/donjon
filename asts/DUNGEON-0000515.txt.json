@@ -1,0 +1,110 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "alternate": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    {
+                                                      "body": {
+                                                        "test": {
+                                                          "left": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "operator": "&",
+                                                          "right": {
+                                                            "raw": "21",
+                                                            "type": "Literal",
+                                                            "value": 21
+                                                          },
+                                                          "type": "BinaryExpression"
+                                                        },
+                                                        "type": "IfStatement"
+                                                      },
+                                                      "init": {
+                                                        "left": {
+                                                          "name": "CurrColIndex",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "computed": true,
+                                                          "object": {
+                                                            "name": "midpointRowCoord",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "raw": "0",
+                                                            "type": "Literal",
+                                                            "value": 0
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

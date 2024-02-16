@@ -1,0 +1,138 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          {
+                                                            "declarations": [
+                                                              null,
+                                                              {
+                                                                "init": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "type": "VariableDeclarator"
+                                                              }
+                                                            ],
+                                                            "kind": "var",
+                                                            "type": "VariableDeclaration"
+                                                          },
+                                                          {
+                                                            "alternate": null,
+                                                            "consequent": {
+                                                              "alternate": {
+                                                                "body": [
+                                                                  {
+                                                                    "alternate": null,
+                                                                    "consequent": {
+                                                                      "body": [
+                                                                        {
+                                                                          "declarations": [
+                                                                            {
+                                                                              "id": {
+                                                                                "name": "targetRoom",
+                                                                                "type": "Identifier"
+                                                                              },
+                                                                              "init": {
+                                                                                "computed": true,
+                                                                                "object": {
+                                                                                  "computed": false,
+                                                                                  "object": {
+                                                                                    "name": "inputDungeon",
+                                                                                    "type": "Identifier"
+                                                                                  },
+                                                                                  "property": {
+                                                                                    "name": "room",
+                                                                                    "type": "Identifier"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

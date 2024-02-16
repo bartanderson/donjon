@@ -1,0 +1,63 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "cell",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

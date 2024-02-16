@@ -1,0 +1,202 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "consequent": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    {
+                                                      "expression": {
+                                                        "right": {
+                                                          "expressions": [
+                                                            null,
+                                                            {
+                                                              "left": {
+                                                                "right": {
+                                                                  "left": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "operator": "&",
+                                                                  "right": {
+                                                                    "raw": "2",
+                                                                    "type": "Literal",
+                                                                    "value": 2
+                                                                  },
+                                                                  "type": "BinaryExpression"
+                                                                },
+                                                                "type": "LogicalExpression"
+                                                              },
+                                                              "operator": "||",
+                                                              "right": {
+                                                                "left": {
+                                                                  "name": "dungeonConfig",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "operator": "=",
+                                                                "right": {
+                                                                  "arguments": [
+                                                                    {
+                                                                      "name": "dungeonConfig",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    {
+                                                                      "properties": [
+                                                                        {
+                                                                          "computed": false,
+                                                                          "key": {
+                                                                            "name": "i",
+                                                                            "type": "Identifier"
+                                                                          },
+                                                                          "kind": "init",
+                                                                          "method": false,
+                                                                          "shorthand": false,
+                                                                          "type": "Property",
+                                                                          "value": {
+                                                                            "name": "rowNum",
+                                                                            "type": "Identifier"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "computed": false,
+                                                                          "key": {
+                                                                            "name": "j",
+                                                                            "type": "Identifier"
+                                                                          },
+                                                                          "kind": "init",
+                                                                          "method": false,
+                                                                          "shorthand": false,
+                                                                          "type": "Property",
+                                                                          "value": {
+                                                                            "name": "colNum",
+                                                                            "type": "Identifier"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "computed": false,
+                                                                          "key": {
+                                                                            "name": "size",
+                                                                            "type": "Identifier"
+                                                                          },
+                                                                          "kind": "init",
+                                                                          "method": false,
+                                                                          "shorthand": false,
+                                                                          "type": "Property",
+                                                                          "value": {
+                                                                            "raw": "\"medium\"",
+                                                                            "type": "Literal",
+                                                                            "value": "medium"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "type": "ObjectExpression"
+                                                                    }
+                                                                  ],
+                                                                  "callee": {
+                                                                    "name": "addRoomToDungeon",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "type": "CallExpression"
+                                                                },
+                                                                "type": "AssignmentExpression"
+                                                              },
+                                                              "type": "LogicalExpression"
+                                                            }
+                                                          ],
+                                                          "type": "SequenceExpression"
+                                                        },
+                                                        "type": "LogicalExpression"
+                                                      },
+                                                      "type": "ExpressionStatement"
+                                                    }
+                                                  ],
+                                                  "type": "BlockStatement"
+                                                },
+                                                "init": {
+                                                  "left": {
+                                                    "name": "colNum",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "raw": "0",
+                                                    "type": "Literal",
+                                                    "value": 0
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "test": {
+                                                  "left": {
+                                                    "name": "colNum",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "<",
+                                                  "right": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "dungeonConfig",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "n_j",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

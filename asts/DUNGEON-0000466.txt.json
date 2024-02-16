@@ -1,0 +1,97 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "right": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "*",
+                                      "right": {
+                                        "name": "m",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "z",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "name": "h",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "name": "directionColumnOffsets",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

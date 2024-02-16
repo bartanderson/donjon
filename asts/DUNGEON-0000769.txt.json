@@ -1,0 +1,151 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "body": [
+                            {
+                              "declarations": [
+                                null,
+                                {
+                                  "init": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "async": false,
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "name": "adjacentRoomId",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "selectedDoorStyle",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "dungeonState",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "dungeonConfig",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "draw_line",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "expression": false,
+                                    "generator": false,
+                                    "id": null,
+                                    "params": [
+                                      {
+                                        "name": "c",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "type": "ArrowFunctionExpression"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "stairObject",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "list",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            {
+                              "test": {
+                                "right": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "-",
+                                  "right": {
+                                    "raw": "3",
+                                    "type": "Literal",
+                                    "value": 3
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "IfStatement"
+                            },
+                            {
+                              "alternate": null,
+                              "consequent": {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "potentialDoor",
+                                            "type": "Identifier"
+                                          },
+                                          "init": null,
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "left": {
+                                            "name": "potentialDoor",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "arguments": [
+                                              {
+                                                "name": "grid",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "roomCriteria",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "westBoundary",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "raw": "\"west\"",
+                                                "type": "Literal",
+                                                "value": "west"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "canDoorBePLaced",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "operator": "&&",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "potentialDoor",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "potentialDoorLocations",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "push",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

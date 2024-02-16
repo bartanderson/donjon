@@ -1,0 +1,8 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.object.elements[0].type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.object.elements[1] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.object.elements[1].name = "r";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.object.elements[1].type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.object.type = "ArrayExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.property.name = "sort";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.object.callee.property.type = "Identifier";

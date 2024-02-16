@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "right": {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "raw": "1",
+                                  "type": "Literal",
+                                  "value": 1
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "computed": true,
+                                    "object": {
+                                      "name": "b",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "arguments": [
+                                        {
+                                          "left": {
+                                            "name": "g",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "*",
+                                          "right": {
+                                            "name": "f",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "Math",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "floor",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "alternate": {
+                            "alternate": {
+                              "body": [
+                                null,
+                                null,
+                                {
+                                  "body": {
+                                    "expression": {
+                                      "arguments": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "type": "MemberExpression"
+                                        },
+                                        {
+                                          "name": "g",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "colorPalette",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "draw_line",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "raw": "0",
+                                      "type": "Literal",
+                                      "value": 0
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "<=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "dungeonDimensions",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "max_y",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

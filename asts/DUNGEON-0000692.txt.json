@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "init": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "cellSizeRoomHeightDimensions",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "cellSizeRoomHeightDimensions",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "palette",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

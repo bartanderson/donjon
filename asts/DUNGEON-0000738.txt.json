@@ -1,0 +1,142 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "expression": {
+                                      "alternate": {
+                                        "arguments": [
+                                          {
+                                            "name": "roomHeight",
+                                            "type": "Identifier"
+                                          },
+                                          {
+                                            "name": "dungeonState",
+                                            "type": "Identifier"
+                                          },
+                                          {
+                                            "name": "adjacentRoomId",
+                                            "type": "Identifier"
+                                          }
+                                        ],
+                                        "callee": {
+                                          "name": "drawDownStairs",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "CallExpression"
+                                      },
+                                      "consequent": {
+                                        "arguments": [
+                                          {
+                                            "name": "roomHeight",
+                                            "type": "Identifier"
+                                          },
+                                          {
+                                            "name": "dungeonState",
+                                            "type": "Identifier"
+                                          },
+                                          {
+                                            "name": "adjacentRoomId",
+                                            "type": "Identifier"
+                                          }
+                                        ],
+                                        "callee": {
+                                          "name": "drawUpStairs",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "CallExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "raw": "\"up\"",
+                                          "type": "Literal",
+                                          "value": "up"
+                                        },
+                                        "operator": "==",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "stairObject",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "key",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

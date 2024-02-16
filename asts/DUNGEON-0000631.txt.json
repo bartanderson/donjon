@@ -1,0 +1,124 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          null,
+                                                          {
+                                                            "consequent": {
+                                                              "alternate": {
+                                                                "body": [
+                                                                  {
+                                                                    "test": {
+                                                                      "right": {
+                                                                        "type": "MemberExpression"
+                                                                      },
+                                                                      "type": "AssignmentExpression"
+                                                                    },
+                                                                    "type": "IfStatement"
+                                                                  },
+                                                                  {
+                                                                    "expression": {
+                                                                      "arguments": [
+                                                                        {
+                                                                          "name": "door",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      ],
+                                                                      "callee": {
+                                                                        "computed": false,
+                                                                        "object": {
+                                                                          "name": "connectedDoors",
+                                                                          "type": "Identifier"
+                                                                        },
+                                                                        "property": {
+                                                                          "name": "push",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

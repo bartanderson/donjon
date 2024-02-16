@@ -1,0 +1,169 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "alternate": {
+                                              "test": {
+                                                "right": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "type": "ConditionalExpression"
+                                            },
+                                            "consequent": {
+                                              "expressions": [
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "properties": [
+                                                      {
+                                                        "computed": false,
+                                                        "key": {
+                                                          "name": "arch",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "type": "Property",
+                                                        "value": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        }
+                                                      },
+                                                      {
+                                                        "computed": false,
+                                                        "key": {
+                                                          "name": "door",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "type": "Property",
+                                                        "value": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        }
+                                                      },
+                                                      {
+                                                        "computed": false,
+                                                        "key": {
+                                                          "name": "trap",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "type": "Property",
+                                                        "value": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        }
+                                                      }
+                                                    ],
+                                                    "type": "ObjectExpression"
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "arguments": [
+                                                      {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "doorRow",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "desc",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

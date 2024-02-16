@@ -1,0 +1,82 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "||",
+                              "right": {
+                                "raw": "2",
+                                "type": "Literal",
+                                "value": 2
+                              },
+                              "type": "LogicalExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "computed": false,
+                              "object": {
+                                "name": "d",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "radix",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

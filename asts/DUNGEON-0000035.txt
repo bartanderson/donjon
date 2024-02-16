@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].init.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].declarations[0].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].kind = "let";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[0].type = "VariableDeclaration";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.computed = true;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.object.name = "mappedRoomConnections";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.property.name = "x";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[6].body.body[2].consequent.body[1].consequent.body[1].expression.left.property.type = "Identifier";

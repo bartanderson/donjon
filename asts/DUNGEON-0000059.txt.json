@@ -1,0 +1,136 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "expression": {
+                                          "right": {
+                                            "left": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "operator": "<<",
+                                            "right": {
+                                              "raw": "24",
+                                              "type": "Literal",
+                                              "value": 24
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "type": "ExpressionStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<",
+                                        "right": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "ForStatement",
+                                      "update": {
+                                        "argument": {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "++",
+                                        "prefix": false,
+                                        "type": "UpdateExpression"
+                                      }
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "roomIdIterator",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "1",
+                                    "type": "Literal",
+                                    "value": 1
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "roomIdIterator",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "h",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rooms",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

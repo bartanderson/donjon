@@ -1,0 +1,68 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "B",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "pct",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "arguments": [
+                              {
+                                "left": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "operator": "/",
+                                "right": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              }
+                            ],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "name": "Math",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "floor",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

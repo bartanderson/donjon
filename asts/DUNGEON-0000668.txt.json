@@ -1,0 +1,84 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "type": "MemberExpression"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "raw": "\"#000000\"",
+                              "type": "Literal",
+                              "value": "#000000"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "computed": false,
+                            "object": {
+                              "name": "palette",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "white",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

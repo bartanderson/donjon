@@ -1,0 +1,71 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "right": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": true,
+                              "object": {
+                                "computed": true,
+                                "object": {
+                                  "name": "dungeonLayout2DGrid",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

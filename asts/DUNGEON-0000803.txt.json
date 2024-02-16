@@ -1,0 +1,121 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "expression": false,
+                                    "generator": false,
+                                    "id": null,
+                                    "params": [
+                                      {
+                                        "name": "a",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "type": "ArrowFunctionExpression"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "arguments": [
+                                      {
+                                        "name": "defaultDungeonConfig",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "Object",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "keys",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

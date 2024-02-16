@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                null,
+                                {
+                                  "init": {
+                                    "left": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "operator": "-",
+                                    "right": {
+                                      "name": "d",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "body": {
+                                "alternate": null,
+                                "consequent": {
+                                  "expression": {
+                                    "left": {
+                                      "computed": true,
+                                      "object": {
+                                        "computed": true,
+                                        "object": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "a",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "cell",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

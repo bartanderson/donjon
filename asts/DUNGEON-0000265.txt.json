@@ -1,0 +1,102 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "test": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "left": {
+                                  "left": {
+                                    "raw": "\"round\"",
+                                    "type": "Literal",
+                                    "value": "round"
+                                  },
+                                  "operator": "==",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "dungeon_layout",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

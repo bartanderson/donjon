@@ -1,0 +1,58 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "test": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "IfStatement"
+                          },
+                          {
+                            "expression": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "A",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "remove_deadends",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

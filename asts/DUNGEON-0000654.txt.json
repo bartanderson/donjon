@@ -1,0 +1,146 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "left": {
+                            "type": "MemberExpression"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "name": "allDoors",
+                            "type": "Identifier"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "inputDungeon",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "ensureConsistentRoomConnections",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "inputDungeon",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "palette",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "alternate": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "style",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "expression": {
+                                "left": {
+                                  "name": "palette",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "alternate": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "colorPalettes",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "standard",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

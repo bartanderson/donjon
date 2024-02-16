@@ -1,0 +1,86 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "arguments": [
+                                            null,
+                                            {
+                                              "type": "MemberExpression"
+                                            },
+                                            {
+                                              "name": "deadEndRemovalRules",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "removeDeadEnds",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                }
+                              ],
+                              "type": "BlockStatement"
+                            },
+                            "test": {
+                              "computed": false,
+                              "object": {
+                                "name": "A",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "remove_deadends",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

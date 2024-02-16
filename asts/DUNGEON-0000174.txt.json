@@ -1,0 +1,179 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          {
+                                            "alternate": {
+                                              "consequent": {
+                                                "expression": {
+                                                  "expressions": [
+                                                    null,
+                                                    null,
+                                                    {
+                                                      "left": {
+                                                        "left": {
+                                                          "type": "MemberExpression"
+                                                        },
+                                                        "operator": "&",
+                                                        "right": {
+                                                          "raw": "6",
+                                                          "type": "Literal",
+                                                          "value": 6
+                                                        },
+                                                        "type": "BinaryExpression"
+                                                      },
+                                                      "operator": "||",
+                                                      "right": {
+                                                        "arguments": [
+                                                          {
+                                                            "name": "applyWallShading",
+                                                            "type": "Identifier"
+                                                          },
+                                                          {
+                                                            "left": {
+                                                              "name": "G",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "operator": "+",
+                                                            "right": {
+                                                              "raw": "1",
+                                                              "type": "Literal",
+                                                              "value": 1
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          {
+                                                            "left": {
+                                                              "name": "x",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "operator": "-",
+                                                            "right": {
+                                                              "name": "q",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          {
+                                                            "left": {
+                                                              "name": "G",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "operator": "+",
+                                                            "right": {
+                                                              "name": "q",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          {
+                                                            "left": {
+                                                              "name": "x",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "operator": "-",
+                                                            "right": {
+                                                              "raw": "1",
+                                                              "type": "Literal",
+                                                              "value": 1
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          {
+                                                            "name": "p",
+                                                            "type": "Identifier"
+                                                          }
+                                                        ],
+                                                        "callee": {
+                                                          "name": "applyShading",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "type": "CallExpression"
+                                                      },
+                                                      "type": "LogicalExpression"
+                                                    },
+                                                    {
+                                                      "left": {
+                                                        "left": {
+                                                          "computed": true,
+                                                          "object": {
+                                                            "computed": true,
+                                                            "object": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "name": "v",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "property": {
+                                                                "name": "cell",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

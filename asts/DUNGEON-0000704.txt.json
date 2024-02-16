@@ -1,0 +1,121 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "test": {
+                                      "right": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "IfStatement"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "name": "doorRow",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "=",
+                                      "right": {
+                                        "name": "u",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "dungeonStateWithoutWallFlags",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "computed": true,
+                                            "object": {
+                                              "computed": true,
+                                              "object": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "dungeonStateConfiguration",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "cell",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "consequent": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    {
+                                                      "expression": {
+                                                        "left": {
+                                                          "left": {
+                                                            "left": {
+                                                              "type": "MemberExpression"
+                                                            },
+                                                            "operator": "&",
+                                                            "right": {
+                                                              "raw": "2",
+                                                              "type": "Literal",
+                                                              "value": 2
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          "operator": "||",
+                                                          "right": {
+                                                            "left": {
+                                                              "left": {
+                                                                "left": {
+                                                                  "raw": "0",
+                                                                  "type": "Literal",
+                                                                  "value": 0
+                                                                },
+                                                                "operator": "==",
+                                                                "right": {
+                                                                  "name": "rowNum",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "BinaryExpression"
+                                                              },
+                                                              "operator": "||",
+                                                              "right": {
+                                                                "left": {
+                                                                  "raw": "0",
+                                                                  "type": "Literal",
+                                                                  "value": 0
+                                                                },
+                                                                "operator": "==",
+                                                                "right": {
+                                                                  "name": "colNum",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "BinaryExpression"
+                                                              },
+                                                              "type": "LogicalExpression"
+                                                            },
+                                                            "operator": "&&",
+                                                            "right": {
+                                                              "left": {
+                                                                "raw": "0",
+                                                                "type": "Literal",
+                                                                "value": 0
+                                                              },
+                                                              "operator": "<",
+                                                              "right": {
+                                                                "arguments": [
+                                                                  {
+                                                                    "raw": "2",
+                                                                    "type": "Literal",
+                                                                    "value": 2
+                                                                  }
+                                                                ],
+                                                                "callee": {
+                                                                  "name": "random",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "CallExpression"
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "type": "LogicalExpression"
+                                                          },
+                                                          "type": "LogicalExpression"
+                                                        },
+                                                        "operator": "||",
+                                                        "right": {
+                                                          "expressions": [
+                                                            {
+                                                              "left": {
+                                                                "name": "dungeonConfig",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "operator": "=",
+                                                              "right": {
+                                                                "arguments": [
+                                                                  {
+                                                                    "name": "dungeonConfig",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  {
+                                                                    "properties": [
+                                                                      {
+                                                                        "computed": false,
+                                                                        "key": {
+                                                                          "name": "i",
+                                                                          "type": "Identifier"
+                                                                        },
+                                                                        "kind": "init",
+                                                                        "method": false,
+                                                                        "shorthand": false,
+                                                                        "type": "Property",
+                                                                        "value": {
+                                                                          "name": "rowNum",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "computed": false,
+                                                                        "key": {
+                                                                          "name": "j",
+                                                                          "type": "Identifier"
+                                                                        },
+                                                                        "kind": "init",
+                                                                        "method": false,
+                                                                        "shorthand": false,
+                                                                        "type": "Property",
+                                                                        "value": {
+                                                                          "name": "colNum",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "type": "ObjectExpression"
+                                                                  }
+                                                                ],
+                                                                "callee": {
+                                                                  "name": "addRoomToDungeon",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "CallExpression"
+                                                              },
+                                                              "type": "AssignmentExpression"
+                                                            },
+                                                            {
+                                                              "left": {
+                                                                "left": {
+                                                                  "argument": {
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                      "name": "dungeonConfig",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "isHugeRoomEnabled",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

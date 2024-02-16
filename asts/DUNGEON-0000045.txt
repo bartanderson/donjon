@@ -1,0 +1,4 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[0].init.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[0].init.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[0].init.property.name = "roomIdIterator";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[0].declarations[0].init.property.type = "Identifier";

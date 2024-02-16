@@ -1,0 +1,163 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "init": {
+                                                  "callee": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "type": "CallExpression"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              }
+                                            ],
+                                            "kind": "let",
+                                            "type": "VariableDeclaration"
+                                          },
+                                          {
+                                            "declarations": [
+                                              {
+                                                "id": {
+                                                  "name": "e",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "left": {
+                                                    "name": "roomIndex",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "arguments": [
+                                                      {
+                                                        "name": "roomIndex",
+                                                        "type": "Identifier"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "name": "random",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              }
+                                            ],
+                                            "kind": "var",
+                                            "type": "VariableDeclaration"
+                                          }
+                                        ],
+                                        "type": "BlockStatement"
+                                      },
+                                      {
+                                        "declarations": [
+                                          {
+                                            "id": {
+                                              "name": "w",
+                                              "type": "Identifier"
+                                            },
+                                            "init": {
+                                              "name": "e",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "VariableDeclarator"
+                                          }
+                                        ],
+                                        "kind": "let",
+                                        "type": "VariableDeclaration"
+                                      },
+                                      {
+                                        "body": {
+                                          "body": [
+                                            {
+                                              "declarations": [
+                                                {
+                                                  "id": {
+                                                    "name": "p",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "init": {
+                                                    "arguments": [],
+                                                    "callee": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "arguments": [
+                                                          {
+                                                            "arguments": [
+                                                              {
+                                                                "computed": false,
+                                                                "object": {
+                                                                  "name": "potentialDoorConnections",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "name": "length",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

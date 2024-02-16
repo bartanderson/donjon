@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "test": {
+                                            "right": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "IfStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "test": {
+                                      "arguments": [
+                                        {
+                                          "name": "g",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "rowIndex",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "colIndex",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "computed": true,
+                                          "object": {
+                                            "name": "deadEndRemovalRules",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "c",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "expression": {
+                            "right": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "ExpressionStatement"
+                        },
+                        "init": {
+                          "left": {
+                            "name": "dungeonConfig",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "dungeonConfig",
+                            "type": "Identifier"
+                          },
+                          "operator": "<",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "len",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "update": {
+                              "right": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "AssignmentExpression"
+                            }
+                          },
+                          "test": {
+                            "left": {
+                              "name": "dungeonConfig",
+                              "type": "Identifier"
+                            },
+                            "operator": "<",
+                            "right": {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "IfStatement"
+                        },
+                        "consequent": {
+                          "body": {
+                            "expression": {
+                              "arguments": [
+                                {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "name": "selectedDoorStyle",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "push",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

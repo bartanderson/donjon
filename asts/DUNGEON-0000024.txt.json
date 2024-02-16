@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "init": {
+                                                  "arguments": [
+                                                    {
+                                                      "arguments": [
+                                                        {
+                                                          "left": {
+                                                            "left": {
+                                                              "left": {
+                                                                "left": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "operator": "-",
+                                                                "right": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "currentRoom",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "west",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

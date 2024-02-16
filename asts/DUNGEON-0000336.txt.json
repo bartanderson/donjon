@@ -1,0 +1,73 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": true,
+                              "object": {
+                                "computed": false,
+                                "object": {
+                                  "name": "dungeonConfigConstants",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "room_size",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

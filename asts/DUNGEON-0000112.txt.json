@@ -1,0 +1,55 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "v",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "cell_size",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

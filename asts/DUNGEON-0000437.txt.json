@@ -1,0 +1,72 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "declarations": [
+                                null,
+                                {
+                                  "init": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "eastBoundary",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "roomCriteria",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "east",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

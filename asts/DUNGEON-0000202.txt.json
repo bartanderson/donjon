@@ -1,0 +1,161 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                {
+                                                  "test": {
+                                                    "expressions": [
+                                                      null,
+                                                      {
+                                                        "left": {
+                                                          "left": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "operator": "&",
+                                                          "right": {
+                                                            "raw": "6",
+                                                            "type": "Literal",
+                                                            "value": 6
+                                                          },
+                                                          "type": "BinaryExpression"
+                                                        },
+                                                        "operator": "||",
+                                                        "right": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "applyWallShading",
+                                                              "type": "Identifier"
+                                                            },
+                                                            {
+                                                              "name": "D",
+                                                              "type": "Identifier"
+                                                            },
+                                                            {
+                                                              "left": {
+                                                                "name": "x",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "operator": "-",
+                                                              "right": {
+                                                                "raw": "1",
+                                                                "type": "Literal",
+                                                                "value": 1
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            {
+                                                              "name": "G",
+                                                              "type": "Identifier"
+                                                            },
+                                                            {
+                                                              "left": {
+                                                                "name": "x",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "operator": "-",
+                                                              "right": {
+                                                                "raw": "1",
+                                                                "type": "Literal",
+                                                                "value": 1
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            {
+                                                              "name": "p",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "name": "draw_line",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "LogicalExpression"
+                                                      },
+                                                      {
+                                                        "left": {
+                                                          "name": "p",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "computed": false,
+                                                          "object": {
+                                                            "name": "w",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "name": "bevel_se",
+                                                            "type": "Identifier"
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

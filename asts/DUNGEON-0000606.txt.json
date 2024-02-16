@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "consequent": {
+                                            "expression": {
+                                              "left": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "operator": "|=",
+                                              "right": {
+                                                "raw": "4",
+                                                "type": "Literal",
+                                                "value": 4
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "type": "ExpressionStatement"
+                                          },
+                                          "test": {
+                                            "left": {
+                                              "name": "e",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "computed": false,
+                                              "object": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "deadEndRemovalRules",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "c",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

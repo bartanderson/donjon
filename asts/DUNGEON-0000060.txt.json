@@ -1,0 +1,125 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "test": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "roomIdIterator",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "k",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "h",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "layoutType",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "raw": "\"corridor_layout\"",
+                                          "type": "Literal",
+                                          "value": "corridor_layout"
+                                        },
+                                        {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "getDungeonConfigConstant",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "k",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "straight_pct",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

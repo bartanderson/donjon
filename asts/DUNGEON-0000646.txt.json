@@ -1,0 +1,119 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "consequent": {
+                                                    "expressions": [
+                                                      {
+                                                        "left": {
+                                                          "type": "MemberExpression"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "name": "connectedDoors",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "type": "AssignmentExpression"
+                                                      },
+                                                      {
+                                                        "left": {
+                                                          "name": "allDoors",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "connectedDoors",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "name": "allDoors",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "property": {
+                                                              "name": "concat",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

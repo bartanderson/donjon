@@ -1,0 +1,79 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "q",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "raw": "\"2d\"",
+                                          "type": "Literal",
+                                          "value": "2d"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "l",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "getContext",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "left": {
+                                            "property": {
+                                              "left": {
+                                                "left": {
+                                                  "object": {
+                                                    "object": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "property": {
+                                                      "name": "e",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

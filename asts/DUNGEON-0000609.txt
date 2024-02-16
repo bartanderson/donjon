@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[1].right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[1].type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2] = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].left = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].left.name = "colIndex";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].operator = "+";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.computed = true;
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.object = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.object.name = "c";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.property = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.property.raw = "1";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.property.type = "Literal";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].consequent.expression.right.arguments[2].right.property.value = 1;

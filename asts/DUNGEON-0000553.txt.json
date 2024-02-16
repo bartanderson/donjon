@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "body": {
+                                                "body": [
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        null,
+                                                        {
+                                                          "expression": {
+                                                            "right": {
+                                                              "object": {
+                                                                "type": "MemberExpression"
+                                                              },
+                                                              "property": {
+                                                                "name": "next",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

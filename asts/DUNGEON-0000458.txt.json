@@ -1,0 +1,126 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "argument": {
+                          "test": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "ConditionalExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "canDoorBePLaced",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonLayout2DGrid",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "doorData",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "rowIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "colIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "doorDirection",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": false,
+                              "object": {
+                                "arguments": [
+                                  {
+                                    "raw": "\"doors\"",
+                                    "type": "Literal",
+                                    "value": "doors"
+                                  },
+                                  {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "getDungeonConfigConstant",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "property": {
+                                "name": "table",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "consequent": {
+                          "test": {
+                            "expressions": [
+                              {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              {
+                                "argument": {
+                                  "name": "g",
+                                  "type": "Identifier"
+                                },
+                                "operator": "!",
+                                "prefix": true,
+                                "type": "UnaryExpression"
+                              }
+                            ],
+                            "type": "SequenceExpression"
+                          },
+                          "type": "IfStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "walled",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

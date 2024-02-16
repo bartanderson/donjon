@@ -1,0 +1,98 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "test": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "f",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "left": {
+                                "name": "b",
+                                "type": "Identifier"
+                              },
+                              "operator": "||",
+                              "right": {
+                                "properties": [],
+                                "type": "ObjectExpression"
+                              },
+                              "type": "LogicalExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "computed": false,
+                            "object": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "size",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

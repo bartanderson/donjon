@@ -1,0 +1,63 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        null,
+                                        {
+                                          "init": {
+                                            "callee": {
+                                              "object": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "property": {
+                                                "name": "toString",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

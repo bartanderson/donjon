@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "test": {
+                          "type": "MemberExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "colors",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "left": {
+                              "name": "colors",
+                              "type": "Identifier"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "computed": false,
+                              "object": {
+                                "name": "palette",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "colors",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

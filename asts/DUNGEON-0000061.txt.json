@@ -1,0 +1,59 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "layoutType",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "pct",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

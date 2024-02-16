@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "declarations": [
+                                      {
+                                        "init": {
+                                          "callee": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "let",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "doorRow",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "wall",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

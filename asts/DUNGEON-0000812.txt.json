@@ -1,0 +1,122 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            {
+                              "expression": {
+                                "arguments": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "expression": false,
+                                    "generator": false,
+                                    "id": null,
+                                    "params": [],
+                                    "type": "ArrowFunctionExpression"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "arguments": [
+                                      {
+                                        "raw": "\"print_map\"",
+                                        "type": "Literal",
+                                        "value": "print_map"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "$",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "property": {
+                                    "name": "observe",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

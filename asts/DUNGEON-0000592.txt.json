@@ -1,0 +1,88 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "argument": {
+                            "name": "dungeonObject",
+                            "type": "Identifier"
+                          },
+                          "type": "ReturnStatement"
+                        },
+                        "test": {
+                          "argument": {
+                            "left": {
+                              "computed": true,
+                              "object": {
+                                "computed": true,
+                                "object": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "dungeonObject",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "cell",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

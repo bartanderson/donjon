@@ -1,0 +1,11 @@
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.operator = "=";
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right = {};
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left = {};
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.computed = false;
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.object = {};
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.object.name = "k";
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.property = {};
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.property.name = "col";
+json.body[1].expression.arguments[1].body.body[17].body.body[1].body.body[1].body.body[1].expression.right.right.arguments[0].body.body[0].consequent.body[3].expression.right.left.property.type = "Identifier";

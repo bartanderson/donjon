@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              {
+                                "declarations": [
+                                  null,
+                                  null,
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "p",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "alternate": {
+                                    "arguments": [
+                                      {
+                                        "name": "compositeMapLayer",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "name": "l",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "q",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "black",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

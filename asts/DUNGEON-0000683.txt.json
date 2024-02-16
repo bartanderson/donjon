@@ -1,0 +1,132 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "consequent": {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "name": "dungeonConfigObject",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "left": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "/",
+                                    "right": {
+                                      "raw": "3.4641016151",
+                                      "type": "Literal",
+                                      "value": 3.4641016151
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "name": "g",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "/=",
+                                  "right": {
+                                    "raw": "2",
+                                    "type": "Literal",
+                                    "value": 2
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "c",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "dungeonDimensions",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "width",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

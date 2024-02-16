@@ -1,0 +1,12 @@
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.consequent.expressions[1].right.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.consequent.expressions[1].right.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.consequent.expressions[1].type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.consequent.type = "SequenceExpression";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test = {};
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.computed = false;
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.object = {};
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.object.name = "connectedDoors";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.property = {};
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.property.name = "length";
+json.body[1].expression.arguments[1].body.body[22].body.body[1].expression.arguments[0].body.body[1].expression.arguments[0].body.body[2].expression.test.property.type = "Identifier";

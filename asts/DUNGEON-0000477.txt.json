@@ -1,0 +1,91 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "alternate": {
+                                  "alternate": {
+                                    "right": {
+                                      "expressions": [
+                                        null,
+                                        {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "raw": "\"portc\"",
+                                            "type": "Literal",
+                                            "value": "portc"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        {
+                                          "left": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "e",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "type",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

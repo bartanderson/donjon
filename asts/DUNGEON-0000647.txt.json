@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "consequent": {
+                                                    "expressions": [
+                                                      null,
+                                                      {
+                                                        "right": {
+                                                          "callee": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "AssignmentExpression"
+                                                      }
+                                                    ],
+                                                    "type": "SequenceExpression"
+                                                  },
+                                                  "test": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "connectedDoors",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "length",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

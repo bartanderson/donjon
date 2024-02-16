@@ -1,0 +1,14 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].id = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].id.name = "r";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].id.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.object.name = "n";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.property.name = "palette";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[3].init.property.type = "Identifier";

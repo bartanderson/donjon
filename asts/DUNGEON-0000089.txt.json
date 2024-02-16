@@ -1,0 +1,132 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "test": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "IfStatement"
+                          },
+                          {
+                            "declarations": [
+                              {
+                                "id": {
+                                  "name": "A",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "name": "dungeonDimensions",
+                                  "type": "Identifier"
+                                },
+                                "type": "VariableDeclarator"
+                              }
+                            ],
+                            "kind": "var",
+                            "type": "VariableDeclaration"
+                          },
+                          {
+                            "alternate": null,
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "dungeonStateWithStairs",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "name": "A",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "var",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "B",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "arguments": [
+                                              {
+                                                "raw": "\"remove_deadends\"",
+                                                "type": "Literal",
+                                                "value": "remove_deadends"
+                                              },
+                                              {
+                                                "name": "dungeonStateWithStairs",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "getDungeonConfigConstant",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "dungeonStateWithStairs",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "remove_pct",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

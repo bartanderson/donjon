@@ -1,0 +1,71 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": false,
+                              "object": {
+                                "name": "f",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "door_r",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

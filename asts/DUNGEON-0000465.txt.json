@@ -1,0 +1,101 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "m",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "t",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "name": "e",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "name": "directionRowOffsets",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "type": "MemberExpression"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "a",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "$",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "property": {
+                                                "name": "setValue",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

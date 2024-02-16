@@ -1,0 +1,74 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "right": {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "raw": "1",
+                                  "type": "Literal",
+                                  "value": 1
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "computed": true,
+                                  "object": {
+                                    "name": "b",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "raw": "0",
+                                    "type": "Literal",
+                                    "value": 0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

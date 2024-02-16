@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "consequent": {
+                                              "expressions": [
+                                                null,
+                                                {
+                                                  "left": {
+                                                    "callee": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  "operator": "&&",
+                                                  "right": {
+                                                    "left": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "u",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "lock",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

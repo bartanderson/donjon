@@ -1,0 +1,181 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "+=",
+                                          "right": {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "type": "LogicalExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "h",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "g",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "h",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<=",
+                                  "right": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "h",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              },
+                              "init": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "test": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<=",
+                                "right": {
+                                  "name": "d",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "ForStatement",
+                              "update": {
+                                "argument": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "++",
+                                "prefix": false,
+                                "type": "UpdateExpression"
+                              }
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "label": {
+                          "name": "a",
+                          "type": "Identifier"
+                        },
+                        "type": "LabeledStatement"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "argument": {
+                            "name": "a",
+                            "type": "Identifier"
+                          },
+                          "type": "ReturnStatement"
+                        },
+                        "test": {
+                          "computed": false,
+                          "object": {
+                            "name": "k",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "blocked",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

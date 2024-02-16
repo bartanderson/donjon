@@ -1,0 +1,102 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "test": {
+                                          "argument": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "!",
+                                          "prefix": true,
+                                          "type": "UnaryExpression"
+                                        },
+                                        "type": "IfStatement"
+                                      },
+                                      {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "id": {
+                                                  "name": "roomIndex",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "arguments": [
+                                                    {
+                                                      "arguments": [
+                                                        {
+                                                          "left": {
+                                                            "left": {
+                                                              "left": {
+                                                                "left": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "currentRoom",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "east",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "test": {
+                                      "arguments": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "type": "MemberExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "ja",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "IfStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "arguments": [
+                                {
+                                  "name": "deadEndRemovalRules",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "name": "Object",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "keys",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "operator": "&&",
+                                  "right": {
+                                    "arguments": [
+                                      {
+                                        "name": "compositeMapLayer",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "name": "l",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "q",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "p",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "fill_rect",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "type": "LogicalExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "expression": {
+                                  "alternate": {
+                                    "left": {
+                                      "left": {
+                                        "name": "p",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "=",
+                                      "right": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "grid",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

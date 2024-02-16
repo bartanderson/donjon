@@ -1,0 +1,2532 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "left": {
+                      "type": "MemberExpression"
+                    },
+                    "operator": "=",
+                    "right": {
+                      "properties": [
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"01-15\"",
+                            "type": "Literal",
+                            "value": "01-15"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "65536",
+                            "type": "Literal",
+                            "value": 65536
+                          }
+                        },
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"16-30\"",
+                            "type": "Literal",
+                            "value": "16-30"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "524288",
+                            "type": "Literal",
+                            "value": 524288
+                          }
+                        },
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"31-40\"",
+                            "type": "Literal",
+                            "value": "31-40"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "1048576",
+                            "type": "Literal",
+                            "value": 1048576
+                          }
+                        }
+                      ],
+                      "type": "ObjectExpression"
+                    },
+                    "type": "AssignmentExpression"
+                  },
+                  "type": "ExpressionStatement"
+                },
+                {
+                  "declarations": [
+                    {
+                      "id": {
+                        "name": "stairPlacementRules",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "north",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "corridor",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "2",
+                                            "type": "Literal",
+                                            "value": 2
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "stair",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "next",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "1",
+                                        "type": "Literal",
+                                        "value": 1
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "south",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "corridor",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "stair",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "next",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "argument": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "operator": "-",
+                                        "prefix": true,
+                                        "type": "UnaryExpression"
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "west",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "corridor",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "2",
+                                            "type": "Literal",
+                                            "value": 2
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "stair",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "next",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "1",
+                                        "type": "Literal",
+                                        "value": 1
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "east",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "corridor",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "stair",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "next",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "argument": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "operator": "-",
+                                        "prefix": true,
+                                        "type": "UnaryExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "deadEndRemovalRules",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "north",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "close",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "recurse",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "argument": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "operator": "-",
+                                        "prefix": true,
+                                        "type": "UnaryExpression"
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "south",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "close",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "recurse",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "1",
+                                        "type": "Literal",
+                                        "value": 1
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "west",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "close",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "recurse",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "argument": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "operator": "-",
+                                        "prefix": true,
+                                        "type": "UnaryExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "east",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "walled",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "argument": {
+                                              "raw": "1",
+                                              "type": "Literal",
+                                              "value": 1
+                                            },
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      },
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "close",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "elements": [
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        ],
+                                        "type": "ArrayExpression"
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "recurse",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "elements": [
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "1",
+                                        "type": "Literal",
+                                        "value": 1
+                                      }
+                                    ],
+                                    "type": "ArrayExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "colorPalettes",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "standard",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "colors",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "fill",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#000000\"",
+                                          "type": "Literal",
+                                          "value": "#000000"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "open",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#ffffff\"",
+                                          "type": "Literal",
+                                          "value": "#ffffff"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "open_grid",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#cccccc\"",
+                                          "type": "Literal",
+                                          "value": "#cccccc"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "classic",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "colors",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "fill",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#3399cc\"",
+                                          "type": "Literal",
+                                          "value": "#3399cc"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "open",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#ffffff\"",
+                                          "type": "Literal",
+                                          "value": "#ffffff"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "open_grid",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#3399cc\"",
+                                          "type": "Literal",
+                                          "value": "#3399cc"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "hover",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#b6def2\"",
+                                          "type": "Literal",
+                                          "value": "#b6def2"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "graph",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "colors",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "fill",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#ffffff\"",
+                                          "type": "Literal",
+                                          "value": "#ffffff"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "open",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#ffffff\"",
+                                          "type": "Literal",
+                                          "value": "#ffffff"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "grid",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#c9ebf5\"",
+                                          "type": "Literal",
+                                          "value": "#c9ebf5"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "wall",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#666666\"",
+                                          "type": "Literal",
+                                          "value": "#666666"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "wall_shading",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#666666\"",
+                                          "type": "Literal",
+                                          "value": "#666666"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "door",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#333333\"",
+                                          "type": "Literal",
+                                          "value": "#333333"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "label",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#333333\"",
+                                          "type": "Literal",
+                                          "value": "#333333"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "tag",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"#666666\"",
+                                          "type": "Literal",
+                                          "value": "#666666"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "colorFallbackChain",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "door",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"fill\"",
+                              "type": "Literal",
+                              "value": "fill"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "label",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"fill\"",
+                              "type": "Literal",
+                              "value": "fill"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "stair",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"wall\"",
+                              "type": "Literal",
+                              "value": "wall"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "wall",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"fill\"",
+                              "type": "Literal",
+                              "value": "fill"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "fill",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"black\"",
+                              "type": "Literal",
+                              "value": "black"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "tag",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"white\"",
+                              "type": "Literal",
+                              "value": "white"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    }
+                  ],
+                  "kind": "let",
+                  "type": "VariableDeclaration"
+                }
+              ],
+              "type": "BlockStatement"
+            },
+            "expression": false,
+            "generator": false,
+            "id": null,
+            "params": [
+              {
+                "name": "windowObject",
+                "type": "Identifier"
+              }
+            ],
+            "type": "ArrowFunctionExpression"
+          }
+        ],
+        "callee": {
+          "async": false,
+          "body": {
+            "arguments": [
+              {
+                "name": "windowObject",
+                "type": "Identifier"
+              }
+            ],
+            "callee": {
+              "name": "initHandler",
+              "type": "Identifier"
+            },
+            "type": "CallExpression"
+          },
+          "expression": true,
+          "generator": false,
+          "id": null,
+          "params": [
+            {
+              "name": "windowObject",
+              "type": "Identifier"
+            },
+            {
+              "name": "initHandler",
+              "type": "Identifier"
+            }
+          ],
+          "type": "ArrowFunctionExpression"
+        },
+        "type": "CallExpression"
+      },
+      "type": "ExpressionStatement"
+    }
+  ],
+  "sourceType": "script",
+  "type": "Program"
+}

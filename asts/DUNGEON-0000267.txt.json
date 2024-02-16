@@ -1,0 +1,98 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "test": {
+                                "right": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "ConditionalExpression"
+                            },
+                            "consequent": {
+                              "left": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "operator": "=",
+                              "right": {
+                                "arguments": [
+                                  {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "ya",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "AssignmentExpression"
+                            },
+                            "test": {
+                              "left": {
+                                "raw": "\"saltire\"",
+                                "type": "Literal",
+                                "value": "saltire"
+                              },
+                              "operator": "==",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "dungeon_layout",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

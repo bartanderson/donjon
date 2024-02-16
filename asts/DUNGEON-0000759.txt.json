@@ -1,0 +1,143 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "update": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          }
+                        },
+                        "test": {
+                          "left": {
+                            "name": "dungeonConfig",
+                            "type": "Identifier"
+                          },
+                          "operator": ">",
+                          "right": {
+                            "name": "a",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "selectedDoorStyle",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "calculateStairOffsets",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "dungeonConfig",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "adjacentRoomId",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "alternate": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "selectedDoorStyle",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "stairObject",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "yc",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

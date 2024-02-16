@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          {
+                            "declarations": [
+                              {
+                                "init": {
+                                  "arguments": [
+                                    null,
+                                    null,
+                                    {
+                                      "type": "MemberExpression"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "new_image",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "VariableDeclarator"
+                              },
+                              {
+                                "id": {
+                                  "name": "B",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "arguments": [
+                                    {
+                                      "name": "n",
+                                      "type": "Identifier"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "getColorPalette",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "VariableDeclarator"
+                              }
+                            ],
+                            "kind": "let",
+                            "type": "VariableDeclaration"
+                          },
+                          {
+                            "expression": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "n",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "palette",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

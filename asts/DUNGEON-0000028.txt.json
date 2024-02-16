@@ -1,0 +1,82 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "init": {
+                                                  "arguments": [
+                                                    {
+                                                      "callee": {
+                                                        "type": "MemberExpression"
+                                                      },
+                                                      "type": "CallExpression"
+                                                    }
+                                                  ],
+                                                  "callee": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "Math",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "floor",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

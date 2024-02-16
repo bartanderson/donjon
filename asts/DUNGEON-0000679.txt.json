@@ -1,0 +1,121 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "alternate": {
+                            "consequent": {
+                              "init": {
+                                "expressions": [
+                                  {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  {
+                                    "left": {
+                                      "name": "dungeonConfigObject",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "left": {
+                                        "name": "g",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "/",
+                                      "right": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  {
+                                    "left": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "/=",
+                                    "right": {
+                                      "raw": "3.4641016151",
+                                      "type": "Literal",
+                                      "value": 3.4641016151
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  {
+                                    "left": {
+                                      "name": "c",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "dungeonDimensions",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "width",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

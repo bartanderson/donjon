@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "dungeonState",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "stairObject",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "xc",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

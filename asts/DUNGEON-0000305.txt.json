@@ -1,0 +1,111 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "adjacentRoomId",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "d",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "arguments": [
+                                        {
+                                          "left": {
+                                            "raw": ".57735",
+                                            "type": "Literal",
+                                            "value": 0.57735
+                                          },
+                                          "operator": "*",
+                                          "right": {
+                                            "arguments": [
+                                              {
+                                                "left": {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                "operator": "-",
+                                                "right": {
+                                                  "name": "b",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "BinaryExpression"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "Math",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "abs",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

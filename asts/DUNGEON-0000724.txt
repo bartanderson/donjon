@@ -1,0 +1,9 @@
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[0].type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1] = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].computed = false;
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].object = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].object.name = "stairObject";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].property = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].property.name = "next_col";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].alternate.expression.expressions[1].right.arguments[1].property.type = "Identifier";

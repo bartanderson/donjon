@@ -1,0 +1,106 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "expressions": [
+                                          {
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "raw": ".5",
+                                                      "type": "Literal",
+                                                      "value": 0.5
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "*",
+                                                  "right": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "stairInfo",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "cell",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

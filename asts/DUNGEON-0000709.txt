@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[8].declarations[0].init.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[8].declarations[0].init.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[8].declarations[0].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[8].kind = "let";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[8].type = "VariableDeclaration";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9] = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.object.name = "doorRow";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.property.name = "wall";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[9].expression.left.property.type = "Identifier";

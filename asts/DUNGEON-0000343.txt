@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.operator = "-";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.right.name = "g";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.right.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.left.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.operator = "-";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.computed = false;
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.object = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.object.name = "b";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.property.name = "i";
+json.body[1].expression.arguments[1].body.body[10].body.body[6].consequent.consequent.body[0].declarations[0].init.right.property.type = "Identifier";

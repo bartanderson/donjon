@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.operator = "=";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.object.name = "roomSizeConfig";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.property.name = "huge";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[1].body[2].expression.right.property.type = "Identifier";

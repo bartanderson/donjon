@@ -1,0 +1,125 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "callee": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "drawDoorsOrFeaturesBetweenAdjacentRooms",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonStateConfiguration",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "cellSizeRoomHeightDimensions",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "adjacentRoomId",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "stairsConfig",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "stairsConfig",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "stair",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

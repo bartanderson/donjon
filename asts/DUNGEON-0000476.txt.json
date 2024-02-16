@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "alternate": {
+                                  "alternate": {
+                                    "right": {
+                                      "expressions": [
+                                        {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "|=",
+                                          "right": {
+                                            "raw": "2097152",
+                                            "type": "Literal",
+                                            "value": 2097152
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        {
+                                          "left": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "e",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "key",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

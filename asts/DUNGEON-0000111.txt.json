@@ -1,0 +1,70 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "properties": [
+                                        null,
+                                        {
+                                          "value": {
+                                            "type": "MemberExpression"
+                                          }
+                                        }
+                                      ],
+                                      "type": "ObjectExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "cell_size",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

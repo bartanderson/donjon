@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.operator = "+";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.right.raw = "1";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.right.type = "Literal";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.right.value = 1;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.left.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.operator = "*";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.object.name = "l";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.property.name = "cell_size";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[3].expression.right.left.right.property.type = "Identifier";

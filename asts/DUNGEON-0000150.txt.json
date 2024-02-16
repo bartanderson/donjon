@@ -1,0 +1,126 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "alternate": {
+                                    "left": {
+                                      "right": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "operator": "&&",
+                                    "right": {
+                                      "arguments": [
+                                        {
+                                          "name": "v",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "n",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "p",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "compositeMapLayer",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "drawMap",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "LogicalExpression"
+                                  },
+                                  "consequent": {
+                                    "arguments": [
+                                      {
+                                        "name": "v",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "p",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "compositeMapLayer",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "drawMap",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "name": "p",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "w",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "fill_grid",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

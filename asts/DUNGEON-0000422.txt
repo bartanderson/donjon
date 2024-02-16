@@ -1,0 +1,11 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.left = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.left.name = "b";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.operator = "-";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.right.raw = "1";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.right.type = "Literal";
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.right.value = 1;
+json.body[1].expression.arguments[1].body.body[10].body.body[26].body.expression.expressions[0].left.left.object.property.type = "BinaryExpression";

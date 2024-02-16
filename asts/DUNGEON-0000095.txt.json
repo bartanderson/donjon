@@ -1,0 +1,66 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "right": {
+                                "alternate": {
+                                  "left": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "&&",
+                                  "right": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "A",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "close_arcs",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

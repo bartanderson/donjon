@@ -1,0 +1,193 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "init": {
+                                          "left": {
+                                            "right": {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "var",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "midpointRowCoord",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "left": {
+                                                  "left": {
+                                                    "name": "colIndexForCurrentDirection",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "newColIdxAfterMovingCurrDir",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "operator": "/",
+                                                "right": {
+                                                  "raw": "2",
+                                                  "type": "Literal",
+                                                  "value": 2
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            },
+                                            {
+                                              "id": {
+                                                "name": "midpointColCoord",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "name": "newColIdxAfterMovingCurrDir",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "alternate": {
+                                            "body": [
+                                              {
+                                                "expression": {
+                                                  "left": {
+                                                    "name": "bCorridorCanBeCreatedCurrDir",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "arguments": [
+                                                      {
+                                                        "name": "N",
+                                                        "type": "Identifier"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "elements": [
+                                                          {
+                                                            "left": {
+                                                              "left": {
+                                                                "name": "rowIdxForCurrDirection",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "operator": "+",
+                                                              "right": {
+                                                                "name": "newRowIdxAfterMovingCurrDir",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "operator": "/",
+                                                            "right": {
+                                                              "raw": "2",
+                                                              "type": "Literal",
+                                                              "value": 2
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          {
+                                                            "name": "newRowIdxAfterMovingCurrDir",
+                                                            "type": "Identifier"
+                                                          }
+                                                        ],
+                                                        "type": "ArrayExpression"
+                                                      },
+                                                      "property": {
+                                                        "name": "sort",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

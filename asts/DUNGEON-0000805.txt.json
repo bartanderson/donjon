@@ -1,0 +1,123 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [],
+                                "callee": {
+                                  "name": "initHandler",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "raw": "\"change\"",
+                                    "type": "Literal",
+                                    "value": "change"
+                                  },
+                                  {
+                                    "name": "updateDungeonTitle",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "arguments": [
+                                      {
+                                        "raw": "\"dungeon_name\"",
+                                        "type": "Literal",
+                                        "value": "dungeon_name"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "$",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "property": {
+                                    "name": "observe",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

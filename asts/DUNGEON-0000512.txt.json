@@ -1,0 +1,155 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "alternate": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "right": {
+                                                    "callee": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "type": "ExpressionStatement"
+                                              },
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    {
+                                                      "declarations": [
+                                                        {
+                                                          "id": {
+                                                            "name": "CurrColIndex",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "init": null,
+                                                          "type": "VariableDeclarator"
+                                                        }
+                                                      ],
+                                                      "kind": "let",
+                                                      "type": "VariableDeclaration"
+                                                    },
+                                                    {
+                                                      "body": {
+                                                        "alternate": null,
+                                                        "consequent": {
+                                                          "body": [
+                                                            {
+                                                              "expression": {
+                                                                "left": {
+                                                                  "name": "bCorridorCanBeCreatedCurrDir",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "operator": "=",
+                                                                "right": {
+                                                                  "argument": {
+                                                                    "raw": "1",
+                                                                    "type": "Literal",
+                                                                    "value": 1
+                                                                  },
+                                                                  "operator": "!",
+                                                                  "prefix": true,
+                                                                  "type": "UnaryExpression"
+                                                                },
+                                                                "type": "AssignmentExpression"
+                                                              },
+                                                              "type": "ExpressionStatement"
+                                                            },
+                                                            {
+                                                              "label": {
+                                                                "name": "corridorCreationConditions",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "type": "BreakStatement"
+                                                            }
+                                                          ],
+                                                          "type": "BlockStatement"
+                                                        },
+                                                        "test": {
+                                                          "left": {
+                                                            "computed": true,
+                                                            "object": {
+                                                              "computed": true,
+                                                              "object": {
+                                                                "computed": false,
+                                                                "object": {
+                                                                  "name": "currentDungeonLayoutObj",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "name": "cell",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

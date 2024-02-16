@@ -1,0 +1,59 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "n",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "height",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

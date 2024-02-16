@@ -1,0 +1,128 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "callee": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "body": {
+                                "expression": {
+                                  "left": {
+                                    "left": {
+                                      "raw": "1",
+                                      "type": "Literal",
+                                      "value": 1
+                                    },
+                                    "operator": "<",
+                                    "right": {
+                                      "arguments": [
+                                        {
+                                          "left": {
+                                            "name": "g",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "arguments": [
+                                              {
+                                                "left": {
+                                                  "left": {
+                                                    "name": "c",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "/",
+                                                  "right": {
+                                                    "name": "adjacentRoomId",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "operator": "-",
+                                                "right": {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              {
+                                                "raw": "2",
+                                                "type": "Literal",
+                                                "value": 2
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "Math",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "pow",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

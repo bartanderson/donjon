@@ -1,0 +1,138 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      null,
+                                      null,
+                                      {
+                                        "init": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "var",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "dungeonStateWithStairs",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "name": "stairColumn",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "*",
+                                          "right": {
+                                            "name": "dungeonState",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "let",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "alternate": {
+                                              "alternate": {
+                                                "left": {
+                                                  "left": {
+                                                    "raw": "\"portc\"",
+                                                    "type": "Literal",
+                                                    "value": "portc"
+                                                  },
+                                                  "operator": "==",
+                                                  "right": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "doorRow",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "key",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

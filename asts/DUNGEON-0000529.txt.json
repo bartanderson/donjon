@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "body": {
+                                            "body": {
+                                              "expression": {
+                                                "expressions": [
+                                                  null,
+                                                  {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "|=",
+                                                    "right": {
+                                                      "raw": "4",
+                                                      "type": "Literal",
+                                                      "value": 4
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  }
+                                                ],
+                                                "type": "SequenceExpression"
+                                              },
+                                              "type": "ExpressionStatement"
+                                            },
+                                            "init": {
+                                              "left": {
+                                                "name": "colIndexForCurrentDirection",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "newRowIdxAfterMovingCurrDir",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

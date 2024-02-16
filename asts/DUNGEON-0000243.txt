@@ -1,0 +1,13 @@
+json.body[1].expression.arguments[1].body.body[3].body.body[5].expression.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[5].expression.type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[5].type = "ExpressionStatement";
+json.body[1].expression.arguments[1].body.body[3].body.body[6] = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.object.name = "a";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.property.name = "n_i";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.left.property.type = "Identifier";

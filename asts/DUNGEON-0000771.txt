@@ -1,0 +1,12 @@
+json.body[1].expression.arguments[1].body.body[31].body.body[0].consequent.body[1].expression.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].consequent.body[1].expression.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].consequent.body[1].type = "ExpressionStatement";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].consequent.type = "BlockStatement";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.computed = false;
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.object = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.object.name = "stairObject";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.property = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.property.name = "xc";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].test.property.type = "Identifier";

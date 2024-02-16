@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      {
+                                                        "declarations": [
+                                                          {
+                                                            "init": {
+                                                              "callee": {
+                                                                "object": {
+                                                                  "callee": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "type": "CallExpression"
+                                                                },
+                                                                "property": {
+                                                                  "name": "shift",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

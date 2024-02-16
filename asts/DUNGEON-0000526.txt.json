@@ -1,0 +1,107 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "body": {
+                                            "body": {
+                                              "expression": {
+                                                "expressions": [
+                                                  {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "&=",
+                                                    "right": {
+                                                      "argument": {
+                                                        "raw": "33",
+                                                        "type": "Literal",
+                                                        "value": 33
+                                                      },
+                                                      "operator": "-",
+                                                      "prefix": true,
+                                                      "type": "UnaryExpression"
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  {
+                                                    "left": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "computed": true,
+                                                        "object": {
+                                                          "computed": false,
+                                                          "object": {
+                                                            "name": "currentDungeonLayoutObj",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "name": "cell",
+                                                            "type": "Identifier"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

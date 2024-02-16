@@ -1,0 +1,102 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "body": {
+                                                "body": [
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        null,
+                                                        null,
+                                                        {
+                                                          "expression": {
+                                                            "right": {
+                                                              "left": {
+                                                                "type": "MemberExpression"
+                                                              },
+                                                              "operator": "+",
+                                                              "right": {
+                                                                "computed": true,
+                                                                "object": {
+                                                                  "name": "h",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "raw": "0",
+                                                                  "type": "Literal",
+                                                                  "value": 0
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "init": {
+                                                "callee": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "calculatedStairOffsets",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "arguments": [
+                                                  {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "stairObject",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "row",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

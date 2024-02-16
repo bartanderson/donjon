@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "test": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "ConditionalExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "ta",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeon",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell_size",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

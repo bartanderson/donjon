@@ -1,0 +1,60 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "right": {
+                            "object": {
+                              "type": "MemberExpression"
+                            },
+                            "property": {
+                              "left": {
+                                "name": "b",
+                                "type": "Identifier"
+                              },
+                              "operator": "||",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "room_size",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

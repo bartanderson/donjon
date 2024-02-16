@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "test": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "IfStatement"
+                          },
+                          "test": {
+                            "left": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "operator": "==",
+                            "right": {
+                              "name": "e",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "IfStatement"
+                        },
+                        "consequent": {
+                          "expression": {
+                            "expressions": [
+                              {
+                                "left": {
+                                  "name": "k",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rooms",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

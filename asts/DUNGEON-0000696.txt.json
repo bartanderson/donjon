@@ -1,0 +1,215 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "alternate": {
+                                              "alternate": {
+                                                "left": {
+                                                  "right": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "operator": "&&",
+                                                "right": {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "properties": [
+                                                      {
+                                                        "computed": false,
+                                                        "key": {
+                                                          "name": "arch",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "type": "Property",
+                                                        "value": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        }
+                                                      },
+                                                      {
+                                                        "computed": false,
+                                                        "key": {
+                                                          "name": "portc",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "kind": "init",
+                                                        "method": false,
+                                                        "shorthand": false,
+                                                        "type": "Property",
+                                                        "value": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        }
+                                                      }
+                                                    ],
+                                                    "type": "ObjectExpression"
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "type": "LogicalExpression"
+                                              },
+                                              "consequent": {
+                                                "left": {
+                                                  "name": "u",
+                                                  "type": "Identifier"
+                                                },
+                                                "operator": "=",
+                                                "right": {
+                                                  "properties": [
+                                                    {
+                                                      "computed": false,
+                                                      "key": {
+                                                        "name": "wall",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "kind": "init",
+                                                      "method": false,
+                                                      "shorthand": false,
+                                                      "type": "Property",
+                                                      "value": {
+                                                        "raw": "1",
+                                                        "type": "Literal",
+                                                        "value": 1
+                                                      }
+                                                    },
+                                                    {
+                                                      "computed": false,
+                                                      "key": {
+                                                        "name": "arch",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "kind": "init",
+                                                      "method": false,
+                                                      "shorthand": false,
+                                                      "type": "Property",
+                                                      "value": {
+                                                        "raw": "1",
+                                                        "type": "Literal",
+                                                        "value": 1
+                                                      }
+                                                    },
+                                                    {
+                                                      "computed": false,
+                                                      "key": {
+                                                        "name": "secret",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "kind": "init",
+                                                      "method": false,
+                                                      "shorthand": false,
+                                                      "type": "Property",
+                                                      "value": {
+                                                        "raw": "1",
+                                                        "type": "Literal",
+                                                        "value": 1
+                                                      }
+                                                    }
+                                                  ],
+                                                  "type": "ObjectExpression"
+                                                },
+                                                "type": "AssignmentExpression"
+                                              },
+                                              "test": {
+                                                "left": {
+                                                  "raw": "\"secret\"",
+                                                  "type": "Literal",
+                                                  "value": "secret"
+                                                },
+                                                "operator": "==",
+                                                "right": {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "doorRow",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "key",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

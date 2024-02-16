@@ -1,0 +1,78 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "consequent": {
+                              "expressions": [
+                                {
+                                  "right": {
+                                    "left": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "-",
+                                      "right": {
+                                        "name": "g",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "operator": "-",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "b",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "j",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

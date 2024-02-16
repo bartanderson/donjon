@@ -1,0 +1,102 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "callee": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "type": "CallExpression"
+                                                },
+                                                "type": "ExpressionStatement"
+                                              },
+                                              {
+                                                "expression": {
+                                                  "alternate": {
+                                                    "left": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "room",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "door",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

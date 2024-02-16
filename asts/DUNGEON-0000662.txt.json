@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "left": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "operator": "&&",
+                          "right": {
+                            "arguments": [
+                              {
+                                "async": false,
+                                "body": {
+                                  "body": [
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "computed": true,
+                                          "object": {
+                                            "name": "palette",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "style",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

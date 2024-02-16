@@ -1,0 +1,115 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "test": {
+                                            "right": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "IfStatement"
+                                        },
+                                        {
+                                          "alternate": null,
+                                          "consequent": {
+                                            "expression": {
+                                              "left": {
+                                                "name": "dungeonObject",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "dungeonObject",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "left": {
+                                                      "name": "rowIndex",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "name": "c",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "raw": "0",
+                                                        "type": "Literal",
+                                                        "value": 0
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

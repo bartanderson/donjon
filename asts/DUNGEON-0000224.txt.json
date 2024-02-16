@@ -1,0 +1,136 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              {
+                                "declarations": [
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "type": "MemberExpression"
+                                        },
+                                        {
+                                          "raw": "\"label\"",
+                                          "type": "Literal",
+                                          "value": "label"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "getColorFromPalette",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "r",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "x",
+                                            "type": "Identifier"
+                                          },
+                                          "init": null,
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "body": {
+                                        "body": [
+                                          {
+                                            "alternate": null,
+                                            "consequent": {
+                                              "label": null,
+                                              "type": "ContinueStatement"
+                                            },
+                                            "test": {
+                                              "argument": {
+                                                "left": {
+                                                  "computed": true,
+                                                  "object": {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "v",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "cell",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

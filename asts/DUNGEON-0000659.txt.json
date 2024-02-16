@@ -1,0 +1,91 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "right": {
+                                  "test": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "ConditionalExpression"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "consequent": {
+                          "expression": {
+                            "left": {
+                              "name": "palette",
+                              "type": "Identifier"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "computed": false,
+                              "object": {
+                                "name": "inputObject",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "palette",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

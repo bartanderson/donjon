@@ -1,0 +1,98 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "test": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "r",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "arguments": [
+                                    {
+                                      "name": "applyWallShading",
+                                      "type": "Identifier"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "draw_pixels",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "expression": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "v",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "door",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

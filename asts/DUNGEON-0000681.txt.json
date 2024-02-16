@@ -1,0 +1,143 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "alternate": {
+                            "consequent": {
+                              "init": {
+                                "expressions": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "right": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "/",
+                                      "right": {
+                                        "left": {
+                                          "raw": "3",
+                                          "type": "Literal",
+                                          "value": 3
+                                        },
+                                        "operator": "*",
+                                        "right": {
+                                          "name": "g",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  {
+                                    "left": {
+                                      "name": "e",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "raw": "0",
+                                      "type": "Literal",
+                                      "value": 0
+                                    },
+                                    "type": "AssignmentExpression"
+                                  }
+                                ],
+                                "type": "SequenceExpression"
+                              },
+                              "test": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<",
+                                "right": {
+                                  "name": "dungeonDimensions",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "ForStatement",
+                              "update": {
+                                "argument": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "++",
+                                "prefix": false,
+                                "type": "UpdateExpression"
+                              }
+                            },
+                            "test": {
+                              "left": {
+                                "raw": "\"vex\"",
+                                "type": "Literal",
+                                "value": "vex"
+                              },
+                              "operator": "==",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "dungeonConfigObject",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "grid",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].test.right.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].test.right.property = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].test.right.property.name = "recurse";
+json.body[1].expression.arguments[1].body.body[21].body.body[2].expression.arguments[0].body.body[0].consequent.body[3].test.right.property.type = "Identifier";

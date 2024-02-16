@@ -1,0 +1,113 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "body": {
+                                              "body": [
+                                                null,
+                                                null,
+                                                null,
+                                                {
+                                                  "expression": {
+                                                    "right": {
+                                                      "test": {
+                                                        "left": {
+                                                          "argument": {
+                                                            "callee": {
+                                                              "type": "MemberExpression"
+                                                            },
+                                                            "type": "CallExpression"
+                                                          },
+                                                          "operator": "!",
+                                                          "prefix": true,
+                                                          "type": "UnaryExpression"
+                                                        },
+                                                        "operator": "||",
+                                                        "right": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "D",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "raw": "/[hjkl]/",
+                                                              "regex": {
+                                                                "flags": "",
+                                                                "pattern": "[hjkl]"
+                                                              },
+                                                              "type": "Literal",
+                                                              "value": {}
+                                                            },
+                                                            "property": {
+                                                              "name": "test",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

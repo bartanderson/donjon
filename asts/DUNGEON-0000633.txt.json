@@ -1,0 +1,138 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          null,
+                                                          {
+                                                            "consequent": {
+                                                              "alternate": {
+                                                                "body": [
+                                                                  null,
+                                                                  null,
+                                                                  {
+                                                                    "expression": {
+                                                                      "left": {
+                                                                        "type": "MemberExpression"
+                                                                      },
+                                                                      "operator": "=",
+                                                                      "right": {
+                                                                        "argument": {
+                                                                          "raw": "0",
+                                                                          "type": "Literal",
+                                                                          "value": 0
+                                                                        },
+                                                                        "operator": "!",
+                                                                        "prefix": true,
+                                                                        "type": "UnaryExpression"
+                                                                      },
+                                                                      "type": "AssignmentExpression"
+                                                                    },
+                                                                    "type": "ExpressionStatement"
+                                                                  }
+                                                                ],
+                                                                "type": "BlockStatement"
+                                                              },
+                                                              "consequent": {
+                                                                "expression": {
+                                                                  "arguments": [
+                                                                    {
+                                                                      "name": "door",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  ],
+                                                                  "callee": {
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                      "name": "connectedDoors",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "push",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

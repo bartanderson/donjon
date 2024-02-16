@@ -1,0 +1,123 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            {
+                              "test": {
+                                "right": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "-",
+                                  "right": {
+                                    "raw": "3",
+                                    "type": "Literal",
+                                    "value": 3
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "IfStatement"
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "consequent": {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "async": false,
+                                "body": {
+                                  "body": [
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "name": "subCriteria",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "dungeonLayout",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "subCriteria",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "calculatePotentialDoorConnections",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "subCriteria",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "length",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "right": {
+                                          "arguments": [
+                                            null,
+                                            null,
+                                            {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            {
+                                              "name": "g",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "generateCorridors",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "LogicalExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "name": "g",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "arguments": [
+                                {
+                                  "name": "dungeonLayoutObject",
+                                  "type": "Identifier"
+                                },
+                                {
+                                  "name": "configSettingsForDungeonGeneration",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "name": "shuffleDirections",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "property": {
+                              "name": "forEach",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

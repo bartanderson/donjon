@@ -1,0 +1,101 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "expression": {
+                                            "right": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        },
+                                        {
+                                          "body": {
+                                            "body": {
+                                              "expression": {
+                                                "expressions": [
+                                                  {
+                                                    "left": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "computed": true,
+                                                        "object": {
+                                                          "computed": false,
+                                                          "object": {
+                                                            "name": "currentDungeonLayoutObj",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "name": "cell",
+                                                            "type": "Identifier"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

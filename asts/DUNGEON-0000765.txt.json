@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "consequent": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "selectedDoorStyle",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "stairObject",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "xc",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

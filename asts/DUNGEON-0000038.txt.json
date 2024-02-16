@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "consequent": {
+                                                "body": [
+                                                  null,
+                                                  {
+                                                    "test": {
+                                                      "right": {
+                                                        "type": "MemberExpression"
+                                                      },
+                                                      "type": "AssignmentExpression"
+                                                    },
+                                                    "type": "IfStatement"
+                                                  }
+                                                ],
+                                                "type": "BlockStatement"
+                                              },
+                                              "test": {
+                                                "argument": {
+                                                  "left": {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "dungeonState",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "cell",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

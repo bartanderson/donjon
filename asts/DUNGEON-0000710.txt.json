@@ -1,0 +1,173 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "&&",
+                                      "right": {
+                                        "alternate": {
+                                          "arguments": [
+                                            {
+                                              "name": "adjacentRoomId",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "dungeonStateWithStairs",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "u",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "stairColumn",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "u",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "roomId",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "draw_line",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "consequent": {
+                                          "arguments": [
+                                            {
+                                              "name": "adjacentRoomId",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "mapStyleInfo",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "y",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "mapStyleInfo",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "z",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "roomId",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "draw_line",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "test": {
+                                          "name": "dungeonStateWithoutWallFlags",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "ConditionalExpression"
+                                      },
+                                      "type": "LogicalExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "doorRow",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "arch",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

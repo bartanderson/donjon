@@ -1,0 +1,122 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "left": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "operator": "&&",
+                                "right": {
+                                  "left": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "arguments": [
+                                      {
+                                        "name": "a",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "Aa",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "LogicalExpression"
+                              },
+                              "consequent": {
+                                "left": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "arguments": [
+                                    {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "za",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "test": {
+                                "left": {
+                                  "raw": "\"hexagon\"",
+                                  "type": "Literal",
+                                  "value": "hexagon"
+                                },
+                                "operator": "==",
+                                "right": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "dungeon_layout",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

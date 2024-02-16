@@ -1,0 +1,9 @@
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.arguments[0].type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee = {};
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.computed = false;
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.object = {};
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.object.name = "Object";
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.property = {};
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.property.name = "keys";
+json.body[1].expression.arguments[1].body.body[35].expression.arguments[1].body.body[0].expression.arguments[0].body.body[0].expression.callee.object.callee.property.type = "Identifier";

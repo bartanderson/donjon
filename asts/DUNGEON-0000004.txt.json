@@ -1,0 +1,56 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "roomSizeConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "huge",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

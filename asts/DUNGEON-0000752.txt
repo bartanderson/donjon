@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[1].callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[1].type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2] = {};
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].left = {};
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].left.name = "dungeonConfig";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].operator = "*=";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right = {};
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.computed = false;
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.object = {};
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.object.name = "adjacentRoomId";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.property = {};
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.property.name = "cell";
+json.body[1].expression.arguments[1].body.body[30].body.body[1].alternate.consequent.init.expressions[2].right.property.type = "Identifier";

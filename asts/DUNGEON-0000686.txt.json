@@ -1,0 +1,79 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "test": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "IfStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "raw": "\"none\"",
+                            "type": "Literal",
+                            "value": "none"
+                          },
+                          "operator": "!=",
+                          "right": {
+                            "computed": false,
+                            "object": {
+                              "name": "dungeonConfigObject",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "grid",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

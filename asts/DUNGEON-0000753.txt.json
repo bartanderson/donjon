@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "init": {
+                              "expressions": [
+                                null,
+                                null,
+                                {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                }
+                              ],
+                              "type": "SequenceExpression"
+                            },
+                            "test": {
+                              "left": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "operator": ">",
+                              "right": {
+                                "name": "dungeonConfig",
+                                "type": "Identifier"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "ForStatement",
+                            "update": {
+                              "left": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "operator": "-=",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "adjacentRoomId",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "tread",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

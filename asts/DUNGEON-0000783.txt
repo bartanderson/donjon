@@ -1,0 +1,2 @@
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.type = "CallExpression";

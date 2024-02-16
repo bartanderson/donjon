@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].left.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].left.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].operator = "/";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].right = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].right.name = "b";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].right.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.arguments[0].type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.computed = false;
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.object = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.object.name = "Math";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.property = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.property.name = "floor";
+json.body[1].expression.arguments[1].body.body[3].body.body[6].expression.right.callee.property.type = "Identifier";

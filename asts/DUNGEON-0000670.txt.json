@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "type": "MemberExpression"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "raw": "\"#ffffff\"",
+                              "type": "Literal",
+                              "value": "#ffffff"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "palette",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "getColorPalette",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "inputObject",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "alternate": null,
+                              "consequent": {
+                                "argument": {
+                                  "computed": true,
+                                  "object": {
+                                    "name": "palette",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "colorKey",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

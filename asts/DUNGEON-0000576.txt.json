@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "consequent": {
+                          "test": {
+                            "expressions": [
+                              {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "left": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "operator": "&&",
+                                              "right": {
+                                                "left": {
+                                                  "computed": true,
+                                                  "object": {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "name": "a",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "left": {
+                                                        "name": "b",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "computed": true,
+                                                        "object": {
+                                                          "name": "e",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "raw": "0",
+                                                          "type": "Literal",
+                                                          "value": 0
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

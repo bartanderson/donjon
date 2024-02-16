@@ -1,0 +1,17 @@
+json.body[1].expression.arguments[1].body.body[25].body.body[0].consequent.test.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].consequent.test.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].consequent.type = "IfStatement";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test = {};
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.left = {};
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.left.raw = "\"none\"";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.left.type = "Literal";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.left.value = "none";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.operator = "!=";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right = {};
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.computed = false;
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.object = {};
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.object.name = "dungeonConfigObject";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.property = {};
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.property.name = "grid";
+json.body[1].expression.arguments[1].body.body[25].body.body[0].test.right.property.type = "Identifier";

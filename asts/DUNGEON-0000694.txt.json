@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "init": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      },
+                                      {
+                                        "id": {
+                                          "name": "y",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "name": "z",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "*",
+                                          "right": {
+                                            "name": "dungeonState",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      },
+                                      {
+                                        "id": {
+                                          "name": "stairColumn",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "doorRow",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "col",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

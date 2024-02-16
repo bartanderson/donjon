@@ -1,0 +1,136 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "&&",
+                              "right": {
+                                "left": {
+                                  "name": "A",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "arguments": [
+                                    {
+                                      "name": "A",
+                                      "type": "Identifier"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "ha",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "type": "LogicalExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          {
+                            "expression": {
+                              "left": {
+                                "name": "A",
+                                "type": "Identifier"
+                              },
+                              "operator": "=",
+                              "right": {
+                                "arguments": [
+                                  {
+                                    "name": "A",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "ensureConsistentRoomConnections",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "AssignmentExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "u",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "A",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "B",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "u",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

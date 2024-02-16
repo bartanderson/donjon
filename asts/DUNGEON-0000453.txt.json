@@ -1,0 +1,140 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          null,
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "argument": {
+                            "argument": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "operator": "!",
+                            "prefix": true,
+                            "type": "UnaryExpression"
+                          },
+                          "type": "ReturnStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "argument": {
+                              "left": {
+                                "name": "h",
+                                "type": "Identifier"
+                              },
+                              "operator": "&",
+                              "right": {
+                                "raw": "16",
+                                "type": "Literal",
+                                "value": 16
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "operator": "!",
+                            "prefix": true,
+                            "type": "UnaryExpression"
+                          },
+                          "operator": "||",
+                          "right": {
+                            "left": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "operator": "&",
+                            "right": {
+                              "raw": "4128769",
+                              "type": "Literal",
+                              "value": 4128769
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "dungeonLayout2DGrid",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": true,
+                            "object": {
+                              "computed": true,
+                              "object": {
+                                "name": "dungeonLayout2DGrid",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "left": {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "computed": true,
+                                  "object": {
+                                    "name": "directionRowOffsets",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "doorDirection",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

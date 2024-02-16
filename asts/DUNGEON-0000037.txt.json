@@ -1,0 +1,118 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "consequent": {
+                                                "body": [
+                                                  null,
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        null,
+                                                        {
+                                                          "expression": {
+                                                            "right": {
+                                                              "expressions": [
+                                                                null,
+                                                                {
+                                                                  "left": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "operator": "=",
+                                                                  "right": {
+                                                                    "raw": "1",
+                                                                    "type": "Literal",
+                                                                    "value": 1
+                                                                  },
+                                                                  "type": "AssignmentExpression"
+                                                                }
+                                                              ],
+                                                              "type": "SequenceExpression"
+                                                            },
+                                                            "type": "LogicalExpression"
+                                                          },
+                                                          "type": "ExpressionStatement"
+                                                        }
+                                                      ],
+                                                      "type": "BlockStatement"
+                                                    },
+                                                    "test": {
+                                                      "left": {
+                                                        "name": "r",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "operator": "=",
+                                                      "right": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "p",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "out_id",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

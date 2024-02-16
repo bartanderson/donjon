@@ -1,0 +1,80 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": {
+                              "body": [
+                                {
+                                  "declarations": [
+                                    null,
+                                    {
+                                      "init": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "VariableDeclarator"
+                                    }
+                                  ],
+                                  "kind": "let",
+                                  "type": "VariableDeclaration"
+                                },
+                                {
+                                  "expression": {
+                                    "left": {
+                                      "computed": true,
+                                      "object": {
+                                        "name": "f",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "d",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

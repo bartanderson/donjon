@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "consequent": {
+                                  "expressions": [
+                                    null,
+                                    {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "=",
+                                      "right": {
+                                        "raw": "\"trap\"",
+                                        "type": "Literal",
+                                        "value": "trap"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "e",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "type",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

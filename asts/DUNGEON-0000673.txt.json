@@ -1,0 +1,136 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "right": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "init": null,
+                        "test": {
+                          "name": "colorKey",
+                          "type": "Identifier"
+                        },
+                        "type": "ForStatement",
+                        "update": null
+                      },
+                      {
+                        "argument": {
+                          "raw": "\"#000000\"",
+                          "type": "Literal",
+                          "value": "#000000"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "getColorFromPalette",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "palette",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "colorKey",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "alternate": {
+                            "alternate": {
+                              "body": [
+                                {
+                                  "expression": {
+                                    "left": {
+                                      "name": "dungeonConfigObject",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "dungeonDimensions",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell_size",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

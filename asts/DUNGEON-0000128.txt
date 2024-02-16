@@ -1,0 +1,9 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[1].type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].object.name = "n";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].property.name = "height";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[1].declarations[0].init.arguments[2].property.type = "Identifier";

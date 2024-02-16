@@ -1,0 +1,193 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "p",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "arguments": [
+                                    {
+                                      "argument": {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      "operator": "!",
+                                      "prefix": true,
+                                      "type": "UnaryExpression"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "cache_pixels",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "r",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "x",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "r",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "*",
+                                            "right": {
+                                              "name": "l",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "E",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "x",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "name": "l",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "C",
+                                            "type": "Identifier"
+                                          },
+                                          "init": null,
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "body": {
+                                        "body": [
+                                          {
+                                            "alternate": null,
+                                            "consequent": {
+                                              "label": null,
+                                              "type": "ContinueStatement"
+                                            },
+                                            "test": {
+                                              "argument": {
+                                                "left": {
+                                                  "computed": true,
+                                                  "object": {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "v",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "cell",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

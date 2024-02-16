@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "=",
+                              "right": {
+                                "name": "B",
+                                "type": "Identifier"
+                              },
+                              "type": "AssignmentExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "raw": "\"canvas\"",
+                                          "type": "Literal",
+                                          "value": "canvas"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "Element",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "NewExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "width",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

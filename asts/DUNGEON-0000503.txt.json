@@ -1,0 +1,107 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "consequent": {
+                            "expressions": [
+                              null,
+                              null,
+                              {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "raw": "\"Archway\"",
+                                  "type": "Literal",
+                                  "value": "Archway"
+                                },
+                                "type": "AssignmentExpression"
+                              }
+                            ],
+                            "type": "SequenceExpression"
+                          },
+                          "test": {
+                            "left": {
+                              "raw": "65536",
+                              "type": "Literal",
+                              "value": 65536
+                            },
+                            "operator": "==",
+                            "right": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "ConditionalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "&&",
+                          "right": {
+                            "left": {
+                              "computed": false,
+                              "object": {
+                                "name": "e",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "out_id",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

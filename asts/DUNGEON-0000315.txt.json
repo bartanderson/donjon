@@ -1,0 +1,119 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "/",
+                              "right": {
+                                "raw": "2",
+                                "type": "Literal",
+                                "value": 2
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "selectedDoorStyle",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "g",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "arguments": [
+                                      {
+                                        "left": {
+                                          "left": {
+                                            "name": "selectedDoorStyle",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "/",
+                                          "right": {
+                                            "name": "b",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "operator": "-",
+                                        "right": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      }
+                                    ],
+                                    "callee": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "Math",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "pow",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

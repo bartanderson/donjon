@@ -1,0 +1,13 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.operator = "=";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.object.name = "v";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.property.name = "n_cols";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[2].expression.right.left.left.left.property.type = "Identifier";

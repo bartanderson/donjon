@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.operator = "-";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.object.name = "currentRoom";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.property.name = "north";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[2].body[3].body.body.body[4].body[0].declarations[0].init.arguments[0].arguments[0].right.left.left.right.property.type = "Identifier";

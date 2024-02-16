@@ -1,0 +1,164 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "declarations": [
+                                            null,
+                                            {
+                                              "init": {
+                                                "callee": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "roomHeight",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "properties": [
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "xc",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  }
+                                                },
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "y1",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "k",
+                                                    "type": "Identifier"
+                                                  }
+                                                },
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "list",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "calculatedStairOffsets",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              ],
+                                              "type": "ObjectExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "test": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "stairObject",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "next_row",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

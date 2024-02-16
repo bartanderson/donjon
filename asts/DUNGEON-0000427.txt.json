@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "expression": {
+                            "expressions": [
+                              {
+                                "right": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "|=",
+                                  "right": {
+                                    "raw": "16",
+                                    "type": "Literal",
+                                    "value": 16
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "LogicalExpression"
+                              },
+                              {
+                                "left": {
+                                  "left": {
+                                    "computed": true,
+                                    "object": {
+                                      "computed": true,
+                                      "object": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "a",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

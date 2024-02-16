@@ -1,0 +1,198 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            {
+                                              "declarations": [
+                                                {
+                                                  "init": {
+                                                    "callee": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  "type": "VariableDeclarator"
+                                                }
+                                              ],
+                                              "kind": "let",
+                                              "type": "VariableDeclaration"
+                                            },
+                                            {
+                                              "alternate": null,
+                                              "consequent": {
+                                                "label": null,
+                                                "type": "BreakStatement"
+                                              },
+                                              "test": {
+                                                "argument": {
+                                                  "name": "p",
+                                                  "type": "Identifier"
+                                                },
+                                                "operator": "!",
+                                                "prefix": true,
+                                                "type": "UnaryExpression"
+                                              },
+                                              "type": "IfStatement"
+                                            },
+                                            {
+                                              "alternate": null,
+                                              "consequent": {
+                                                "body": [
+                                                  {
+                                                    "declarations": [
+                                                      {
+                                                        "id": {
+                                                          "name": "r",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "init": null,
+                                                        "type": "VariableDeclarator"
+                                                      }
+                                                    ],
+                                                    "kind": "let",
+                                                    "type": "VariableDeclaration"
+                                                  },
+                                                  {
+                                                    "alternate": {
+                                                      "expression": {
+                                                        "left": {
+                                                          "name": "dungeonState",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "dungeonState",
+                                                              "type": "Identifier"
+                                                            },
+                                                            {
+                                                              "name": "currentRoom",
+                                                              "type": "Identifier"
+                                                            },
+                                                            {
+                                                              "name": "p",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "name": "da",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "AssignmentExpression"
+                                                      },
+                                                      "type": "ExpressionStatement"
+                                                    },
+                                                    "consequent": {
+                                                      "body": [
+                                                        {
+                                                          "declarations": [
+                                                            {
+                                                              "id": {
+                                                                "name": "x",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "init": {
+                                                                "arguments": [
+                                                                  {
+                                                                    "raw": "\",\"",
+                                                                    "type": "Literal",
+                                                                    "value": ","
+                                                                  }
+                                                                ],
+                                                                "callee": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "arguments": [
+                                                                      {
+                                                                        "name": "N",
+                                                                        "type": "Identifier"
+                                                                      }
+                                                                    ],
+                                                                    "callee": {
+                                                                      "computed": false,
+                                                                      "object": {
+                                                                        "elements": [
+                                                                          {
+                                                                            "computed": false,
+                                                                            "object": {
+                                                                              "name": "currentRoom",
+                                                                              "type": "Identifier"
+                                                                            },
+                                                                            "property": {
+                                                                              "name": "id",
+                                                                              "type": "Identifier"
+                                                                            }
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "expression": {
+                                  "left": {
+                                    "right": {
+                                      "arguments": [
+                                        {
+                                          "right": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "BinaryExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "Math",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "sqrt",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "expression": {
+                                          "right": {
+                                            "left": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "raw": "0",
+                                              "type": "Literal",
+                                              "value": 0
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "LogicalExpression"
+                                        },
+                                        "type": "ExpressionStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "q",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "q",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "u",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "n_cols",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

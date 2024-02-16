@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "alternate": {
+                          "alternate": {
+                            "argument": {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            "type": "ReturnStatement"
+                          },
+                          "consequent": {
+                            "alternate": {
+                              "argument": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "type": "ReturnStatement"
+                            },
+                            "consequent": {
+                              "body": [
+                                {
+                                  "alternate": null,
+                                  "consequent": {
+                                    "argument": {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "ReturnStatement"
+                                  },
+                                  "test": {
+                                    "expressions": [
+                                      {
+                                        "left": {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "computed": true,
+                                          "object": {
+                                            "name": "k",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

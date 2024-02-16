@@ -1,0 +1,196 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "callee": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "drawStairs",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "stairsConfig",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "dungeonDimensions",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "adjacentRoomId",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "a",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "properties": [
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "cell",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "len",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "left": {
+                                    "raw": "2",
+                                    "type": "Literal",
+                                    "value": 2
+                                  },
+                                  "operator": "*",
+                                  "right": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "BinaryExpression"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "side",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "arguments": [
+                                    {
+                                      "left": {
+                                        "name": "a",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "/",
+                                      "right": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "type": "BinaryExpression"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "Math",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "floor",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

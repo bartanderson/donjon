@@ -1,0 +1,107 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "body": {
+                                                "body": [
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        null,
+                                                        null,
+                                                        {
+                                                          "expression": {
+                                                            "right": {
+                                                              "right": {
+                                                                "type": "MemberExpression"
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "type": "AssignmentExpression"
+                                                          },
+                                                          "type": "ExpressionStatement"
+                                                        },
+                                                        {
+                                                          "expression": {
+                                                            "left": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "name": "k",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "property": {
+                                                                "name": "next_col",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

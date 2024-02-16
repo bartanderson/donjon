@@ -1,0 +1,114 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "alternate": {
+                                            "body": [
+                                              {
+                                                "expression": {
+                                                  "right": {
+                                                    "callee": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "CallExpression"
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "type": "ExpressionStatement"
+                                              },
+                                              {
+                                                "expression": {
+                                                  "left": {
+                                                    "name": "midpointRowCoord",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "arguments": [
+                                                      {
+                                                        "name": "N",
+                                                        "type": "Identifier"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "elements": [
+                                                          {
+                                                            "name": "midpointRowCoord",
+                                                            "type": "Identifier"
+                                                          },
+                                                          {
+                                                            "name": "midpointColCoord",
+                                                            "type": "Identifier"
+                                                          }
+                                                        ],
+                                                        "type": "ArrayExpression"
+                                                      },
+                                                      "property": {
+                                                        "name": "sort",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

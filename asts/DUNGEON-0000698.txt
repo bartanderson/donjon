@@ -1,0 +1,13 @@
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.arguments[0].type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.computed = false;
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.raw = "/Lock/";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.regex = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.regex.flags = "";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.regex.pattern = "Lock";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.type = "Literal";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.object.value = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.property = {};
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.property.name = "test";
+json.body[1].expression.arguments[1].body.body[27].body.body[3].expression.arguments[0].body.body[2].alternate.expression.alternate.alternate.consequent.expressions[1].left.callee.property.type = "Identifier";

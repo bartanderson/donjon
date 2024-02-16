@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].operator = "|=";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].right.raw = "8388608";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].right.type = "Literal";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].right.value = 8388608;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[0].type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.object.name = "l";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.property.name = "key";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[3].expression.alternate.expressions[1].left.property.type = "Identifier";

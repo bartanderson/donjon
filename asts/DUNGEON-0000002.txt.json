@@ -1,0 +1,75 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          {
+                            "declarations": [
+                              {
+                                "init": {
+                                  "callee": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "VariableDeclarator"
+                              }
+                            ],
+                            "kind": "let",
+                            "type": "VariableDeclaration"
+                          },
+                          {
+                            "expression": {
+                              "arguments": [
+                                {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "arguments": [
+                                    {
+                                      "raw": "\"dungeon_title\"",
+                                      "type": "Literal",
+                                      "value": "dungeon_title"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "name": "$",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "property": {
+                                  "name": "update",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

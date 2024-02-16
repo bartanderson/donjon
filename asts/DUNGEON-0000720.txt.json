@@ -1,0 +1,127 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "declarations": [
+                          null,
+                          {
+                            "init": {
+                              "arguments": [
+                                {
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "raw": "\"stair\"",
+                                  "type": "Literal",
+                                  "value": "stair"
+                                }
+                              ],
+                              "callee": {
+                                "name": "getColorFromPalette",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "async": false,
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "expressions": [
+                                          {
+                                            "left": {
+                                              "name": "roomHeight",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "stairObject",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "row",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

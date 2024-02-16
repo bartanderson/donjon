@@ -1,0 +1,119 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          null,
+                                                          {
+                                                            "consequent": {
+                                                              "alternate": {
+                                                                "body": [
+                                                                  null,
+                                                                  {
+                                                                    "expression": {
+                                                                      "callee": {
+                                                                        "type": "MemberExpression"
+                                                                      },
+                                                                      "type": "CallExpression"
+                                                                    },
+                                                                    "type": "ExpressionStatement"
+                                                                  },
+                                                                  {
+                                                                    "expression": {
+                                                                      "left": {
+                                                                        "computed": true,
+                                                                        "object": {
+                                                                          "name": "roomConnections",
+                                                                          "type": "Identifier"
+                                                                        },
+                                                                        "property": {
+                                                                          "name": "rowIndex",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

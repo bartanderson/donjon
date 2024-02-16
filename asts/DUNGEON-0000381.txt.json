@@ -1,0 +1,124 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "consequent": {
+                          "expression": {
+                            "expressions": [
+                              null,
+                              {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "name": "k",
+                                  "type": "Identifier"
+                                },
+                                "type": "AssignmentExpression"
+                              }
+                            ],
+                            "type": "SequenceExpression"
+                          },
+                          "type": "ExpressionStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "==",
+                          "right": {
+                            "name": "e",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "body": {
+                          "body": {
+                            "expression": {
+                              "expressions": [
+                                {
+                                  "alternate": {
+                                    "left": {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "computed": true,
+                                          "object": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "a",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "cell",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

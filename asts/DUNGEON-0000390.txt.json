@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": {
+                            "expression": {
+                              "expressions": [
+                                {
+                                  "consequent": {
+                                    "left": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "operator": "&=",
+                                    "right": {
+                                      "raw": "12648415",
+                                      "type": "Literal",
+                                      "value": 12648415
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "computed": true,
+                                      "object": {
+                                        "computed": true,
+                                        "object": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "a",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "cell",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

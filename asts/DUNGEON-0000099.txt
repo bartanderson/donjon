@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.left.raw = "\"errant\"";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.left.type = "Literal";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.left.value = "errant";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.operator = "==";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.object.name = "A";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.property.name = "corridor_layout";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.property.type = "Identifier";

@@ -1,0 +1,161 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "declarations": [
+                                null,
+                                null,
+                                {
+                                  "init": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "alternate": null,
+                              "consequent": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "c",
+                                          "type": "Identifier"
+                                        },
+                                        "init": null,
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "var",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "potentialDoor",
+                                                "type": "Identifier"
+                                              },
+                                              "init": null,
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "let",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "left": {
+                                                "name": "potentialDoor",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "grid",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "roomCriteria",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "northBoundary",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "c",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "raw": "\"north\"",
+                                                    "type": "Literal",
+                                                    "value": "north"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "canDoorBePLaced",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "operator": "&&",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "name": "potentialDoor",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "potentialDoorLocations",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "push",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

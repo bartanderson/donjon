@@ -1,0 +1,992 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "&&",
+                                      "right": {
+                                        "alternate": {
+                                          "expressions": [
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "name": "mapStyleInfo",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "-",
+                                                    "right": {
+                                                      "name": "roomHeight",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "name": "mapStyleInfo",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "mapStyleInfo",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "name": "mapStyleInfo",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "name": "roomHeight",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            }
+                                          ],
+                                          "type": "SequenceExpression"
+                                        },
+                                        "consequent": {
+                                          "expressions": [
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "name": "u",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "-",
+                                                    "right": {
+                                                      "name": "roomHeight",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "u",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "u",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "name": "u",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "name": "roomHeight",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            {
+                                              "arguments": [
+                                                {
+                                                  "name": "adjacentRoomId",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "-",
+                                                  "right": {
+                                                    "raw": "2",
+                                                    "type": "Literal",
+                                                    "value": 2
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "mapStyleInfo",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "left": {
+                                                    "name": "u",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "+",
+                                                  "right": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                {
+                                                  "name": "m",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "draw_line",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            }
+                                          ],
+                                          "type": "SequenceExpression"
+                                        },
+                                        "test": {
+                                          "name": "dungeonStateWithoutWallFlags",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "ConditionalExpression"
+                                      },
+                                      "type": "LogicalExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "alternate": null,
+                                    "consequent": {
+                                      "alternate": {
+                                        "body": {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "name": "adjacentRoomId",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "y",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "u",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "m",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "set_pixel",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "left": {
+                                              "left": {
+                                                "name": "dungeonStateWithStairs",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "test": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "<",
+                                          "right": {
+                                            "left": {
+                                              "name": "stairColumn",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "-",
+                                            "right": {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "ForStatement",
+                                        "update": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "+=",
+                                          "right": {
+                                            "raw": "2",
+                                            "type": "Literal",
+                                            "value": 2
+                                          },
+                                          "type": "AssignmentExpression"
+                                        }
+                                      },
+                                      "consequent": {
+                                        "body": {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "name": "adjacentRoomId",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "mapStyleInfo",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "y",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "m",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "set_pixel",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "left": {
+                                              "left": {
+                                                "name": "y",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "test": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "<",
+                                          "right": {
+                                            "left": {
+                                              "name": "z",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "-",
+                                            "right": {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "ForStatement",
+                                        "update": {
+                                          "left": {
+                                            "name": "y",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "+=",
+                                          "right": {
+                                            "raw": "2",
+                                            "type": "Literal",
+                                            "value": 2
+                                          },
+                                          "type": "AssignmentExpression"
+                                        }
+                                      },
+                                      "test": {
+                                        "name": "dungeonStateWithoutWallFlags",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "IfStatement"
+                                    },
+                                    "test": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "doorRow",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "portc",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

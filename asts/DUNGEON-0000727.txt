@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.operator = "+";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.right = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.right.raw = ".5";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.right.type = "Literal";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.right.value = 0.5;
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].left.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].operator = "*";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.computed = false;
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.object = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.object.name = "stairInfo";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.property = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.property.name = "cell";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].consequent.body[0].declarations[0].init.arguments[0].right.property.type = "Identifier";

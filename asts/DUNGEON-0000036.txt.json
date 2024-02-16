@@ -1,0 +1,129 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "consequent": {
+                                                "body": [
+                                                  null,
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        null,
+                                                        {
+                                                          "expression": {
+                                                            "left": {
+                                                              "type": "MemberExpression"
+                                                            },
+                                                            "operator": "||",
+                                                            "right": {
+                                                              "expressions": [
+                                                                {
+                                                                  "left": {
+                                                                    "name": "dungeonState",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "operator": "=",
+                                                                  "right": {
+                                                                    "arguments": [
+                                                                      {
+                                                                        "name": "dungeonState",
+                                                                        "type": "Identifier"
+                                                                      },
+                                                                      {
+                                                                        "name": "currentRoom",
+                                                                        "type": "Identifier"
+                                                                      },
+                                                                      {
+                                                                        "name": "p",
+                                                                        "type": "Identifier"
+                                                                      }
+                                                                    ],
+                                                                    "callee": {
+                                                                      "name": "da",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "type": "CallExpression"
+                                                                  },
+                                                                  "type": "AssignmentExpression"
+                                                                },
+                                                                {
+                                                                  "left": {
+                                                                    "computed": true,
+                                                                    "object": {
+                                                                      "name": "mappedRoomConnections",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "x",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

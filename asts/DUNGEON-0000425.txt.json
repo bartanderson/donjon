@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "expression": {
+                            "expressions": [
+                              {
+                                "right": {
+                                  "left": {
+                                    "object": {
+                                      "object": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "property": {
+                                        "left": {
+                                          "name": "b",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "-",
+                                        "right": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "type": "BinaryExpression"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

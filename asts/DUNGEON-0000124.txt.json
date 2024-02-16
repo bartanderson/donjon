@@ -1,0 +1,80 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "left": {
+                                      "arguments": [],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "arguments": [
+                                            {
+                                              "left": {
+                                                "raw": ".75",
+                                                "type": "Literal",
+                                                "value": 0.75
+                                              },
+                                              "operator": "*",
+                                              "right": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "l",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "cell_size",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "left": {
+                            "type": "MemberExpression"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "name": "g",
+                            "type": "Identifier"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "dungeonObject",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "removeDeadEnd",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonObject",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "rowIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "colIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "deadEndRemovalRules",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "roomConnections",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "properties": [],
+                              "type": "ObjectExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "allDoors",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "elements": [],
+                              "type": "ArrayExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "async": false,
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "roomId",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "room",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "id",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

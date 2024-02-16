@@ -1,0 +1,111 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "consequent": {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "/",
+                                      "right": {
+                                        "left": {
+                                          "raw": "3",
+                                          "type": "Literal",
+                                          "value": 3
+                                        },
+                                        "operator": "*",
+                                        "right": {
+                                          "name": "dungeonConfigObject",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "name": "dungeonDimensions",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "dungeonDimensions",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "height",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
