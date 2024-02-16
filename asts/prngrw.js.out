@@ -1,0 +1,630 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'"
+      },
+      "directive": "use strict"
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "ArrowFunctionExpression",
+          "id": null,
+          "params": [
+            {
+              "type": "Identifier",
+              "name": "globalObject"
+            },
+            {
+              "type": "Identifier",
+              "name": "executeFunction"
+            }
+          ],
+          "body": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "executeFunction"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "globalObject"
+              }
+            ]
+          },
+          "generator": false,
+          "expression": true,
+          "async": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "window"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "globalObject"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "FunctionDeclaration",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "generateRandomNumber"
+                  },
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "name": "maxValue"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "seed"
+                          },
+                          "right": {
+                            "type": "BinaryExpression",
+                            "operator": "+",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": "*",
+                              "left": {
+                                "type": "Literal",
+                                "value": 1103515245,
+                                "raw": "1103515245"
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "seed"
+                              }
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "value": 12345,
+                              "raw": "12345"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "&=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "seed"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": 2147483647,
+                            "raw": "2147483647"
+                          }
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "ConditionalExpression",
+                          "test": {
+                            "type": "BinaryExpression",
+                            "operator": "<",
+                            "left": {
+                              "type": "Literal",
+                              "value": 1,
+                              "raw": "1"
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "maxValue"
+                            }
+                          },
+                          "consequent": {
+                            "type": "BinaryExpression",
+                            "operator": "%",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": ">>",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "seed"
+                              },
+                              "right": {
+                                "type": "Literal",
+                                "value": 8,
+                                "raw": "8"
+                              }
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "name": "maxValue"
+                            }
+                          },
+                          "alternate": {
+                            "type": "Literal",
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "generator": false,
+                  "expression": false,
+                  "async": false
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "seed"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "Date"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "now"
+                          }
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "globalObject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "set_prng_seed"
+                      }
+                    },
+                    "right": {
+                      "type": "FunctionExpression",
+                      "id": null,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "name": "input"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                          {
+                            "type": "IfStatement",
+                            "test": {
+                              "type": "BinaryExpression",
+                              "operator": "==",
+                              "left": {
+                                "type": "Literal",
+                                "value": "number",
+                                "raw": "\"number\""
+                              },
+                              "right": {
+                                "type": "UnaryExpression",
+                                "operator": "typeof",
+                                "argument": {
+                                  "type": "Identifier",
+                                  "name": "input"
+                                },
+                                "prefix": true
+                              }
+                            },
+                            "consequent": {
+                              "type": "BlockStatement",
+                              "body": [
+                                {
+                                  "type": "ExpressionStatement",
+                                  "expression": {
+                                    "type": "AssignmentExpression",
+                                    "operator": "=",
+                                    "left": {
+                                      "type": "Identifier",
+                                      "name": "seed"
+                                    },
+                                    "right": {
+                                      "type": "CallExpression",
+                                      "callee": {
+                                        "type": "MemberExpression",
+                                        "computed": false,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "name": "Math"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "floor"
+                                        }
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "name": "input"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "alternate": {
+                              "type": "IfStatement",
+                              "test": {
+                                "type": "BinaryExpression",
+                                "operator": "==",
+                                "left": {
+                                  "type": "Literal",
+                                  "value": "string",
+                                  "raw": "\"string\""
+                                },
+                                "right": {
+                                  "type": "UnaryExpression",
+                                  "operator": "typeof",
+                                  "argument": {
+                                    "type": "Identifier",
+                                    "name": "input"
+                                  },
+                                  "prefix": true
+                                }
+                              },
+                              "consequent": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "VariableDeclaration",
+                                    "declarations": [
+                                      {
+                                        "type": "VariableDeclarator",
+                                        "id": {
+                                          "type": "Identifier",
+                                          "name": "hash"
+                                        },
+                                        "init": {
+                                          "type": "Literal",
+                                          "value": 42,
+                                          "raw": "42"
+                                        }
+                                      }
+                                    ],
+                                    "kind": "var"
+                                  },
+                                  {
+                                    "type": "VariableDeclaration",
+                                    "declarations": [
+                                      {
+                                        "type": "VariableDeclarator",
+                                        "id": {
+                                          "type": "Identifier",
+                                          "name": "index"
+                                        },
+                                        "init": null
+                                      }
+                                    ],
+                                    "kind": "let"
+                                  },
+                                  {
+                                    "type": "ForStatement",
+                                    "init": {
+                                      "type": "AssignmentExpression",
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "name": "index"
+                                      },
+                                      "right": {
+                                        "type": "Literal",
+                                        "value": 0,
+                                        "raw": "0"
+                                      }
+                                    },
+                                    "test": {
+                                      "type": "BinaryExpression",
+                                      "operator": "<",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "name": "index"
+                                      },
+                                      "right": {
+                                        "type": "MemberExpression",
+                                        "computed": false,
+                                        "object": {
+                                          "type": "Identifier",
+                                          "name": "input"
+                                        },
+                                        "property": {
+                                          "type": "Identifier",
+                                          "name": "length"
+                                        }
+                                      }
+                                    },
+                                    "update": {
+                                      "type": "UpdateExpression",
+                                      "operator": "++",
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "name": "index"
+                                      },
+                                      "prefix": false
+                                    },
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "body": [
+                                        {
+                                          "type": "ExpressionStatement",
+                                          "expression": {
+                                            "type": "AssignmentExpression",
+                                            "operator": "=",
+                                            "left": {
+                                              "type": "Identifier",
+                                              "name": "hash"
+                                            },
+                                            "right": {
+                                              "type": "BinaryExpression",
+                                              "operator": "+",
+                                              "left": {
+                                                "type": "BinaryExpression",
+                                                "operator": "-",
+                                                "left": {
+                                                  "type": "BinaryExpression",
+                                                  "operator": "<<",
+                                                  "left": {
+                                                    "type": "Identifier",
+                                                    "name": "hash"
+                                                  },
+                                                  "right": {
+                                                    "type": "Literal",
+                                                    "value": 5,
+                                                    "raw": "5"
+                                                  }
+                                                },
+                                                "right": {
+                                                  "type": "Identifier",
+                                                  "name": "hash"
+                                                }
+                                              },
+                                              "right": {
+                                                "type": "CallExpression",
+                                                "callee": {
+                                                  "type": "MemberExpression",
+                                                  "computed": false,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "name": "input"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "name": "charCodeAt"
+                                                  }
+                                                },
+                                                "arguments": [
+                                                  {
+                                                    "type": "Identifier",
+                                                    "name": "index"
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "ExpressionStatement",
+                                          "expression": {
+                                            "type": "AssignmentExpression",
+                                            "operator": "&=",
+                                            "left": {
+                                              "type": "Identifier",
+                                              "name": "hash"
+                                            },
+                                            "right": {
+                                              "type": "Literal",
+                                              "value": 2147483647,
+                                              "raw": "2147483647"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "ExpressionStatement",
+                                          "expression": {
+                                            "type": "AssignmentExpression",
+                                            "operator": "=",
+                                            "left": {
+                                              "type": "Identifier",
+                                              "name": "seed"
+                                            },
+                                            "right": {
+                                              "type": "Identifier",
+                                              "name": "hash"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "alternate": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "name": "seed"
+                                      },
+                                      "right": {
+                                        "type": "CallExpression",
+                                        "callee": {
+                                          "type": "MemberExpression",
+                                          "computed": false,
+                                          "object": {
+                                            "type": "Identifier",
+                                            "name": "Date"
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "name": "now"
+                                          }
+                                        },
+                                        "arguments": []
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "argument": {
+                              "type": "Identifier",
+                              "name": "seed"
+                            }
+                          }
+                        ]
+                      },
+                      "generator": false,
+                      "expression": false,
+                      "async": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "globalObject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "random"
+                      }
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "name": "generateRandomNumber"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "globalObject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "random_fp"
+                      }
+                    },
+                    "right": {
+                      "type": "FunctionExpression",
+                      "id": null,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "argument": {
+                              "type": "BinaryExpression",
+                              "operator": "/",
+                              "left": {
+                                "type": "CallExpression",
+                                "callee": {
+                                  "type": "Identifier",
+                                  "name": "generateRandomNumber"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "value": 32768,
+                                    "raw": "32768"
+                                  }
+                                ]
+                              },
+                              "right": {
+                                "type": "Literal",
+                                "value": 32768,
+                                "raw": "32768"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "generator": false,
+                      "expression": false,
+                      "async": false
+                    }
+                  }
+                }
+              ]
+            },
+            "generator": false,
+            "expression": false,
+            "async": false
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,714 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'"
+      },
+      "directive": "use strict"
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "gen_data"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dungeon Name",
+                  "raw": "\"Dungeon Name\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "The ${ Dungeon Type } of ${ Dire Horror } ${ Dungeon Horror }",
+                      "raw": "\"The ${ Dungeon Type } of ${ Dire Horror } ${ Dungeon Horror }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "The ${ Lost Dungeon } ${ Dungeon Type } of ${ Dungeon Horror }",
+                      "raw": "\"The ${ Lost Dungeon } ${ Dungeon Type } of ${ Dungeon Horror }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "The ${ Dungeon Type } of ${ lt The Darklord }",
+                      "raw": "\"The ${ Dungeon Type } of ${ lt The Darklord }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "The ${ Lost Dungeon } ${ Dungeon Type } of ${ lt The Darklord }",
+                      "raw": "\"The ${ Lost Dungeon } ${ Dungeon Type } of ${ lt The Darklord }\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Lost Dungeon",
+                  "raw": "\"Lost Dungeon\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Black Dark Dread Forsaken Lost Secret",
+                      "raw": "\"Black Dark Dread Forsaken Lost Secret\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dungeon Type",
+                  "raw": "\"Dungeon Type\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Barrow Catacombs Caverns Chambers Crypts Cyst Delve Dungeon Gauntlet Halls Hive Labyrinth Lair Pit Prison Sanctum Sepulcher Shrine Temple Tomb Tunnels Undercrypt Vaults Warrens",
+                      "raw": "\"Barrow Catacombs Caverns Chambers Crypts Cyst Delve Dungeon Gauntlet Halls Hive Labyrinth Lair Pit Prison Sanctum Sepulcher Shrine Temple Tomb Tunnels Undercrypt Vaults Warrens\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dire Horror",
+                  "raw": "\"Dire Horror\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "${ Bloody Epithet };${ Dark Epithet };${ Dire Epithet };${ Eldritch Epithet };${ Fiendish Epithet };${ Mighty Epithet }",
+                      "raw": "\"${ Bloody Epithet };${ Dark Epithet };${ Dire Epithet };${ Eldritch Epithet };${ Fiendish Epithet };${ Mighty Epithet }\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": ";",
+                      "raw": "\";\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Bloody Epithet",
+                  "raw": "\"Bloody Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "Bloody",
+                      "raw": "\"Bloody\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Crimson",
+                      "raw": "\"Crimson\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Ghastly",
+                      "raw": "\"Ghastly\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Gruesome",
+                      "raw": "\"Gruesome\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dark Epithet",
+                  "raw": "\"Dark Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Aphotic Black Dark Dismal Gloomy Tenebrous Shadowy Sunless",
+                      "raw": "\"Aphotic Black Dark Dismal Gloomy Tenebrous Shadowy Sunless\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dire Epithet",
+                  "raw": "\"Dire Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Baleful Cruel Dire Grim Horrendous Merciless Poisonous Sinister Treacherous Unspeakable Woeful",
+                      "raw": "\"Baleful Cruel Dire Grim Horrendous Merciless Poisonous Sinister Treacherous Unspeakable Woeful\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Eldritch Epithet",
+                  "raw": "\"Eldritch Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Arcane Demonic Eldritch Elemental Fiendish Infernal Unearthly",
+                      "raw": "\"Arcane Demonic Eldritch Elemental Fiendish Infernal Unearthly\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Fiendish Epithet",
+                  "raw": "\"Fiendish Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Abyssal Accursed Baatorian Black Corrupt Damned Demonic Fallen Fell Fiendish Hellish Malefic Malevolent Malign Profane Vile Wicked",
+                      "raw": "\"Abyssal Accursed Baatorian Black Corrupt Damned Demonic Fallen Fell Fiendish Hellish Malefic Malevolent Malign Profane Vile Wicked\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Mighty Epithet",
+                  "raw": "\"Mighty Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "Adamant",
+                      "raw": "\"Adamant\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Awesome",
+                      "raw": "\"Awesome\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Indomitable",
+                      "raw": "\"Indomitable\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Mighty",
+                      "raw": "\"Mighty\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Terrible",
+                      "raw": "\"Terrible\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Dungeon Horror",
+                  "raw": "\"Dungeon Horror\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Ages Annihilation Chaos Death Devastation Doom Evil Horror Madness Malice Necromancy Nightmares Ruin Secrets Sorrows Souls Terror Woe Worms",
+                      "raw": "\"Ages Annihilation Chaos Death Devastation Doom Evil Horror Madness Malice Necromancy Nightmares Ruin Secrets Sorrows Souls Terror Woe Worms\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "The Darklord",
+                  "raw": "\"The Darklord\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "${ Named Darklord }",
+                      "raw": "\"${ Named Darklord }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "${ Darklord Name }",
+                      "raw": "\"${ Darklord Name }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "${ Darklord Name } the ${ Darklord Epithet }",
+                      "raw": "\"${ Darklord Name } the ${ Darklord Epithet }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "The ${ Monster Epithet } ${ Noble Title }",
+                      "raw": "\"The ${ Monster Epithet } ${ Noble Title }\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Named Darklord",
+                  "raw": "\"Named Darklord\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Emirkol the Chaotic;Gothmog of Udun;Kas the Bloody;Kas the Betrayer;Lord Greywulf;Marceline the Vampire Queen;Shiva the Destroyer;The Goblin King;Ulfang the Black;Zeiram the Lich",
+                      "raw": "\"Emirkol the Chaotic;Gothmog of Udun;Kas the Bloody;Kas the Betrayer;Lord Greywulf;Marceline the Vampire Queen;Shiva the Destroyer;The Goblin King;Ulfang the Black;Zeiram the Lich\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": ";",
+                      "raw": "\";\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Darklord Name",
+                  "raw": "\"Darklord Name\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "${ gen_name Draconic }",
+                      "raw": "\"${ gen_name Draconic }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "${ gen_name Gothic }",
+                      "raw": "\"${ gen_name Gothic }\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "${ gen_name Fiendish }",
+                      "raw": "\"${ gen_name Fiendish }\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Darklord Epithet",
+                  "raw": "\"Darklord Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "${ Bloody Epithet };${ Dire Epithet };${ Eldritch Epithet };${ Fiendish Epithet };${ Insane Epithet };${ Mighty Epithet };${ Darkmage }",
+                      "raw": "\"${ Bloody Epithet };${ Dire Epithet };${ Eldritch Epithet };${ Fiendish Epithet };${ Insane Epithet };${ Mighty Epithet };${ Darkmage }\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": ";",
+                      "raw": "\";\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Insane Epithet",
+                  "raw": "\"Insane Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "Deranged",
+                      "raw": "\"Deranged\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Insane",
+                      "raw": "\"Insane\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Lunatic",
+                      "raw": "\"Lunatic\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Mad",
+                      "raw": "\"Mad\""
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Possessed",
+                      "raw": "\"Possessed\""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "Darkmage"
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Archmage Enchantress Necromancer Pontifex Sorceror Warlock Witch",
+                      "raw": "\"Archmage Enchantress Necromancer Pontifex Sorceror Warlock Witch\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Monster Epithet",
+                  "raw": "\"Monster Epithet\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Demon Gargoyle Lich Shadow Vampire Wraith Wyrm",
+                      "raw": "\"Demon Gargoyle Lich Shadow Vampire Wraith Wyrm\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "Noble Title",
+                  "raw": "\"Noble Title\""
+                },
+                "computed": false,
+                "value": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Literal",
+                      "value": "Baron Count Duke Knight Lord Warlord Baroness Countess Duchess Knight Emperor King Prince Tyrant Empress Princess Queen",
+                      "raw": "\"Baron Count Duke Knight Lord Warlord Baroness Countess Duchess Knight Emperor King Prince Tyrant Empress Princess Queen\""
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "split"
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": " ",
+                      "raw": "\" \""
+                    }
+                  ]
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    }
+  ],
+  "sourceType": "script"
+}

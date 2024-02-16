@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="file" id="fileInput" multiple accept=".js">
+<button onclick="processFiles()">Process Files</button>
+<p id="status"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/esprima@4.0.1/dist/esprima.min.js"></script>
+<script>
+function processFiles() {
+  const status = document.getElementById('status');
+  const fileInput = document.getElementById('fileInput');
+  const files = fileInput.files;
+
+  status.textContent = 'Processing...';
+
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+
+    reader.onload = function(e) {
+      try {
+        const code = e.target.result;
+        const ast = esprima.parse(code);
+        const astJson = JSON.stringify(ast, null, 2);
+        download(astJson, file.name + '.out', 'application/json');
+      } catch (error) {
+        status.textContent = 'Error processing file ' + file.name + ': ' + error.message;
+      }
+    };
+
+    reader.onerror = function() {
+      status.textContent = 'Error reading file ' + file.name;
+    };
+
+    reader.readAsText(file);
+  }
+
+  status.textContent = 'Processing complete.';
+}
+
+function download(data, filename, type) {
+  const file = new Blob([data], {type: type});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(file);
+  a.download = filename;
+  a.click();
+}
+</script>
+
+</body>
+</html>
