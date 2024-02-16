@@ -1,0 +1,184 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "test": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "argument": {
+                                    "name": "l",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "++",
+                                  "prefix": false,
+                                  "type": "UpdateExpression"
+                                }
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "name": "dungeonDimensions",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "k",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "alternate": null,
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "m",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "name": "dungeonDimensions",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "var",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "B",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "arguments": [
+                                              {
+                                                "name": "m",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "calculatePotentialStairLocations",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "alternate": null,
+                                      "consequent": {
+                                        "body": [
+                                          {
+                                            "body": [
+                                              {
+                                                "declarations": [
+                                                  {
+                                                    "id": {
+                                                      "name": "l",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": {
+                                                      "raw": "0",
+                                                      "type": "Literal",
+                                                      "value": 0
+                                                    },
+                                                    "type": "VariableDeclarator"
+                                                  }
+                                                ],
+                                                "kind": "let",
+                                                "type": "VariableDeclaration"
+                                              },
+                                              {
+                                                "expression": {
+                                                  "alternate": {
+                                                    "left": {
+                                                      "left": {
+                                                        "raw": "\"yes\"",
+                                                        "type": "Literal",
+                                                        "value": "yes"
+                                                      },
+                                                      "operator": "==",
+                                                      "right": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "m",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "add_stairs",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

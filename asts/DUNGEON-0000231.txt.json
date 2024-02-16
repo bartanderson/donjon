@@ -1,0 +1,136 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "body": {
+                                              "body": [
+                                                null,
+                                                null,
+                                                {
+                                                  "declarations": [
+                                                    {
+                                                      "init": {
+                                                        "callee": {
+                                                          "type": "MemberExpression"
+                                                        },
+                                                        "type": "CallExpression"
+                                                      },
+                                                      "type": "VariableDeclarator"
+                                                    }
+                                                  ],
+                                                  "kind": "let",
+                                                  "type": "VariableDeclaration"
+                                                },
+                                                {
+                                                  "expression": {
+                                                    "left": {
+                                                      "name": "ia",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "alternate": {
+                                                        "name": "D",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "consequent": {
+                                                        "argument": {
+                                                          "raw": "1",
+                                                          "type": "Literal",
+                                                          "value": 1
+                                                        },
+                                                        "operator": "!",
+                                                        "prefix": true,
+                                                        "type": "UnaryExpression"
+                                                      },
+                                                      "test": {
+                                                        "left": {
+                                                          "argument": {
+                                                            "arguments": [
+                                                              {
+                                                                "name": "D",
+                                                                "type": "Identifier"
+                                                              }
+                                                            ],
+                                                            "callee": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "raw": "/^\\w/",
+                                                                "regex": {
+                                                                  "flags": "",
+                                                                  "pattern": "^\\w"
+                                                                },
+                                                                "type": "Literal",
+                                                                "value": {}
+                                                              },
+                                                              "property": {
+                                                                "name": "test",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

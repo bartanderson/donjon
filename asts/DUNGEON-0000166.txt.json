@@ -1,0 +1,97 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          {
+                                            "alternate": {
+                                              "consequent": {
+                                                "expression": {
+                                                  "expressions": [
+                                                    {
+                                                      "left": {
+                                                        "left": {
+                                                          "object": {
+                                                            "object": {
+                                                              "type": "MemberExpression"
+                                                            },
+                                                            "property": {
+                                                              "left": {
+                                                                "name": "r",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "operator": "-",
+                                                              "right": {
+                                                                "raw": "1",
+                                                                "type": "Literal",
+                                                                "value": 1
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

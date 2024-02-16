@@ -1,0 +1,127 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            {
+                              "expression": {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "async": false,
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "raw": "\"change\"",
+                                                "type": "Literal",
+                                                "value": "change"
+                                              },
+                                              {
+                                                "name": "updateDungeonConfiguration",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "a",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "$",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "property": {
+                                                "name": "observe",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

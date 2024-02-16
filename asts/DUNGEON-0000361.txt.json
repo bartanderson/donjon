@@ -1,0 +1,142 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "right": {
+                                "right": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "operator": "-",
+                            "right": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "e",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "argument": {
+                            "name": "a",
+                            "type": "Identifier"
+                          },
+                          "type": "ReturnStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "left": {
+                              "left": {
+                                "left": {
+                                  "raw": "1",
+                                  "type": "Literal",
+                                  "value": 1
+                                },
+                                "operator": ">",
+                                "right": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "operator": "||",
+                              "right": {
+                                "left": {
+                                  "name": "d",
+                                  "type": "Identifier"
+                                },
+                                "operator": ">",
+                                "right": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "max_row",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

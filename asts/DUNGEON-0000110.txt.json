@@ -1,0 +1,72 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "properties": [
+                                        {
+                                          "value": {
+                                            "type": "MemberExpression"
+                                          }
+                                        },
+                                        {
+                                          "computed": false,
+                                          "key": {
+                                            "name": "grid",
+                                            "type": "Identifier"
+                                          },
+                                          "kind": "init",
+                                          "method": false,
+                                          "shorthand": false,
+                                          "type": "Property",
+                                          "value": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "v",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "grid",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

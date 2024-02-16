@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.test.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.type = "ConditionalExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.type = "LogicalExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].type = "ExpressionStatement";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.object.name = "A";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.property.name = "close_arcs";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[9].expression.left.property.type = "Identifier";

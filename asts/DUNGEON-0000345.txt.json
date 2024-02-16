@@ -1,0 +1,167 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "consequent": {
+                          "consequent": {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "left": {
+                                      "arguments": [
+                                        {
+                                          "alternate": {
+                                            "name": "d",
+                                            "type": "Identifier"
+                                          },
+                                          "consequent": {
+                                            "name": "c",
+                                            "type": "Identifier"
+                                          },
+                                          "test": {
+                                            "left": {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "<",
+                                            "right": {
+                                              "name": "d",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "ConditionalExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "random",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "name": "g",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          "test": {
+                            "left": {
+                              "raw": "\"i\"",
+                              "type": "Literal",
+                              "value": "i"
+                            },
+                            "operator": "in",
+                            "right": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "IfStatement"
+                        },
+                        "test": {
+                          "argument": {
+                            "left": {
+                              "raw": "\"height\"",
+                              "type": "Literal",
+                              "value": "height"
+                            },
+                            "operator": "in",
+                            "right": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "left": {
+                              "raw": "\"width\"",
+                              "type": "Literal",
+                              "value": "width"
+                            },
+                            "operator": "in",
+                            "right": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "operator": "||",
+                          "right": {
+                            "alternate": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "width",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

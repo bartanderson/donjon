@@ -1,0 +1,100 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "right": {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "||",
+                                "right": {
+                                  "raw": "5",
+                                  "type": "Literal",
+                                  "value": 5
+                                },
+                                "type": "LogicalExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "raw": "2",
+                              "type": "Literal",
+                              "value": 2
+                            },
+                            "operator": "*",
+                            "right": {
+                              "arguments": [
+                                {
+                                  "left": {
+                                    "left": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "a",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "n_cols",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

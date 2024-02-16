@@ -1,0 +1,85 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "right": {
+                                  "consequent": {
+                                    "test": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "ConditionalExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "name": "style",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "inputObject",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "map_style",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

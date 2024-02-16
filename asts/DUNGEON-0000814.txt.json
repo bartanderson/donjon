@@ -1,0 +1,100 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "callee": {
+                      "type": "MemberExpression"
+                    },
+                    "type": "CallExpression"
+                  },
+                  "type": "ExpressionStatement"
+                },
+                {
+                  "declarations": [
+                    {
+                      "id": {
+                        "name": "mappedRoomConnections",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    }
+                  ],
+                  "kind": "let",
+                  "type": "VariableDeclaration"
+                },
+                {
+                  "expression": {
+                    "left": {
+                      "computed": false,
+                      "object": {
+                        "computed": false,
+                        "object": {
+                          "computed": false,
+                          "object": {
+                            "name": "dungeonConfigConstants",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "doors",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

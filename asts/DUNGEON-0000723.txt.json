@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "expressions": [
+                                          {
+                                            "right": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          {
+                                            "left": {
+                                              "name": "calculatedStairOffsets",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "stairObject",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "col",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

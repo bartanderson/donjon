@@ -1,0 +1,148 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        {
+                                          "test": {
+                                            "right": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "ForStatement",
+                                          "update": {
+                                            "argument": {
+                                              "name": "newColIdxAfterMovingCurrDir",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "++",
+                                            "prefix": false,
+                                            "type": "UpdateExpression"
+                                          }
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "currentDungeonLayoutObj",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "argument": {
+                                                "raw": "0",
+                                                "type": "Literal",
+                                                "value": 0
+                                              },
+                                              "operator": "!",
+                                              "prefix": true,
+                                              "type": "UnaryExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "test": {
+                                      "name": "bCorridorCanBeCreatedCurrDir",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "IfStatement"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "name": "currentDungeonLayoutObj",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "&&",
+                                      "right": {
+                                        "left": {
+                                          "name": "dungeonLayoutObject",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "dungeonLayoutObject",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "left": {
+                                                "name": "currentRowIndex",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "directionRowOffsets",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "g",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

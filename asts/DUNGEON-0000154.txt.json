@@ -1,0 +1,88 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "consequent": {
+                                          "body": [
+                                            null,
+                                            {
+                                              "expression": {
+                                                "callee": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "ExpressionStatement"
+                                            }
+                                          ],
+                                          "type": "BlockStatement"
+                                        },
+                                        "test": {
+                                          "left": {
+                                            "computed": true,
+                                            "object": {
+                                              "computed": true,
+                                              "object": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "v",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "cell",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

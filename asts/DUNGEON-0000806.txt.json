@@ -1,0 +1,114 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            {
+                              "expression": {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "ExpressionStatement"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "raw": "\"click\"",
+                                    "type": "Literal",
+                                    "value": "click"
+                                  },
+                                  {
+                                    "name": "initHandler",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "arguments": [
+                                      {
+                                        "raw": "\"new_name\"",
+                                        "type": "Literal",
+                                        "value": "new_name"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "$",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "property": {
+                                    "name": "observe",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[7].test.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[7].type = "IfStatement";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.object.name = "A";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.property.name = "remove_deadends";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.left.property.type = "Identifier";

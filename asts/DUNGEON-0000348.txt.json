@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "consequent": {
+                              "expressions": [
+                                {
+                                  "right": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                {
+                                  "left": {
+                                    "left": {
+                                      "raw": "0",
+                                      "type": "Literal",
+                                      "value": 0
+                                    },
+                                    "operator": ">",
+                                    "right": {
+                                      "name": "c",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "&&",
+                                  "right": {
+                                    "left": {
+                                      "name": "c",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "raw": "0",
+                                      "type": "Literal",
+                                      "value": 0
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "LogicalExpression"
+                                },
+                                {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "b",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "width",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

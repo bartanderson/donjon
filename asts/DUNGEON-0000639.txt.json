@@ -1,0 +1,129 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          null,
+                                                          {
+                                                            "test": {
+                                                              "left": {
+                                                                "type": "MemberExpression"
+                                                              },
+                                                              "operator": "&",
+                                                              "right": {
+                                                                "raw": "6",
+                                                                "type": "Literal",
+                                                                "value": 6
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "type": "IfStatement"
+                                                          }
+                                                        ],
+                                                        "type": "BlockStatement"
+                                                      },
+                                                      "expression": false,
+                                                      "generator": false,
+                                                      "id": null,
+                                                      "params": [
+                                                        {
+                                                          "name": "door",
+                                                          "type": "Identifier"
+                                                        }
+                                                      ],
+                                                      "type": "ArrowFunctionExpression"
+                                                    }
+                                                  ],
+                                                  "callee": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "room",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "door",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

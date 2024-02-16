@@ -1,0 +1,177 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "body": {
+                                              "body": [
+                                                {
+                                                  "declarations": [
+                                                    {
+                                                      "init": {
+                                                        "left": {
+                                                          "left": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "operator": ">>",
+                                                          "right": {
+                                                            "raw": "24",
+                                                            "type": "Literal",
+                                                            "value": 24
+                                                          },
+                                                          "type": "BinaryExpression"
+                                                        },
+                                                        "operator": "&",
+                                                        "right": {
+                                                          "raw": "255",
+                                                          "type": "Literal",
+                                                          "value": 255
+                                                        },
+                                                        "type": "BinaryExpression"
+                                                      },
+                                                      "type": "VariableDeclarator"
+                                                    }
+                                                  ],
+                                                  "kind": "let",
+                                                  "type": "VariableDeclaration"
+                                                },
+                                                {
+                                                  "alternate": null,
+                                                  "consequent": {
+                                                    "body": [
+                                                      {
+                                                        "declarations": [
+                                                          {
+                                                            "id": {
+                                                              "name": "ia",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "init": {
+                                                              "argument": {
+                                                                "raw": "1",
+                                                                "type": "Literal",
+                                                                "value": 1
+                                                              },
+                                                              "operator": "!",
+                                                              "prefix": true,
+                                                              "type": "UnaryExpression"
+                                                            },
+                                                            "type": "VariableDeclarator"
+                                                          }
+                                                        ],
+                                                        "kind": "var",
+                                                        "type": "VariableDeclaration"
+                                                      },
+                                                      {
+                                                        "label": {
+                                                          "name": "a",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "type": "BreakStatement"
+                                                      }
+                                                    ],
+                                                    "type": "BlockStatement"
+                                                  },
+                                                  "test": {
+                                                    "left": {
+                                                      "raw": "0",
+                                                      "type": "Literal",
+                                                      "value": 0
+                                                    },
+                                                    "operator": "==",
+                                                    "right": {
+                                                      "name": "C",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "type": "IfStatement"
+                                                },
+                                                {
+                                                  "declarations": [
+                                                    {
+                                                      "id": {
+                                                        "name": "D",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "init": {
+                                                        "arguments": [
+                                                          {
+                                                            "name": "C",
+                                                            "type": "Identifier"
+                                                          }
+                                                        ],
+                                                        "callee": {
+                                                          "computed": false,
+                                                          "object": {
+                                                            "name": "String",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "name": "fromCharCode",
+                                                            "type": "Identifier"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

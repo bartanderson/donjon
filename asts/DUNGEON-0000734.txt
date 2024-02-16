@@ -1,0 +1,13 @@
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].test.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].test.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[0].type = "IfStatement";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1] = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.object.name = "roomHeight";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.property.name = "side";
+json.body[1].expression.arguments[1].body.body[28].body.body[2].expression.arguments[0].body.body[1].expression.left.property.type = "Identifier";

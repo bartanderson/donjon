@@ -1,0 +1,89 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "right": {
+                                          "arguments": [
+                                            null,
+                                            {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            {
+                                              "left": {
+                                                "name": "currentColumnIndex",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "directionColumnOffsets",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "g",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

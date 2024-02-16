@@ -1,0 +1,91 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "roomHeight",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "down",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

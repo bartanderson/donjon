@@ -1,0 +1,59 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "expression": {
+                            "callee": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "CallExpression"
+                          },
+                          "type": "ExpressionStatement"
+                        },
+                        "test": {
+                          "computed": false,
+                          "object": {
+                            "name": "roomCriteria",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "complex",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

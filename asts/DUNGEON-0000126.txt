@@ -1,0 +1,5 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[6].expression.right.left.callee.object.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[6].expression.right.left.callee.object.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[6].expression.right.left.callee.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[6].expression.right.left.callee.property.name = "toString";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[0].body[6].expression.right.left.callee.property.type = "Identifier";

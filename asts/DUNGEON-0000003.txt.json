@@ -1,0 +1,184 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "expression": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          }
+                        ],
+                        "type": "BlockStatement"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [],
+                          "callee": {
+                            "name": "updateDungeonConfiguration",
+                            "type": "Identifier"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "updateDungeonTitle",
+                    "type": "Identifier"
+                  },
+                  "params": [],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          {
+                            "declarations": [
+                              {
+                                "id": {
+                                  "name": "dungeonDimensions",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "arguments": [],
+                                  "callee": {
+                                    "name": "stairDimensions",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "CallExpression"
+                                },
+                                "type": "VariableDeclarator"
+                              }
+                            ],
+                            "kind": "let",
+                            "type": "VariableDeclaration"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "dungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeonDimensions",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "roomSizeConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "raw": "\"room_size\"",
+                                          "type": "Literal",
+                                          "value": "room_size"
+                                        },
+                                        {
+                                          "name": "dungeonConfig",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "getDungeonConfigConstant",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "roomLayoutConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "raw": "\"room_layout\"",
+                                          "type": "Literal",
+                                          "value": "room_layout"
+                                        },
+                                        {
+                                          "name": "dungeonConfig",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "getDungeonConfigConstant",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "dungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "isHugeRoomEnabled",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

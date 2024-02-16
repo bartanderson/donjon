@@ -1,0 +1,4 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[17].body.body[1].body.body.body[0].test.left.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[17].body.body[1].body.body.body[0].test.left.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[17].body.body[1].body.body.body[0].test.left.property.name = "h";
+json.body[1].expression.arguments[1].body.body[10].body.body[17].body.body[1].body.body.body[0].test.left.property.type = "Identifier";

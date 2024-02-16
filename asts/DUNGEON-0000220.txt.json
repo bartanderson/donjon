@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "&&",
+                              "right": {
+                                "arguments": [
+                                  {
+                                    "name": "v",
+                                    "type": "Identifier"
+                                  },
+                                  {
+                                    "name": "n",
+                                    "type": "Identifier"
+                                  },
+                                  {
+                                    "name": "dungeon",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "drawDoorsOrFeaturesBetweenAdjacentRooms",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "LogicalExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "va",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeon",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell_size",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

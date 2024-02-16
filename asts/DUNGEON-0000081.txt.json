@@ -1,0 +1,115 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      null,
+                                                      null,
+                                                      null,
+                                                      {
+                                                        "expression": {
+                                                          "alternate": {
+                                                            "expressions": [
+                                                              null,
+                                                              {
+                                                                "left": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "operator": "=",
+                                                                "right": {
+                                                                  "raw": "\"up\"",
+                                                                  "type": "Literal",
+                                                                  "value": "up"
+                                                                },
+                                                                "type": "AssignmentExpression"
+                                                              }
+                                                            ],
+                                                            "type": "SequenceExpression"
+                                                          },
+                                                          "consequent": {
+                                                            "expressions": [
+                                                              {
+                                                                "left": {
+                                                                  "computed": true,
+                                                                  "object": {
+                                                                    "computed": true,
+                                                                    "object": {
+                                                                      "computed": false,
+                                                                      "object": {
+                                                                        "name": "m",
+                                                                        "type": "Identifier"
+                                                                      },
+                                                                      "property": {
+                                                                        "name": "cell",
+                                                                        "type": "Identifier"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

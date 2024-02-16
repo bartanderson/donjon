@@ -1,0 +1,100 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "consequent": {
+                                                    "right": {
+                                                      "right": {
+                                                        "arguments": [
+                                                          {
+                                                            "arguments": [
+                                                              {
+                                                                "left": {
+                                                                  "right": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "type": "BinaryExpression"
+                                                                },
+                                                                "operator": "/",
+                                                                "right": {
+                                                                  "raw": "1E3",
+                                                                  "type": "Literal",
+                                                                  "value": 1000
+                                                                },
+                                                                "type": "BinaryExpression"
+                                                              }
+                                                            ],
+                                                            "callee": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "name": "Math",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "property": {
+                                                                "name": "floor",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

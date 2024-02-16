@@ -1,0 +1,69 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "right": {
+                                "consequent": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "raw": "\"errant\"",
+                                    "type": "Literal",
+                                    "value": "errant"
+                                  },
+                                  "operator": "==",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "A",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "corridor_layout",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

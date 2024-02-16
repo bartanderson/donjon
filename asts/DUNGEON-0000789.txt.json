@@ -1,0 +1,76 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "declarations": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                      "init": {
+                        "callee": {
+                          "object": {
+                            "callee": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "CallExpression"
+                          },
+                          "property": {
+                            "name": "sort",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

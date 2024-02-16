@@ -1,0 +1,108 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "left": {
+                      "type": "MemberExpression"
+                    },
+                    "operator": "=",
+                    "right": {
+                      "properties": [
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"01-15\"",
+                            "type": "Literal",
+                            "value": "01-15"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "65536",
+                            "type": "Literal",
+                            "value": 65536
+                          }
+                        }
+                      ],
+                      "type": "ObjectExpression"
+                    },
+                    "type": "AssignmentExpression"
+                  },
+                  "type": "ExpressionStatement"
+                },
+                {
+                  "expression": {
+                    "left": {
+                      "computed": false,
+                      "object": {
+                        "computed": false,
+                        "object": {
+                          "computed": false,
+                          "object": {
+                            "name": "dungeonConfigConstants",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "doors",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

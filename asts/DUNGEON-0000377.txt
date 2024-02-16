@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[0].right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[0].type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1] = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].left = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].left.name = "k";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].operator = "!=";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.computed = false;
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.object = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.object.name = "f";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.property.name = "complex_id";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].alternate.consequent.consequent.body[0].test.expressions[1].right.property.type = "Identifier";

@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "consequent": {
+                                                    "right": {
+                                                      "right": {
+                                                        "arguments": [
+                                                          {
+                                                            "arguments": [
+                                                              {
+                                                                "left": {
+                                                                  "left": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "operator": "*",
+                                                                  "right": {
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                      "name": "m",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "n_rows",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

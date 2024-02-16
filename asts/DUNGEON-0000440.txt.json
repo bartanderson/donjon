@@ -1,0 +1,126 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            null,
+                            null,
+                            {
+                              "consequent": {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "callee": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "LogicalExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "westBoundary",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<=",
+                                  "right": {
+                                    "name": "eastBoundary",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "ForStatement",
+                                "update": {
+                                  "left": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "+=",
+                                  "right": {
+                                    "raw": "2",
+                                    "type": "Literal",
+                                    "value": 2
+                                  },
+                                  "type": "AssignmentExpression"
+                                }
+                              },
+                              "test": {
+                                "left": {
+                                  "name": "southBoundary",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<=",
+                                "right": {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "dungeonLayout",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rows",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

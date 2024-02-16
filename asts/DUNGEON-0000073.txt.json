@@ -1,0 +1,109 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      {
+                                                        "declarations": [
+                                                          {
+                                                            "init": {
+                                                              "callee": {
+                                                                "object": {
+                                                                  "arguments": [
+                                                                    {
+                                                                      "arguments": [
+                                                                        {
+                                                                          "type": "MemberExpression"
+                                                                        }
+                                                                      ],
+                                                                      "callee": {
+                                                                        "name": "random",
+                                                                        "type": "Identifier"
+                                                                      },
+                                                                      "type": "CallExpression"
+                                                                    },
+                                                                    {
+                                                                      "raw": "1",
+                                                                      "type": "Literal",
+                                                                      "value": 1
+                                                                    }
+                                                                  ],
+                                                                  "callee": {
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                      "name": "B",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "splice",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

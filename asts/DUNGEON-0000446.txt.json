@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "right": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "type": "LogicalExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "expression": false,
+                                "generator": false,
+                                "id": null,
+                                "params": [
+                                  {
+                                    "name": "subCriteria",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "type": "ArrowFunctionExpression"
+                              }
+                            ],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "computed": false,
+                                "object": {
+                                  "name": "roomCriteria",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "complex",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

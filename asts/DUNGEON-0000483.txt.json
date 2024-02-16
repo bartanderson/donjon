@@ -1,0 +1,115 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "alternate": {
+                                  "consequent": {
+                                    "expressions": [
+                                      null,
+                                      null,
+                                      {
+                                        "left": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "\"Secret Door\"",
+                                          "type": "Literal",
+                                          "value": "Secret Door"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      }
+                                    ],
+                                    "type": "SequenceExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "raw": "1048576",
+                                      "type": "Literal",
+                                      "value": 1048576
+                                    },
+                                    "operator": "==",
+                                    "right": {
+                                      "name": "d",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "ConditionalExpression"
+                                },
+                                "consequent": {
+                                  "expressions": [
+                                    {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "computed": true,
+                                          "object": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "a",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "cell",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

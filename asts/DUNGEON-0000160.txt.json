@@ -1,0 +1,87 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              {
+                                "declarations": [
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "q",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "arguments": [
+                                        {
+                                          "left": {
+                                            "name": "l",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "/",
+                                          "right": {
+                                            "raw": "4",
+                                            "type": "Literal",
+                                            "value": 4
+                                          },
+                                          "type": "BinaryExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "Math",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "floor",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

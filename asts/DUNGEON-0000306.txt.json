@@ -1,0 +1,70 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "left": {
+                                      "arguments": [
+                                        {
+                                          "right": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "BinaryExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "Math",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "floor",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

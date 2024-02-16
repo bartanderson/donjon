@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          null,
+                                          {
+                                            "test": {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "type": "IfStatement"
+                                          }
+                                        ],
+                                        "type": "BlockStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "C",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "C",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "v",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "n_cols",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

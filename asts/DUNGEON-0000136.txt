@@ -1,0 +1,14 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[1].init.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[1].type = "VariableDeclarator";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].id = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].id.name = "p";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].id.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.object.name = "n";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.property.name = "max_y";
+json.body[1].expression.arguments[1].body.body[2].body.body[1].body[3].body[3].declarations[2].init.property.type = "Identifier";

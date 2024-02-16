@@ -1,0 +1,162 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    {
+                                                      "declarations": [
+                                                        null,
+                                                        {
+                                                          "init": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "VariableDeclarator"
+                                                        }
+                                                      ],
+                                                      "kind": "var",
+                                                      "type": "VariableDeclaration"
+                                                    },
+                                                    {
+                                                      "expression": {
+                                                        "left": {
+                                                          "name": "b",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "operator": "=",
+                                                        "right": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "f",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "arguments": [
+                                                                {
+                                                                  "raw": "\"option\"",
+                                                                  "type": "Literal",
+                                                                  "value": "option"
+                                                                },
+                                                                {
+                                                                  "properties": [
+                                                                    {
+                                                                      "computed": false,
+                                                                      "key": {
+                                                                        "name": "value",
+                                                                        "type": "Identifier"
+                                                                      },
+                                                                      "kind": "init",
+                                                                      "method": false,
+                                                                      "shorthand": false,
+                                                                      "type": "Property",
+                                                                      "value": {
+                                                                        "name": "b",
+                                                                        "type": "Identifier"
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "type": "ObjectExpression"
+                                                                }
+                                                              ],
+                                                              "callee": {
+                                                                "name": "Element",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "type": "NewExpression"
+                                                            },
+                                                            "property": {
+                                                              "name": "update",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

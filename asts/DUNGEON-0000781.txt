@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments = [];
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0] = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].left = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].left.name = "dungeonState";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].operator = "-";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.computed = false;
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.object = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.object.name = "a";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.property = {};
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.property.name = "y1";
+json.body[1].expression.arguments[1].body.body[32].body.body[0].consequent.body[1].expression.arguments[0].body.body[0].declarations[0].init.property.arguments[0].right.property.type = "Identifier";

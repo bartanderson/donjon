@@ -1,0 +1,4 @@
+json.body[1].expression.arguments[1].body.body[21].body.body[1].test.argument.left.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[21].body.body[1].test.argument.left.property = {};
+json.body[1].expression.arguments[1].body.body[21].body.body[1].test.argument.left.property.name = "colIndex";
+json.body[1].expression.arguments[1].body.body[21].body.body[1].test.argument.left.property.type = "Identifier";

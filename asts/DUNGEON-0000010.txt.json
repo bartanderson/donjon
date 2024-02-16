@@ -1,0 +1,231 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "alternate": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "test": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "type": "IfStatement"
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "dungeonConfig",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "name": "adjacentRoomId",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "consequent": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "dungeonConfig",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "name": "dungeonConfig",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "rowNum",
+                                                "type": "Identifier"
+                                              },
+                                              "init": null,
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "let",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "body": {
+                                            "body": [
+                                              {
+                                                "declarations": [
+                                                  {
+                                                    "id": {
+                                                      "name": "w",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": {
+                                                      "left": {
+                                                        "left": {
+                                                          "raw": "2",
+                                                          "type": "Literal",
+                                                          "value": 2
+                                                        },
+                                                        "operator": "*",
+                                                        "right": {
+                                                          "name": "rowNum",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "type": "BinaryExpression"
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "raw": "1",
+                                                        "type": "Literal",
+                                                        "value": 1
+                                                      },
+                                                      "type": "BinaryExpression"
+                                                    },
+                                                    "type": "VariableDeclarator"
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "name": "colNum",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": null,
+                                                    "type": "VariableDeclarator"
+                                                  }
+                                                ],
+                                                "kind": "let",
+                                                "type": "VariableDeclaration"
+                                              },
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    {
+                                                      "declarations": [
+                                                        {
+                                                          "id": {
+                                                            "name": "r",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "init": {
+                                                            "left": {
+                                                              "left": {
+                                                                "raw": "2",
+                                                                "type": "Literal",
+                                                                "value": 2
+                                                              },
+                                                              "operator": "*",
+                                                              "right": {
+                                                                "name": "colNum",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "operator": "+",
+                                                            "right": {
+                                                              "raw": "1",
+                                                              "type": "Literal",
+                                                              "value": 1
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          "type": "VariableDeclarator"
+                                                        }
+                                                      ],
+                                                      "kind": "let",
+                                                      "type": "VariableDeclaration"
+                                                    },
+                                                    {
+                                                      "expression": {
+                                                        "left": {
+                                                          "left": {
+                                                            "left": {
+                                                              "computed": true,
+                                                              "object": {
+                                                                "computed": true,
+                                                                "object": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "dungeonConfig",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "cell",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

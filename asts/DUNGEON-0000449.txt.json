@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "test": {
+                          "type": "MemberExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "potentialDoorLocations",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "calculatePotentialDoorConnections",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonLayout",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "roomCriteria",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "c",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "left": {
+                                "name": "rowIndex",
+                                "type": "Identifier"
+                              },
+                              "operator": "+",
+                              "right": {
+                                "computed": true,
+                                "object": {
+                                  "name": "directionRowOffsets",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "doorDirection",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "arguments": [
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "expression": false,
+                                "generator": false,
+                                "id": null,
+                                "params": [
+                                  {
+                                    "name": "style",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "type": "ArrowFunctionExpression"
+                              }
+                            ],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "arguments": [
+                                  {
+                                    "name": "colors",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "Object",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "keys",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

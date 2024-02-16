@@ -1,0 +1,168 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "alternate": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "test": {
+                                                  "right": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "ForStatement",
+                                                "update": {
+                                                  "argument": {
+                                                    "name": "midpointColCoord",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "++",
+                                                  "prefix": false,
+                                                  "type": "UpdateExpression"
+                                                }
+                                              },
+                                              {
+                                                "expression": {
+                                                  "left": {
+                                                    "name": "bCorridorCanBeCreatedCurrDir",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "argument": {
+                                                      "raw": "0",
+                                                      "type": "Literal",
+                                                      "value": 0
+                                                    },
+                                                    "operator": "!",
+                                                    "prefix": true,
+                                                    "type": "UnaryExpression"
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "type": "ExpressionStatement"
+                                              }
+                                            ],
+                                            "type": "BlockStatement"
+                                          },
+                                          "consequent": {
+                                            "declarations": [
+                                              {
+                                                "id": {
+                                                  "name": "bCorridorCanBeCreatedCurrDir",
+                                                  "type": "Identifier"
+                                                },
+                                                "init": {
+                                                  "argument": {
+                                                    "raw": "1",
+                                                    "type": "Literal",
+                                                    "value": 1
+                                                  },
+                                                  "operator": "!",
+                                                  "prefix": true,
+                                                  "type": "UnaryExpression"
+                                                },
+                                                "type": "VariableDeclarator"
+                                              }
+                                            ],
+                                            "kind": "var",
+                                            "type": "VariableDeclaration"
+                                          },
+                                          "test": {
+                                            "left": {
+                                              "left": {
+                                                "left": {
+                                                  "left": {
+                                                    "raw": "0",
+                                                    "type": "Literal",
+                                                    "value": 0
+                                                  },
+                                                  "operator": ">",
+                                                  "right": {
+                                                    "name": "newRowIdxAfterMovingCurrDir",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "operator": "||",
+                                                "right": {
+                                                  "left": {
+                                                    "name": "newRowIdxAfterMovingCurrDir",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": ">",
+                                                  "right": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "currentDungeonLayoutObj",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "n_rows",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

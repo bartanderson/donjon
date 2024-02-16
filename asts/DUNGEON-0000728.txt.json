@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "init": {
+                                                "arguments": [
+                                                  {
+                                                    "right": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "Math",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "floor",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

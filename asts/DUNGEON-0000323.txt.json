@@ -1,0 +1,102 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "test": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "selectedDoorStyle",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "argument": {
+                          "name": "a",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "Aa",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "computed": true,
+                            "object": {
+                              "computed": false,
+                              "object": {
+                                "name": "dungeonConfigConstants",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "room_size",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

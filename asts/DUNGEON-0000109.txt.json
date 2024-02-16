@@ -1,0 +1,133 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "B",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "declarations": [
+                              {
+                                "id": {
+                                  "name": "v",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "dungeonDimensions",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "u",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "VariableDeclarator"
+                              }
+                            ],
+                            "kind": "var",
+                            "type": "VariableDeclaration"
+                          }
+                        ],
+                        "type": "BlockStatement"
+                      },
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "properties": [
+                                        {
+                                          "computed": false,
+                                          "key": {
+                                            "name": "map_style",
+                                            "type": "Identifier"
+                                          },
+                                          "kind": "init",
+                                          "method": false,
+                                          "shorthand": false,
+                                          "type": "Property",
+                                          "value": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "v",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "map_style",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

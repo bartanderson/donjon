@@ -1,0 +1,77 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "type": "MemberExpression"
+                            },
+                            "operator": "||",
+                            "right": {
+                              "raw": "5",
+                              "type": "Literal",
+                              "value": 5
+                            },
+                            "type": "LogicalExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "alternate": {
+                            "expression": {
+                              "left": {
+                                "computed": false,
+                                "object": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "height",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "consequent": {
+                              "expressions": [
+                                null,
+                                null,
+                                {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "\"Unlocked Door\"",
+                                    "type": "Literal",
+                                    "value": "Unlocked Door"
+                                  },
+                                  "type": "AssignmentExpression"
+                                }
+                              ],
+                              "type": "SequenceExpression"
+                            },
+                            "test": {
+                              "left": {
+                                "raw": "131072",
+                                "type": "Literal",
+                                "value": 131072
+                              },
+                              "operator": "==",
+                              "right": {
+                                "name": "d",
+                                "type": "Identifier"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "ConditionalExpression"
+                          },
+                          "consequent": {
+                            "expressions": [
+                              {
+                                "left": {
+                                  "computed": true,
+                                  "object": {
+                                    "computed": true,
+                                    "object": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "a",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "cell",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

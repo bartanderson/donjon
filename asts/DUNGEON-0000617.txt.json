@@ -1,0 +1,135 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "init": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "let",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "async": false,
+                                          "body": {
+                                            "body": [
+                                              {
+                                                "declarations": [
+                                                  {
+                                                    "id": {
+                                                      "name": "connectedDoors",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": {
+                                                      "elements": [],
+                                                      "type": "ArrayExpression"
+                                                    },
+                                                    "type": "VariableDeclarator"
+                                                  }
+                                                ],
+                                                "kind": "let",
+                                                "type": "VariableDeclaration"
+                                              },
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "async": false,
+                                                      "body": {
+                                                        "body": [
+                                                          {
+                                                            "declarations": [
+                                                              {
+                                                                "id": {
+                                                                  "name": "rowIndex",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "init": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "door",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "row",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

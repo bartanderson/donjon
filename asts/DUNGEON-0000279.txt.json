@@ -1,0 +1,96 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "body": {
+                                "expression": {
+                                  "left": {
+                                    "computed": true,
+                                    "object": {
+                                      "name": "c",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "arguments": [
+                                        {
+                                          "left": {
+                                            "name": "e",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "*",
+                                          "right": {
+                                            "name": "d",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "Math",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "floor",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

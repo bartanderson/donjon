@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.operator = "-";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.right.name = "g";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.right.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.left.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.operator = "-";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.computed = false;
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.object = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.object.name = "b";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.property.name = "j";
+json.body[1].expression.arguments[1].body.body[10].body.body[7].expression.right.consequent.expressions[0].right.right.property.type = "Identifier";

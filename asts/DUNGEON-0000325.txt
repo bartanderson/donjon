@@ -1,0 +1,2 @@
+json.body[1].expression.arguments[1].body.body[9].body.body[0].expression.right.property.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[9].body.body[0].expression.right.property.type = "LogicalExpression";

@@ -1,0 +1,94 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "callee": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "expression": false,
+                              "generator": false,
+                              "id": null,
+                              "params": [
+                                {
+                                  "name": "room",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "computed": false,
+                              "object": {
+                                "name": "inputDungeon",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "room",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

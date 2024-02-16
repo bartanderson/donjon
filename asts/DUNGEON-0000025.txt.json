@@ -1,0 +1,113 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": [
+                                          {
+                                            "declarations": [
+                                              {
+                                                "init": {
+                                                  "arguments": [
+                                                    {
+                                                      "arguments": [
+                                                        {
+                                                          "left": {
+                                                            "left": {
+                                                              "left": {
+                                                                "right": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "type": "BinaryExpression"
+                                                              },
+                                                              "operator": "/",
+                                                              "right": {
+                                                                "raw": "2",
+                                                                "type": "Literal",
+                                                                "value": 2
+                                                              },
+                                                              "type": "BinaryExpression"
+                                                            },
+                                                            "operator": "+",
+                                                            "right": {
+                                                              "raw": "1",
+                                                              "type": "Literal",
+                                                              "value": 1
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          "operator": "*",
+                                                          "right": {
+                                                            "left": {
+                                                              "left": {
+                                                                "left": {
+                                                                  "computed": false,
+                                                                  "object": {
+                                                                    "name": "currentRoom",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "south",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

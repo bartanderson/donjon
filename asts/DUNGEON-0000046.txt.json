@@ -1,0 +1,78 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "init": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "q",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "arguments": [],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "l",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "id",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

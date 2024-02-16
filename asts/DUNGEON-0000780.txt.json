@@ -1,0 +1,111 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "async": false,
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "computed": true,
+                                                "object": {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "a",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "down",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

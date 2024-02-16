@@ -1,0 +1,321 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "test": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "drawMap",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonConfigObject",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "dungeonDimensions",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "colorPalette",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "canvasDrawingContext",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "body": {
+                                "expression": {
+                                  "left": {
+                                    "left": {
+                                      "raw": "0",
+                                      "type": "Literal",
+                                      "value": 0
+                                    },
+                                    "operator": "!=",
+                                    "right": {
+                                      "left": {
+                                        "left": {
+                                          "name": "b",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "+",
+                                        "right": {
+                                          "name": "e",
+                                          "type": "Identifier"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "operator": "%",
+                                      "right": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "&&",
+                                  "right": {
+                                    "arguments": [
+                                      {
+                                        "name": "canvasDrawingContext",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "b",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "e",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "c",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "set_pixel",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "type": "LogicalExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              "init": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "name": "f",
+                                  "type": "Identifier"
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "test": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<=",
+                                "right": {
+                                  "name": "g",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "ForStatement",
+                              "update": {
+                                "argument": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "++",
+                                "prefix": false,
+                                "type": "UpdateExpression"
+                              }
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "init": null,
+                        "test": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "<=",
+                          "right": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "applyShading",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "canvasDrawingContext",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "b",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "f",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "d",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "g",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "c",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": false,
+                              "object": {
+                                "name": "dungeonStateConfiguration",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "door",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

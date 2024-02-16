@@ -1,0 +1,15 @@
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[1].right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[1].type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2] = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].left = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].left.name = "currentColumnIndex";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].operator = "+";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.computed = true;
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.object = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.object.name = "directionColumnOffsets";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.property = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.property.name = "g";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[3].expression.right.right.arguments[2].right.property.type = "Identifier";

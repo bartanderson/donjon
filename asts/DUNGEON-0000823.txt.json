@@ -1,0 +1,144 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "left": {
+                      "type": "MemberExpression"
+                    },
+                    "operator": "=",
+                    "right": {
+                      "properties": [
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"01-15\"",
+                            "type": "Literal",
+                            "value": "01-15"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "65536",
+                            "type": "Literal",
+                            "value": 65536
+                          }
+                        },
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"16-60\"",
+                            "type": "Literal",
+                            "value": "16-60"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "131072",
+                            "type": "Literal",
+                            "value": 131072
+                          }
+                        },
+                        {
+                          "computed": false,
+                          "key": {
+                            "raw": "\"61-75\"",
+                            "type": "Literal",
+                            "value": "61-75"
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "type": "Property",
+                          "value": {
+                            "raw": "262144",
+                            "type": "Literal",
+                            "value": 262144
+                          }
+                        }
+                      ],
+                      "type": "ObjectExpression"
+                    },
+                    "type": "AssignmentExpression"
+                  },
+                  "type": "ExpressionStatement"
+                },
+                {
+                  "expression": {
+                    "left": {
+                      "computed": false,
+                      "object": {
+                        "computed": false,
+                        "object": {
+                          "computed": false,
+                          "object": {
+                            "name": "dungeonConfigConstants",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "doors",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

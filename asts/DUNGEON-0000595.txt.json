@@ -1,0 +1,125 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "test": {
+                          "argument": {
+                            "left": {
+                              "type": "MemberExpression"
+                            },
+                            "operator": "&",
+                            "right": {
+                              "raw": "6",
+                              "type": "Literal",
+                              "value": 6
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "async": false,
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": null,
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "e",
+                                                "type": "Identifier"
+                                              },
+                                              "init": null,
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "left": {
+                                                "name": "e",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "computed": false,
+                                                "object": {
+                                                  "computed": true,
+                                                  "object": {
+                                                    "name": "deadEndRemovalRules",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "c",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

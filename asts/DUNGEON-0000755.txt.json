@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "body": {
+                            "expression": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          "init": {
+                            "expressions": [
+                              {
+                                "left": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "operator": "*=",
+                                "right": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "adjacentRoomId",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "cell",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

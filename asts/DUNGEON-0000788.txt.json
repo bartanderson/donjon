@@ -1,0 +1,3457 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "callee": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "raw": "\"map\"",
+                                  "type": "Literal",
+                                  "value": "map"
+                                }
+                              ],
+                              "callee": {
+                                "name": "$",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "quasis": [
+                                {
+                                  "tail": false,
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "cooked": "",
+                                    "raw": ""
+                                  }
+                                },
+                                {
+                                  "tail": true,
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "cooked": ".png",
+                                    "raw": ".png"
+                                  }
+                                }
+                              ],
+                              "type": "TemplateLiteral"
+                            }
+                          ],
+                          "callee": {
+                            "name": "save_canvas",
+                            "type": "Identifier"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "exportMapImage",
+                    "type": "Identifier"
+                  },
+                  "params": [],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "declarations": [
+                    {
+                      "id": {
+                        "name": "dungeonConfigConstants",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "map_style",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "standard",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Standard\"",
+                                          "type": "Literal",
+                                          "value": "Standard"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "classic",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Classic\"",
+                                          "type": "Literal",
+                                          "value": "Classic"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "graph",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"GraphPaper\"",
+                                          "type": "Literal",
+                                          "value": "GraphPaper"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "grid",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "none",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"None\"",
+                                          "type": "Literal",
+                                          "value": "None"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "square",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Square\"",
+                                          "type": "Literal",
+                                          "value": "Square"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "hex",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Hex\"",
+                                          "type": "Literal",
+                                          "value": "Hex"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "vex",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"VertHex\"",
+                                          "type": "Literal",
+                                          "value": "VertHex"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "dungeon_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "square",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Square\"",
+                                          "type": "Literal",
+                                          "value": "Square"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "rectangle",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Rectangle\"",
+                                          "type": "Literal",
+                                          "value": "Rectangle"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1.3",
+                                          "type": "Literal",
+                                          "value": 1.3
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "box",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Box\"",
+                                          "type": "Literal",
+                                          "value": "Box"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "mask",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "elements": [
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            }
+                                          ],
+                                          "type": "ArrayExpression"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "cross",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Cross\"",
+                                          "type": "Literal",
+                                          "value": "Cross"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "mask",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "elements": [
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            }
+                                          ],
+                                          "type": "ArrayExpression"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "dagger",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Dagger\"",
+                                          "type": "Literal",
+                                          "value": "Dagger"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1.3",
+                                          "type": "Literal",
+                                          "value": 1.3
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "mask",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "elements": [
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            }
+                                          ],
+                                          "type": "ArrayExpression"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "saltire",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Saltire\"",
+                                          "type": "Literal",
+                                          "value": "Saltire"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "keep",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Keep\"",
+                                          "type": "Literal",
+                                          "value": "Keep"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "mask",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "elements": [
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            },
+                                            {
+                                              "elements": [
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "0",
+                                                  "type": "Literal",
+                                                  "value": 0
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                }
+                                              ],
+                                              "type": "ArrayExpression"
+                                            }
+                                          ],
+                                          "type": "ArrayExpression"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "hexagon",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Hexagon\"",
+                                          "type": "Literal",
+                                          "value": "Hexagon"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": ".9",
+                                          "type": "Literal",
+                                          "value": 0.9
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "round",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Round\"",
+                                          "type": "Literal",
+                                          "value": "Round"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "aspect",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "dungeon_size",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "fine",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Fine\"",
+                                          "type": "Literal",
+                                          "value": "Fine"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "200",
+                                          "type": "Literal",
+                                          "value": 200
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "dimin",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Diminiutive\"",
+                                          "type": "Literal",
+                                          "value": "Diminiutive"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "252",
+                                          "type": "Literal",
+                                          "value": 252
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "tiny",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Tiny\"",
+                                          "type": "Literal",
+                                          "value": "Tiny"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "318",
+                                          "type": "Literal",
+                                          "value": 318
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "small",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Small\"",
+                                          "type": "Literal",
+                                          "value": "Small"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "400",
+                                          "type": "Literal",
+                                          "value": 400
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "medium",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Medium\"",
+                                          "type": "Literal",
+                                          "value": "Medium"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "504",
+                                          "type": "Literal",
+                                          "value": 504
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "large",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Large\"",
+                                          "type": "Literal",
+                                          "value": "Large"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "635",
+                                          "type": "Literal",
+                                          "value": 635
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "huge",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Huge\"",
+                                          "type": "Literal",
+                                          "value": "Huge"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "800",
+                                          "type": "Literal",
+                                          "value": 800
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "gargant",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Gargantuan\"",
+                                          "type": "Literal",
+                                          "value": "Gargantuan"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1008",
+                                          "type": "Literal",
+                                          "value": 1008
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "colossal",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Colossal\"",
+                                          "type": "Literal",
+                                          "value": "Colossal"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1270",
+                                          "type": "Literal",
+                                          "value": 1270
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "cell",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "18",
+                                          "type": "Literal",
+                                          "value": 18
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "add_stairs",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "no",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"No\"",
+                                          "type": "Literal",
+                                          "value": "No"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "yes",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Yes\"",
+                                          "type": "Literal",
+                                          "value": "Yes"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "many",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Many\"",
+                                          "type": "Literal",
+                                          "value": "Many"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "room_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "sparse",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Sparse\"",
+                                          "type": "Literal",
+                                          "value": "Sparse"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "scattered",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Scattered\"",
+                                          "type": "Literal",
+                                          "value": "Scattered"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "dense",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Dense\"",
+                                          "type": "Literal",
+                                          "value": "Dense"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "room_size",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "small",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Small\"",
+                                          "type": "Literal",
+                                          "value": "Small"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "2",
+                                          "type": "Literal",
+                                          "value": 2
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "2",
+                                          "type": "Literal",
+                                          "value": 2
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "medium",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Medium\"",
+                                          "type": "Literal",
+                                          "value": "Medium"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "2",
+                                          "type": "Literal",
+                                          "value": 2
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "5",
+                                          "type": "Literal",
+                                          "value": 5
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "large",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Large\"",
+                                          "type": "Literal",
+                                          "value": "Large"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "5",
+                                          "type": "Literal",
+                                          "value": 5
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "2",
+                                          "type": "Literal",
+                                          "value": 2
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "huge",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Huge\"",
+                                          "type": "Literal",
+                                          "value": "Huge"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "5",
+                                          "type": "Literal",
+                                          "value": 5
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "5",
+                                          "type": "Literal",
+                                          "value": 5
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "huge",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "gargant",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Gargantuan\"",
+                                          "type": "Literal",
+                                          "value": "Gargantuan"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "8",
+                                          "type": "Literal",
+                                          "value": 8
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "5",
+                                          "type": "Literal",
+                                          "value": 5
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "huge",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "colossal",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Colossal\"",
+                                          "type": "Literal",
+                                          "value": "Colossal"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "size",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "8",
+                                          "type": "Literal",
+                                          "value": 8
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "radix",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "8",
+                                          "type": "Literal",
+                                          "value": 8
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "huge",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "doors",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "none",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"None\"",
+                                          "type": "Literal",
+                                          "value": "None"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "basic",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Basic\"",
+                                          "type": "Literal",
+                                          "value": "Basic"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "secure",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Secure\"",
+                                          "type": "Literal",
+                                          "value": "Secure"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "standard",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Standard\"",
+                                          "type": "Literal",
+                                          "value": "Standard"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "deathtrap",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Deathtrap\"",
+                                          "type": "Literal",
+                                          "value": "Deathtrap"
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "corridor_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "labyrinth",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Labyrinth\"",
+                                          "type": "Literal",
+                                          "value": "Labyrinth"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "errant",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Errant\"",
+                                          "type": "Literal",
+                                          "value": "Errant"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "50",
+                                          "type": "Literal",
+                                          "value": 50
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "straight",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Straight\"",
+                                          "type": "Literal",
+                                          "value": "Straight"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "90",
+                                          "type": "Literal",
+                                          "value": 90
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "remove_deadends",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "none",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"None\"",
+                                          "type": "Literal",
+                                          "value": "None"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "some",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"Some\"",
+                                          "type": "Literal",
+                                          "value": "Some"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "50",
+                                          "type": "Literal",
+                                          "value": 50
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                },
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "all",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "properties": [
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "title",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "\"All\"",
+                                          "type": "Literal",
+                                          "value": "All"
+                                        }
+                                      },
+                                      {
+                                        "computed": false,
+                                        "key": {
+                                          "name": "pct",
+                                          "type": "Identifier"
+                                        },
+                                        "kind": "init",
+                                        "method": false,
+                                        "shorthand": false,
+                                        "type": "Property",
+                                        "value": {
+                                          "raw": "100",
+                                          "type": "Literal",
+                                          "value": 100
+                                        }
+                                      }
+                                    ],
+                                    "type": "ObjectExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "defaultDungeonConfig",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "map_style",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"standard\"",
+                              "type": "Literal",
+                              "value": "standard"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "grid",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"square\"",
+                              "type": "Literal",
+                              "value": "square"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "dungeon_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"rectangle\"",
+                              "type": "Literal",
+                              "value": "rectangle"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "dungeon_size",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"medium\"",
+                              "type": "Literal",
+                              "value": "medium"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "add_stairs",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"yes\"",
+                              "type": "Literal",
+                              "value": "yes"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "room_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"scattered\"",
+                              "type": "Literal",
+                              "value": "scattered"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "room_size",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"medium\"",
+                              "type": "Literal",
+                              "value": "medium"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "doors",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"standard\"",
+                              "type": "Literal",
+                              "value": "standard"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "corridor_layout",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"errant\"",
+                              "type": "Literal",
+                              "value": "errant"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "remove_deadends",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"some\"",
+                              "type": "Literal",
+                              "value": "some"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "directionRowOffsets",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "north",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "argument": {
+                                "raw": "1",
+                                "type": "Literal",
+                                "value": 1
+                              },
+                              "operator": "-",
+                              "prefix": true,
+                              "type": "UnaryExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "south",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "west",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "0",
+                              "type": "Literal",
+                              "value": 0
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "east",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "0",
+                              "type": "Literal",
+                              "value": 0
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "directionColumnOffsets",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "north",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "0",
+                              "type": "Literal",
+                              "value": 0
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "south",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "0",
+                              "type": "Literal",
+                              "value": 0
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "west",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "argument": {
+                                "raw": "1",
+                                "type": "Literal",
+                                "value": 1
+                              },
+                              "operator": "-",
+                              "prefix": true,
+                              "type": "UnaryExpression"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "east",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "allDirectionsList",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "arguments": [],
+                        "callee": {
+                          "computed": false,
+                          "object": {
+                            "arguments": [],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "arguments": [
+                                  {
+                                    "name": "directionColumnOffsets",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "$H",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "property": {
+                                "name": "keys",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.alternate.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent = {};
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate = {};
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.computed = false;
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.object = {};
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.object.name = "colorPalettes";
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.property = {};
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.property.name = "standard";
+json.body[1].expression.arguments[1].body.body[23].body.body[1].alternate.body[1].expression.right.consequent.alternate.property.type = "Identifier";

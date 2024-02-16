@@ -1,0 +1,96 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "left": {
+                                            "property": {
+                                              "left": {
+                                                "left": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "operator": "&",
+                                                "right": {
+                                                  "raw": "65472",
+                                                  "type": "Literal",
+                                                  "value": 65472
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "operator": ">>",
+                                              "right": {
+                                                "raw": "6",
+                                                "type": "Literal",
+                                                "value": 6
+                                              },
+                                              "type": "BinaryExpression"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

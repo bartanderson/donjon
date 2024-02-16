@@ -1,0 +1,123 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "alternate": {
+                                                    "left": {
+                                                      "right": {
+                                                        "type": "MemberExpression"
+                                                      },
+                                                      "type": "BinaryExpression"
+                                                    },
+                                                    "operator": "&&",
+                                                    "right": {
+                                                      "left": {
+                                                        "name": "l",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "operator": "=",
+                                                      "right": {
+                                                        "raw": "2",
+                                                        "type": "Literal",
+                                                        "value": 2
+                                                      },
+                                                      "type": "AssignmentExpression"
+                                                    },
+                                                    "type": "LogicalExpression"
+                                                  },
+                                                  "consequent": {
+                                                    "left": {
+                                                      "name": "l",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "left": {
+                                                        "raw": "3",
+                                                        "type": "Literal",
+                                                        "value": 3
+                                                      },
+                                                      "operator": "+",
+                                                      "right": {
+                                                        "arguments": [
+                                                          {
+                                                            "arguments": [
+                                                              {
+                                                                "left": {
+                                                                  "left": {
+                                                                    "computed": false,
+                                                                    "object": {
+                                                                      "name": "m",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "property": {
+                                                                      "name": "n_cols",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

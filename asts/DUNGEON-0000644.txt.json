@@ -1,0 +1,109 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "alternate": {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "elements": [],
+                                                      "type": "ArrayExpression"
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "consequent": {
+                                                    "expressions": [
+                                                      {
+                                                        "left": {
+                                                          "computed": true,
+                                                          "object": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "name": "room",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "property": {
+                                                              "name": "door",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

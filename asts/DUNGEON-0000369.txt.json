@@ -1,0 +1,114 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "&",
+                                          "right": {
+                                            "raw": "2",
+                                            "type": "Literal",
+                                            "value": 2
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "operator": "&&",
+                                        "right": {
+                                          "left": {
+                                            "computed": true,
+                                            "object": {
+                                              "name": "k",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "left": {
+                                                "left": {
+                                                  "computed": true,
+                                                  "object": {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "a",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "cell",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

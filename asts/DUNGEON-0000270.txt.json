@@ -1,0 +1,46 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "argument": {
+                          "object": {
+                            "type": "MemberExpression"
+                          },
+                          "property": {
+                            "computed": true,
+                            "object": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "property": {
+                              "name": "a",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

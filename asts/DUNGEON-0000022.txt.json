@@ -1,0 +1,134 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      {
+                                        "declarations": [
+                                          null,
+                                          {
+                                            "init": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "VariableDeclarator"
+                                          }
+                                        ],
+                                        "kind": "var",
+                                        "type": "VariableDeclaration"
+                                      },
+                                      {
+                                        "declarations": [
+                                          {
+                                            "id": {
+                                              "name": "potentialDoorConnections",
+                                              "type": "Identifier"
+                                            },
+                                            "init": {
+                                              "arguments": [
+                                                {
+                                                  "name": "dungeonState",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "name": "currentRoom",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "calculatePotentialDoorConnections",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "VariableDeclarator"
+                                          }
+                                        ],
+                                        "kind": "let",
+                                        "type": "VariableDeclaration"
+                                      },
+                                      {
+                                        "alternate": null,
+                                        "consequent": {
+                                          "body": [
+                                            {
+                                              "expression": {
+                                                "left": {
+                                                  "name": "currentDungeonConfig",
+                                                  "type": "Identifier"
+                                                },
+                                                "operator": "=",
+                                                "right": {
+                                                  "name": "dungeonState",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "AssignmentExpression"
+                                              },
+                                              "type": "ExpressionStatement"
+                                            },
+                                            {
+                                              "label": {
+                                                "name": "a",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BreakStatement"
+                                            }
+                                          ],
+                                          "type": "BlockStatement"
+                                        },
+                                        "test": {
+                                          "argument": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "potentialDoorConnections",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "length",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

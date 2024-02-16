@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "type": "MemberExpression"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "name": "f",
+                              "type": "Identifier"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "name": "e",
+                              "type": "Identifier"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "computed": true,
+                              "object": {
+                                "computed": false,
+                                "object": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "door",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

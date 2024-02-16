@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                {
+                                                  "test": {
+                                                    "expressions": [
+                                                      null,
+                                                      null,
+                                                      {
+                                                        "right": {
+                                                          "type": "MemberExpression"
+                                                        },
+                                                        "type": "AssignmentExpression"
+                                                      }
+                                                    ],
+                                                    "type": "SequenceExpression"
+                                                  },
+                                                  "type": "IfStatement"
+                                                }
+                                              ],
+                                              "type": "BlockStatement"
+                                            },
+                                            "test": {
+                                              "left": {
+                                                "name": "p",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "w",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "bevel_nw",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

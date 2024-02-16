@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.operator = "-";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.computed = false;
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.object = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.object.name = "stairObject";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.property = {};
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.property.name = "side";
+json.body[1].expression.arguments[1].body.body[31].body.body[0].alternate.body[0].declarations[0].init.right.property.type = "Identifier";

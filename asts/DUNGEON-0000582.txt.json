@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "test": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "ja",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "b",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "f",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "d",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "argument": {
+                          "arguments": [
+                            {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            {
+                              "computed": false,
+                              "object": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "close_arcs",
+                                "type": "Identifier"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

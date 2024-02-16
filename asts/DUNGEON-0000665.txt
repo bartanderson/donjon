@@ -1,0 +1,5 @@
+json.body[1].expression.arguments[1].body.body[23].body.body[3].expression.right.callee.object.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[23].body.body[3].expression.right.callee.object.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[23].body.body[3].expression.right.callee.property = {};
+json.body[1].expression.arguments[1].body.body[23].body.body[3].expression.right.callee.property.name = "forEach";
+json.body[1].expression.arguments[1].body.body[23].body.body[3].expression.right.callee.property.type = "Identifier";

@@ -1,0 +1,151 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "roomId",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "name": "cellSizeRoomHeightDimensions",
+                                  "type": "Identifier"
+                                },
+                                {
+                                  "raw": "\"wall\"",
+                                  "type": "Literal",
+                                  "value": "wall"
+                                }
+                              ],
+                              "callee": {
+                                "name": "getColorFromPalette",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "m",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "name": "cellSizeRoomHeightDimensions",
+                                  "type": "Identifier"
+                                },
+                                {
+                                  "raw": "\"door\"",
+                                  "type": "Literal",
+                                  "value": "door"
+                                }
+                              ],
+                              "callee": {
+                                "name": "getColorFromPalette",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "async": false,
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "z",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "doorRow",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "row",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

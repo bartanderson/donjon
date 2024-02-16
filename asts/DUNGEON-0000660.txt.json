@@ -1,0 +1,70 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "expression": {
+                            "right": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "ExpressionStatement"
+                        },
+                        "test": {
+                          "computed": false,
+                          "object": {
+                            "name": "inputObject",
+                            "type": "Identifier"
+                          },
+                          "property": {
+                            "name": "palette",
+                            "type": "Identifier"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

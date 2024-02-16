@@ -1,0 +1,105 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "declarations": [
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "x",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "alternate": {
+                                    "arguments": [
+                                      {
+                                        "name": "q",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "raw": "0",
+                                        "type": "Literal",
+                                        "value": 0
+                                      },
+                                      {
+                                        "name": "w",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "p",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "r",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "white",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

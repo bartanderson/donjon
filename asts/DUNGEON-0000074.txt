@@ -1,0 +1,5 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[0].declarations[0].init.callee.object.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[0].declarations[0].init.callee.object.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[0].declarations[0].init.callee.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[0].declarations[0].init.callee.property.name = "shift";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[5].consequent.body[0].body[2].consequent.body[1].consequent.body[1].body.body[0].declarations[0].init.callee.property.type = "Identifier";

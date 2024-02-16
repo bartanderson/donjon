@@ -1,0 +1,130 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "test": {
+                          "type": "MemberExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "argument": {
+                          "argument": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "UnaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "drawUpStairs",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "stairObject",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "dungeonConfig",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "adjacentRoomId",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "alternate": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "selectedDoorStyle",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "yc",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

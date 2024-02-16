@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.operator = "*";
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right = {};
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.computed = false;
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.object = {};
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.object.name = "a";
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.property = {};
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.property.name = "n_rows";
+json.body[1].expression.arguments[1].body.body[9].body.body[2].expression.right.right.arguments[0].left.right.property.type = "Identifier";

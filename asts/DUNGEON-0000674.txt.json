@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "consequent": {
+                          "alternate": {
+                            "alternate": {
+                              "body": [
+                                {
+                                  "expression": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "AssignmentExpression"
+                                  },
+                                  "type": "ExpressionStatement"
+                                },
+                                {
+                                  "body": {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "name": "canvasDrawingContext",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "g",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        {
+                                          "name": "g",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "dungeonDimensions",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "max_y",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

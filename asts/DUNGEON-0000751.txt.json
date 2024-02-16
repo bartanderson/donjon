@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "init": {
+                              "expressions": [
+                                {
+                                  "right": {
+                                    "right": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                {
+                                  "arguments": [
+                                    {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    }
+                                  ],
+                                  "callee": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "selectedDoorStyle",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "push",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

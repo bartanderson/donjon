@@ -1,0 +1,142 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "expression": {
+                              "left": {
+                                "type": "MemberExpression"
+                              },
+                              "operator": "&&",
+                              "right": {
+                                "arguments": [
+                                  {
+                                    "name": "v",
+                                    "type": "Identifier"
+                                  },
+                                  {
+                                    "name": "n",
+                                    "type": "Identifier"
+                                  },
+                                  {
+                                    "name": "dungeon",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "drawStairs",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "type": "LogicalExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          }
+                        ],
+                        "type": "BlockStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "updateDungeonConfiguration",
+                    "type": "Identifier"
+                  },
+                  "params": [],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "properties": [
+                                {
+                                  "computed": false,
+                                  "key": {
+                                    "name": "seed",
+                                    "type": "Identifier"
+                                  },
+                                  "kind": "init",
+                                  "method": false,
+                                  "shorthand": false,
+                                  "type": "Property",
+                                  "value": {
+                                    "arguments": [
+                                      {
+                                        "arguments": [],
+                                        "callee": {
+                                          "computed": false,
+                                          "object": {
+                                            "arguments": [
+                                              {
+                                                "raw": "\"dungeon_name\"",
+                                                "type": "Literal",
+                                                "value": "dungeon_name"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "$",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "property": {
+                                            "name": "getValue",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

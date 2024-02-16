@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "callee": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "raw": "\"dungeon_size\"",
+                                  "type": "Literal",
+                                  "value": "dungeon_size"
+                                },
+                                {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "name": "getDungeonConfigConstant",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "var",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "f",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "raw": "\"dungeon_layout\"",
+                                  "type": "Literal",
+                                  "value": "dungeon_layout"
+                                },
+                                {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "name": "getDungeonConfigConstant",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": false,
+                              "object": {
+                                "name": "b",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "size",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

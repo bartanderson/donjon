@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "right": {
+                            "properties": [
+                              null,
+                              null,
+                              {
+                                "value": {
+                                  "callee": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "CallExpression"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "tread",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "left": {
+                                    "arguments": [
+                                      {
+                                        "left": {
+                                          "name": "a",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "/",
+                                        "right": {
+                                          "raw": "20",
+                                          "type": "Literal",
+                                          "value": 20
+                                        },
+                                        "type": "BinaryExpression"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "Math",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "floor",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

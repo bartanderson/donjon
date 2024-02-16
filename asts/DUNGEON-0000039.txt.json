@@ -1,0 +1,85 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "test": {
+                                                "argument": {
+                                                  "left": {
+                                                    "object": {
+                                                      "object": {
+                                                        "type": "MemberExpression"
+                                                      },
+                                                      "property": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "p",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "door_r",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

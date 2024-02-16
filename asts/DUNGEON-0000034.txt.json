@@ -1,0 +1,94 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "consequent": {
+                                                "body": [
+                                                  null,
+                                                  {
+                                                    "consequent": {
+                                                      "body": [
+                                                        {
+                                                          "declarations": [
+                                                            {
+                                                              "init": {
+                                                                "callee": {
+                                                                  "object": {
+                                                                    "callee": {
+                                                                      "type": "MemberExpression"
+                                                                    },
+                                                                    "type": "CallExpression"
+                                                                  },
+                                                                  "property": {
+                                                                    "name": "join",
+                                                                    "type": "Identifier"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

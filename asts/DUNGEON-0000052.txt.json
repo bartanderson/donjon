@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "init": {
+                                            "callee": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "middleColumn",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "arguments": [
+                                                {
+                                                  "left": {
+                                                    "left": {
+                                                      "left": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "l",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "west",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

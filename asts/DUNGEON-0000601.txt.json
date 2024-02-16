@@ -1,0 +1,117 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "expression": {
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      {
+                                                        "expression": {
+                                                          "left": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "operator": "=",
+                                                          "right": {
+                                                            "raw": "0",
+                                                            "type": "Literal",
+                                                            "value": 0
+                                                          },
+                                                          "type": "AssignmentExpression"
+                                                        },
+                                                        "type": "ExpressionStatement"
+                                                      }
+                                                    ],
+                                                    "type": "BlockStatement"
+                                                  },
+                                                  "expression": false,
+                                                  "generator": false,
+                                                  "id": null,
+                                                  "params": [
+                                                    {
+                                                      "name": "h",
+                                                      "type": "Identifier"
+                                                    }
+                                                  ],
+                                                  "type": "ArrowFunctionExpression"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "e",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "forEach",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

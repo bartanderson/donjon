@@ -1,0 +1,120 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      {
+                                                        "declarations": [
+                                                          {
+                                                            "init": {
+                                                              "callee": {
+                                                                "type": "MemberExpression"
+                                                              },
+                                                              "type": "CallExpression"
+                                                            },
+                                                            "type": "VariableDeclarator"
+                                                          }
+                                                        ],
+                                                        "kind": "let",
+                                                        "type": "VariableDeclaration"
+                                                      },
+                                                      {
+                                                        "alternate": null,
+                                                        "consequent": {
+                                                          "label": null,
+                                                          "type": "BreakStatement"
+                                                        },
+                                                        "test": {
+                                                          "argument": {
+                                                            "name": "l",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "operator": "!",
+                                                          "prefix": true,
+                                                          "type": "UnaryExpression"
+                                                        },
+                                                        "type": "IfStatement"
+                                                      },
+                                                      {
+                                                        "declarations": [
+                                                          {
+                                                            "id": {
+                                                              "name": "q",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "init": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "name": "l",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "property": {
+                                                                "name": "row",
+                                                                "type": "Identifier"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

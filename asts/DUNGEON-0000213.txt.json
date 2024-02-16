@@ -1,0 +1,144 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          null,
+                                          null,
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "expression": {
+                                                "expressions": [
+                                                  null,
+                                                  null,
+                                                  {
+                                                    "left": {
+                                                      "left": {
+                                                        "type": "MemberExpression"
+                                                      },
+                                                      "operator": "&",
+                                                      "right": {
+                                                        "raw": "6",
+                                                        "type": "Literal",
+                                                        "value": 6
+                                                      },
+                                                      "type": "BinaryExpression"
+                                                    },
+                                                    "operator": "||",
+                                                    "right": {
+                                                      "arguments": [
+                                                        {
+                                                          "name": "applyWallShading",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "name": "G",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "name": "x",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "name": "G",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "name": "E",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "name": "p",
+                                                          "type": "Identifier"
+                                                        }
+                                                      ],
+                                                      "callee": {
+                                                        "name": "draw_line",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "type": "CallExpression"
+                                                    },
+                                                    "type": "LogicalExpression"
+                                                  },
+                                                  {
+                                                    "left": {
+                                                      "left": {
+                                                        "computed": true,
+                                                        "object": {
+                                                          "computed": true,
+                                                          "object": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "name": "v",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "property": {
+                                                              "name": "cell",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

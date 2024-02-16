@@ -1,0 +1,5 @@
+json.body[1].expression.arguments[1].body.body[34].declarations[4].init.callee.object.callee.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[34].declarations[4].init.callee.object.type = "CallExpression";
+json.body[1].expression.arguments[1].body.body[34].declarations[4].init.callee.property = {};
+json.body[1].expression.arguments[1].body.body[34].declarations[4].init.callee.property.name = "sort";
+json.body[1].expression.arguments[1].body.body[34].declarations[4].init.callee.property.type = "Identifier";

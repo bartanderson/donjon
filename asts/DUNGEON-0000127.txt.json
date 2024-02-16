@@ -1,0 +1,110 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "right": {
+                                    "left": {
+                                      "callee": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "raw": "\"px sans-serif\"",
+                                      "type": "Literal",
+                                      "value": "px sans-serif"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "n",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "l",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "declarations": [
+                              {
+                                "id": {
+                                  "name": "dungeon",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "arguments": [
+                                    {
+                                      "raw": "\"map\"",
+                                      "type": "Literal",
+                                      "value": "map"
+                                    },
+                                    {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "width",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

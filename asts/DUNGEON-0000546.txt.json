@@ -1,0 +1,191 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "f",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "elements": [],
+                              "type": "ArrayExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          },
+                          {
+                            "id": {
+                              "name": "d",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "id": {
+                                    "name": "g",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "left": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "operator": "*",
+                                      "right": {
+                                        "name": "d",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "raw": "1",
+                                      "type": "Literal",
+                                      "value": 1
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "c",
+                                    "type": "Identifier"
+                                  },
+                                  "init": null,
+                                  "type": "VariableDeclarator"
+                                }
+                              ],
+                              "kind": "let",
+                              "type": "VariableDeclaration"
+                            },
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "e",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "left": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "operator": "*",
+                                            "right": {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      }
+                                    ],
+                                    "kind": "let",
+                                    "type": "VariableDeclaration"
+                                  },
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "left": {
+                                          "raw": "4",
+                                          "type": "Literal",
+                                          "value": 4
+                                        },
+                                        "operator": "==",
+                                        "right": {
+                                          "computed": true,
+                                          "object": {
+                                            "computed": true,
+                                            "object": {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "a",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "cell",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+json.body[1].expression.arguments[1].body.body[3].body.body[10].expression.right.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[10].expression.right.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[10].expression.type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[3].body.body[10].type = "ExpressionStatement";
+json.body[1].expression.arguments[1].body.body[3].body.body[11] = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.computed = false;
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.object = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.object.name = "a";
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.property = {};
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.property.name = "max_row";
+json.body[1].expression.arguments[1].body.body[3].body.body[11].expression.left.property.type = "Identifier";

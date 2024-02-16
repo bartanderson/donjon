@@ -1,0 +1,66 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "object": {
+                              "type": "MemberExpression"
+                            },
+                            "property": {
+                              "left": {
+                                "name": "e",
+                                "type": "Identifier"
+                              },
+                              "operator": "+",
+                              "right": {
+                                "computed": true,
+                                "object": {
+                                  "name": "directionColumnOffsets",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "doorDirection",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "init": {
+                            "expressions": [
+                              null,
+                              {
+                                "callee": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "CallExpression"
+                              },
+                              {
+                                "left": {
+                                  "name": "dungeonConfig",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "left": {
+                                    "left": {
+                                      "name": "dungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "raw": "1",
+                                      "type": "Literal",
+                                      "value": 1
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "operator": "*",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "adjacentRoomId",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "cell",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

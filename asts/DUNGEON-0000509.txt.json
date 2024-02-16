@@ -1,0 +1,113 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "declarations": [
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "init": {
+                                          "left": {
+                                            "right": {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "VariableDeclarator"
+                                      },
+                                      {
+                                        "id": {
+                                          "name": "newColIdxAfterMovingCurrDir",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "left": {
+                                              "raw": "2",
+                                              "type": "Literal",
+                                              "value": 2
+                                            },
+                                            "operator": "*",
+                                            "right": {
+                                              "left": {
+                                                "name": "currentColumnIndex",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "+",
+                                              "right": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "directionColumnOffsets",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "g",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

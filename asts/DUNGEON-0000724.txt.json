@@ -1,0 +1,95 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "expressions": [
+                                          null,
+                                          {
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "type": "MemberExpression"
+                                                },
+                                                {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "stairObject",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "next_col",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

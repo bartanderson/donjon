@@ -1,0 +1,141 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "test": {
+                                            "right": {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "type": "LogicalExpression"
+                                          },
+                                          "type": "IfStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "label": {
+                                      "name": "corridorCreationConditions",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "LabeledStatement"
+                                  },
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "left": {
+                                          "name": "currentDungeonLayoutObj",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "argument": {
+                                            "raw": "1",
+                                            "type": "Literal",
+                                            "value": 1
+                                          },
+                                          "operator": "!",
+                                          "prefix": true,
+                                          "type": "UnaryExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    },
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "rowIdxForCurrDirection",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "name": "N",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "computed": false,
+                                                "object": {
+                                                  "elements": [
+                                                    {
+                                                      "name": "rowIdxForCurrDirection",
+                                                      "type": "Identifier"
+                                                    },
+                                                    {
+                                                      "name": "newRowIdxAfterMovingCurrDir",
+                                                      "type": "Identifier"
+                                                    }
+                                                  ],
+                                                  "type": "ArrayExpression"
+                                                },
+                                                "property": {
+                                                  "name": "sort",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

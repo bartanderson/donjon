@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].init.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].init.type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.left = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.left.name = "midpointColCoord";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.left.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.operator = "<=";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.computed = true;
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.object = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.object.name = "bCorridorCanBeCreatedCurrDir";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.property = {};
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.property.raw = "1";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.property.type = "Literal";
+json.body[1].expression.arguments[1].body.body[15].body.body[0].expression.arguments[0].body.body[1].body.body[1].alternate.body[2].test.right.property.value = 1;

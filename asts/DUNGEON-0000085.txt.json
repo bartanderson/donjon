@@ -1,0 +1,158 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      null,
+                                                      null,
+                                                      null,
+                                                      {
+                                                        "expression": {
+                                                          "consequent": {
+                                                            "expressions": [
+                                                              null,
+                                                              {
+                                                                "left": {
+                                                                  "type": "MemberExpression"
+                                                                },
+                                                                "operator": "=",
+                                                                "right": {
+                                                                  "raw": "\"down\"",
+                                                                  "type": "Literal",
+                                                                  "value": "down"
+                                                                },
+                                                                "type": "AssignmentExpression"
+                                                              }
+                                                            ],
+                                                            "type": "SequenceExpression"
+                                                          },
+                                                          "test": {
+                                                            "left": {
+                                                              "raw": "0",
+                                                              "type": "Literal",
+                                                              "value": 0
+                                                            },
+                                                            "operator": "==",
+                                                            "right": {
+                                                              "alternate": {
+                                                                "arguments": [
+                                                                  {
+                                                                    "raw": "2",
+                                                                    "type": "Literal",
+                                                                    "value": 2
+                                                                  }
+                                                                ],
+                                                                "callee": {
+                                                                  "name": "random",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "CallExpression"
+                                                              },
+                                                              "consequent": {
+                                                                "name": "y",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "test": {
+                                                                "left": {
+                                                                  "raw": "2",
+                                                                  "type": "Literal",
+                                                                  "value": 2
+                                                                },
+                                                                "operator": ">",
+                                                                "right": {
+                                                                  "name": "y",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "type": "BinaryExpression"
+                                                              },
+                                                              "type": "ConditionalExpression"
+                                                            },
+                                                            "type": "BinaryExpression"
+                                                          },
+                                                          "type": "ConditionalExpression"
+                                                        },
+                                                        "type": "ExpressionStatement"
+                                                      },
+                                                      {
+                                                        "expression": {
+                                                          "arguments": [
+                                                            {
+                                                              "name": "l",
+                                                              "type": "Identifier"
+                                                            }
+                                                          ],
+                                                          "callee": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "name": "z",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "property": {
+                                                              "name": "push",
+                                                              "type": "Identifier"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

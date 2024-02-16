@@ -1,0 +1,158 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "test": {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                },
+                                "type": "IfStatement"
+                              }
+                            ],
+                            "type": "BlockStatement"
+                          },
+                          {
+                            "body": [
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "currentDungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "init": {
+                                      "name": "dungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "var",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "expression": {
+                                  "left": {
+                                    "name": "mappedRoomConnections",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "properties": [],
+                                    "type": "ObjectExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "declarations": [
+                                  {
+                                    "id": {
+                                      "name": "roomIdIterator",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      {
+                                        "declarations": [
+                                          {
+                                            "id": {
+                                              "name": "numberOfDoors",
+                                              "type": "Identifier"
+                                            },
+                                            "init": null,
+                                            "type": "VariableDeclarator"
+                                          }
+                                        ],
+                                        "kind": "let",
+                                        "type": "VariableDeclaration"
+                                      },
+                                      {
+                                        "declarations": [
+                                          {
+                                            "id": {
+                                              "name": "dungeonState",
+                                              "type": "Identifier"
+                                            },
+                                            "init": {
+                                              "name": "currentDungeonConfig",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "VariableDeclarator"
+                                          },
+                                          {
+                                            "id": {
+                                              "name": "currentRoom",
+                                              "type": "Identifier"
+                                            },
+                                            "init": {
+                                              "computed": true,
+                                              "object": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "currentDungeonConfig",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "room",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

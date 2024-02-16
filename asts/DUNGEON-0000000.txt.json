@@ -1,0 +1,95 @@
+{
+  "body": [
+    {
+      "directive": "use strict",
+      "expression": {
+        "raw": "'use strict'",
+        "type": "Literal",
+        "value": "use strict"
+      },
+      "type": "ExpressionStatement"
+    },
+    {
+      "expression": {
+        "arguments": [
+          {
+            "name": "window",
+            "type": "Identifier"
+          },
+          {
+            "async": false,
+            "body": {
+              "body": [
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "a",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "raw": "\"Dungeon Name\"",
+                                  "type": "Literal",
+                                  "value": "Dungeon Name"
+                                }
+                              ],
+                              "callee": {
+                                "name": "generate_text",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "name": "a",
+                              "type": "Identifier"
+                            }
+                          ],
+                          "callee": {
+                            "computed": false,
+                            "object": {
+                              "arguments": [
+                                {
+                                  "raw": "\"dungeon_name\"",
+                                  "type": "Literal",
+                                  "value": "dungeon_name"
+                                }
+                              ],
+                              "callee": {
+                                "name": "$",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "property": {
+                              "name": "setValue",
+                              "type": "Identifier"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

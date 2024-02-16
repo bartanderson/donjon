@@ -1,0 +1,112 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "right": {
+                              "arguments": [
+                                {
+                                  "right": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "type": "BinaryExpression"
+                                }
+                              ],
+                              "callee": {
+                                "name": "random",
+                                "type": "Identifier"
+                              },
+                              "type": "CallExpression"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "type": "LogicalExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "left": {
+                                "raw": "2",
+                                "type": "Literal",
+                                "value": 2
+                              },
+                              "operator": "*",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "f",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "i",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

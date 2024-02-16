@@ -1,0 +1,92 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "alternate": {
+                          "consequent": {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "test": {
+                                    "expressions": [
+                                      null,
+                                      {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "BinaryExpression"
+                                      }
+                                    ],
+                                    "type": "SequenceExpression"
+                                  },
+                                  "type": "IfStatement"
+                                }
+                              ],
+                              "type": "BlockStatement"
+                            },
+                            "test": {
+                              "computed": false,
+                              "object": {
+                                "name": "a",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "isComplexRoomEnabled",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

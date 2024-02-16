@@ -1,0 +1,121 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "right": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "operator": "&&",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "async": false,
+                                                  "body": {
+                                                    "body": [
+                                                      {
+                                                        "expression": {
+                                                          "left": {
+                                                            "computed": true,
+                                                            "object": {
+                                                              "computed": true,
+                                                              "object": {
+                                                                "name": "g",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "property": {
+                                                                "left": {
+                                                                  "name": "rowIndex",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "operator": "+",
+                                                                "right": {
+                                                                  "computed": true,
+                                                                  "object": {
+                                                                    "name": "h",
+                                                                    "type": "Identifier"
+                                                                  },
+                                                                  "property": {
+                                                                    "raw": "0",
+                                                                    "type": "Literal",
+                                                                    "value": 0
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

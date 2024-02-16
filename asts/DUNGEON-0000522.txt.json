@@ -1,0 +1,108 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "right": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        },
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "name": "newRowIdxAfterMovingCurrDir",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "name": "N",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "computed": false,
+                                                "object": {
+                                                  "elements": [
+                                                    {
+                                                      "name": "colIndexForCurrentDirection",
+                                                      "type": "Identifier"
+                                                    },
+                                                    {
+                                                      "name": "newColIdxAfterMovingCurrDir",
+                                                      "type": "Identifier"
+                                                    }
+                                                  ],
+                                                  "type": "ArrayExpression"
+                                                },
+                                                "property": {
+                                                  "name": "sort",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

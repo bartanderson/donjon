@@ -1,0 +1,189 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              {
+                                "declarations": [
+                                  null,
+                                  {
+                                    "init": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "VariableDeclarator"
+                                  },
+                                  {
+                                    "id": {
+                                      "name": "w",
+                                      "type": "Identifier"
+                                    },
+                                    "init": null,
+                                    "type": "VariableDeclarator"
+                                  }
+                                ],
+                                "kind": "let",
+                                "type": "VariableDeclaration"
+                              },
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "p",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "w",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "*",
+                                            "right": {
+                                              "name": "l",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "r",
+                                            "type": "Identifier"
+                                          },
+                                          "init": null,
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "body": {
+                                        "alternate": null,
+                                        "consequent": {
+                                          "body": [
+                                            {
+                                              "declarations": [
+                                                {
+                                                  "id": {
+                                                    "name": "x",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "init": {
+                                                    "left": {
+                                                      "name": "r",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "*",
+                                                    "right": {
+                                                      "name": "l",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "type": "VariableDeclarator"
+                                                }
+                                              ],
+                                              "kind": "let",
+                                              "type": "VariableDeclaration"
+                                            },
+                                            {
+                                              "expression": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "q",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "x",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "p",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "l",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "l",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "x",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "p",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "l",
+                                                    "type": "Identifier"
+                                                  },
+                                                  {
+                                                    "name": "l",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "computed": false,
+                                                  "object": {
+                                                    "name": "ta",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "property": {
+                                                    "name": "drawImage",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

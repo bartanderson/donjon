@@ -1,0 +1,125 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "alternate": {
+                                    "left": {
+                                      "right": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "operator": "&&",
+                                    "right": {
+                                      "arguments": [
+                                        {
+                                          "name": "v",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "n",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "x",
+                                          "type": "Identifier"
+                                        },
+                                        {
+                                          "name": "q",
+                                          "type": "Identifier"
+                                        }
+                                      ],
+                                      "callee": {
+                                        "name": "drawMap",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "CallExpression"
+                                    },
+                                    "type": "LogicalExpression"
+                                  },
+                                  "consequent": {
+                                    "arguments": [
+                                      {
+                                        "name": "v",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "n",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "x",
+                                        "type": "Identifier"
+                                      },
+                                      {
+                                        "name": "q",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "drawMap",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "test": {
+                                    "left": {
+                                      "name": "x",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "=",
+                                    "right": {
+                                      "computed": false,
+                                      "object": {
+                                        "name": "r",
+                                        "type": "Identifier"
+                                      },
+                                      "property": {
+                                        "name": "open_grid",
+                                        "type": "Identifier"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

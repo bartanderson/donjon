@@ -1,0 +1,116 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "callee": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "CallExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "name": "dungeonLayoutObject",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "generateCorridors",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "dungeonLayoutObject",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "currentRowIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "currentColumnIndex",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "configSettingsForDungeonGeneration",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          {
+                            "declarations": [
+                              {
+                                "id": {
+                                  "name": "f",
+                                  "type": "Identifier"
+                                },
+                                "init": {
+                                  "arguments": [],
+                                  "callee": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "allDirectionsList",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "concat",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

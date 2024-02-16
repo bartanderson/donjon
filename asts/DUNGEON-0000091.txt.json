@@ -1,0 +1,86 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "expression": {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "name": "A",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "dungeonStateWithStairs",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "dungeonStateWithStairs",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "remove_pct",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

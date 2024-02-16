@@ -1,0 +1,218 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "declarations": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                      "init": {
+                        "callee": {
+                          "type": "MemberExpression"
+                        },
+                        "type": "CallExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    },
+                    {
+                      "id": {
+                        "name": "oppositeDirectionsMap",
+                        "type": "Identifier"
+                      },
+                      "init": {
+                        "properties": [
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "north",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"south\"",
+                              "type": "Literal",
+                              "value": "south"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "south",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"north\"",
+                              "type": "Literal",
+                              "value": "north"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "west",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"east\"",
+                              "type": "Literal",
+                              "value": "east"
+                            }
+                          },
+                          {
+                            "computed": false,
+                            "key": {
+                              "name": "east",
+                              "type": "Identifier"
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "type": "Property",
+                            "value": {
+                              "raw": "\"west\"",
+                              "type": "Literal",
+                              "value": "west"
+                            }
+                          }
+                        ],
+                        "type": "ObjectExpression"
+                      },
+                      "type": "VariableDeclarator"
+                    }
+                  ],
+                  "kind": "let",
+                  "type": "VariableDeclaration"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "raw": "\"dom:loaded\"",
+                        "type": "Literal",
+                        "value": "dom:loaded"
+                      },
+                      {
+                        "async": false,
+                        "body": {
+                          "body": [
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "async": false,
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "async": false,
+                                                "body": {
+                                                  "body": [
+                                                    {
+                                                      "declarations": [
+                                                        {
+                                                          "id": {
+                                                            "name": "f",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "init": {
+                                                            "computed": false,
+                                                            "object": {
+                                                              "computed": true,
+                                                              "object": {
+                                                                "computed": true,
+                                                                "object": {
+                                                                  "name": "dungeonConfigConstants",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "name": "a",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

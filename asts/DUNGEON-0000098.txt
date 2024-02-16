@@ -1,0 +1,10 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.operator = "=";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.object.name = "A";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.property.name = "remove_pct";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[8].expression.right.consequent.right.property.type = "Identifier";

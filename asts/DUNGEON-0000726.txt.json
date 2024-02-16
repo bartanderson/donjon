@@ -1,0 +1,178 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "expressions": [
+                                          null,
+                                          null,
+                                          {
+                                            "right": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          {
+                                            "left": {
+                                              "name": "roomHeight",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "properties": [
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "yc",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "roomHeight",
+                                                    "type": "Identifier"
+                                                  }
+                                                },
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "x1",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "k",
+                                                    "type": "Identifier"
+                                                  }
+                                                },
+                                                {
+                                                  "computed": false,
+                                                  "key": {
+                                                    "name": "list",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "kind": "init",
+                                                  "method": false,
+                                                  "shorthand": false,
+                                                  "type": "Property",
+                                                  "value": {
+                                                    "name": "calculatedStairOffsets",
+                                                    "type": "Identifier"
+                                                  }
+                                                }
+                                              ],
+                                              "type": "ObjectExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          }
+                                        ],
+                                        "type": "SequenceExpression"
+                                      },
+                                      "type": "ExpressionStatement"
+                                    },
+                                    "consequent": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "roomHeight",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "arguments": [
+                                                  {
+                                                    "left": {
+                                                      "left": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "stairObject",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "col",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

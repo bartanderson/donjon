@@ -1,0 +1,178 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            {
+                              "body": {
+                                "expression": {
+                                  "expressions": [
+                                    null,
+                                    null,
+                                    null,
+                                    {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "=",
+                                      "right": {
+                                        "raw": "1",
+                                        "type": "Literal",
+                                        "value": 1
+                                      },
+                                      "type": "AssignmentExpression"
+                                    }
+                                  ],
+                                  "type": "SequenceExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              "init": null,
+                              "test": {
+                                "left": {
+                                  "name": "d",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<=",
+                                "right": {
+                                  "name": "g",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "ForStatement",
+                              "update": {
+                                "argument": {
+                                  "name": "d",
+                                  "type": "Identifier"
+                                },
+                                "operator": "++",
+                                "prefix": false,
+                                "type": "UpdateExpression"
+                              }
+                            }
+                          ],
+                          "type": "BlockStatement"
+                        },
+                        "init": {
+                          "left": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "raw": "0",
+                            "type": "Literal",
+                            "value": 0
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "<",
+                          "right": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "argument": {
+                          "name": "a",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "ya",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "b",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "arguments": [
+                                {
+                                  "left": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "a",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rows",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

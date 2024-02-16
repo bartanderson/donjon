@@ -1,0 +1,98 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "test": {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "&",
+                                          "right": {
+                                            "raw": "6",
+                                            "type": "Literal",
+                                            "value": 6
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "IfStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "r",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "0",
+                                          "type": "Literal",
+                                          "value": 0
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "r",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<=",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "v",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "n_cols",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

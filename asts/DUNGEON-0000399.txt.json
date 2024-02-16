@@ -1,0 +1,219 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": {
+                            "expression": {
+                              "expressions": [
+                                null,
+                                {
+                                  "right": {
+                                    "left": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "|",
+                                      "right": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "operator": "|",
+                                    "right": {
+                                      "left": {
+                                        "name": "k",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "<<",
+                                      "right": {
+                                        "raw": "6",
+                                        "type": "Literal",
+                                        "value": 6
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                }
+                              ],
+                              "type": "SequenceExpression"
+                            },
+                            "type": "ExpressionStatement"
+                          },
+                          "init": {
+                            "left": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "type": "AssignmentExpression"
+                          },
+                          "test": {
+                            "left": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "operator": "<=",
+                            "right": {
+                              "name": "c",
+                              "type": "Identifier"
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "ForStatement",
+                          "update": {
+                            "argument": {
+                              "name": "h",
+                              "type": "Identifier"
+                            },
+                            "operator": "++",
+                            "prefix": false,
+                            "type": "UpdateExpression"
+                          }
+                        },
+                        "init": {
+                          "left": {
+                            "name": "e",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "e",
+                            "type": "Identifier"
+                          },
+                          "operator": "<=",
+                          "right": {
+                            "name": "d",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "e",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "f",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "properties": [
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "id",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "k",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "size",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "f",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "size",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

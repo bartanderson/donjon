@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "consequent": {
+                            "alternate": {
+                              "expressions": [
+                                null,
+                                {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "name": "complex",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "AssignmentExpression"
+                                }
+                              ],
+                              "type": "SequenceExpression"
+                            },
+                            "consequent": {
+                              "arguments": [
+                                {
+                                  "name": "f",
+                                  "type": "Identifier"
+                                }
+                              ],
+                              "callee": {
+                                "computed": false,
+                                "object": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "e",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "complex",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

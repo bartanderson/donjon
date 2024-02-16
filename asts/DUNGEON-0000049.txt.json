@@ -1,0 +1,82 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        null,
+                                        null,
+                                        {
+                                          "init": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "type": "VariableDeclarator"
+                                        },
+                                        {
+                                          "id": {
+                                            "name": "middleRow",
+                                            "type": "Identifier"
+                                          },
+                                          "init": {
+                                            "arguments": [
+                                              {
+                                                "left": {
+                                                  "left": {
+                                                    "computed": false,
+                                                    "object": {
+                                                      "name": "l",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "north",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

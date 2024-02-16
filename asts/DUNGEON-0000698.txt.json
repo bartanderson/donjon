@@ -1,0 +1,108 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "consequent": {
+                                              "expressions": [
+                                                null,
+                                                {
+                                                  "left": {
+                                                    "arguments": [
+                                                      {
+                                                        "type": "MemberExpression"
+                                                      }
+                                                    ],
+                                                    "callee": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "raw": "/Lock/",
+                                                        "regex": {
+                                                          "flags": "",
+                                                          "pattern": "Lock"
+                                                        },
+                                                        "type": "Literal",
+                                                        "value": {}
+                                                      },
+                                                      "property": {
+                                                        "name": "test",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

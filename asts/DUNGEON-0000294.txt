@@ -1,0 +1,6 @@
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.operator = "-";
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.right = {};
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.right.name = "f";
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.right.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[6].body.body[1].body.body[2].body.expression.expressions[1].left.object.property.type = "BinaryExpression";

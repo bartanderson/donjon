@@ -1,0 +1,96 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "left": {
+                              "right": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "g",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "left": {
+                                "raw": "2",
+                                "type": "Literal",
+                                "value": 2
+                              },
+                              "operator": "*",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "f",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "j",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "init": {
+                                                "object": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "property": {
+                                                  "arguments": [
+                                                    {
+                                                      "left": {
+                                                        "name": "dungeonState",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "operator": "-",
+                                                      "right": {
+                                                        "computed": false,
+                                                        "object": {
+                                                          "name": "a",
+                                                          "type": "Identifier"
+                                                        },
+                                                        "property": {
+                                                          "name": "x1",
+                                                          "type": "Identifier"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

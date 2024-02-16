@@ -1,0 +1,185 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "left": {
+                                          "right": {
+                                            "argument": {
+                                              "left": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "operator": "&",
+                                              "right": {
+                                                "raw": "12582912",
+                                                "type": "Literal",
+                                                "value": 12582912
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "operator": "!",
+                                            "prefix": true,
+                                            "type": "UnaryExpression"
+                                          },
+                                          "type": "LogicalExpression"
+                                        },
+                                        "operator": "&&",
+                                        "right": {
+                                          "left": {
+                                            "name": "d",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "||",
+                                          "right": {
+                                            "left": {
+                                              "arguments": [
+                                                {
+                                                  "raw": "100",
+                                                  "type": "Literal",
+                                                  "value": 100
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "random",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "operator": "<",
+                                            "right": {
+                                              "name": "b",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "LogicalExpression"
+                                        },
+                                        "type": "LogicalExpression"
+                                      },
+                                      "operator": "&&",
+                                      "right": {
+                                        "left": {
+                                          "name": "a",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "a",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "h",
+                                              "type": "Identifier"
+                                            },
+                                            {
+                                              "name": "f",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "name": "removeDeadEnd",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "CallExpression"
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "type": "LogicalExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "init": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "=",
+                                "right": {
+                                  "raw": "0",
+                                  "type": "Literal",
+                                  "value": 0
+                                },
+                                "type": "AssignmentExpression"
+                              },
+                              "test": {
+                                "left": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                },
+                                "operator": "<",
+                                "right": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "n_j",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

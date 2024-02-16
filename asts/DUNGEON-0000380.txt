@@ -1,0 +1,17 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.operator = "+";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.right = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.right.raw = "1";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.right.type = "Literal";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.right.value = 1;
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].right.type = "BinaryExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[0].type = "AssignmentExpression";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1] = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.computed = false;
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.object = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.object.name = "a";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.property = {};
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.property.name = "n_rooms";
+json.body[1].expression.arguments[1].body.body[10].body.body[21].consequent.expression.expressions[1].left.property.type = "Identifier";

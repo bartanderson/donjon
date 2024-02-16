@@ -1,0 +1,99 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "test": {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "ForStatement",
+                                      "update": {
+                                        "argument": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "++",
+                                        "prefix": false,
+                                        "type": "UpdateExpression"
+                                      }
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "l",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "1",
+                                    "type": "Literal",
+                                    "value": 1
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "l",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "k",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_i",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

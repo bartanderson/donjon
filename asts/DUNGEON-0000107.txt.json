@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "test": {
+                                        "right": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "BinaryExpression"
+                                      },
+                                      "type": "ForStatement",
+                                      "update": {
+                                        "argument": {
+                                          "name": "q",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "++",
+                                        "prefix": false,
+                                        "type": "UpdateExpression"
+                                      }
+                                    }
+                                  ],
+                                  "type": "BlockStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "l",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "0",
+                                    "type": "Literal",
+                                    "value": 0
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "l",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "u",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rows",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

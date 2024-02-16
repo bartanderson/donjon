@@ -1,0 +1,89 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "consequent": {
+                            "test": {
+                              "type": "MemberExpression"
+                            },
+                            "type": "ConditionalExpression"
+                          },
+                          "test": {
+                            "left": {
+                              "name": "e",
+                              "type": "Identifier"
+                            },
+                            "operator": "=",
+                            "right": {
+                              "computed": true,
+                              "object": {
+                                "computed": false,
+                                "object": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "room",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  {
+                                    "alternate": {
+                                      "expression": {
+                                        "alternate": {
+                                          "alternate": {
+                                            "consequent": {
+                                              "expressions": [
+                                                null,
+                                                {
+                                                  "right": {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "raw": "1",
+                                                      "type": "Literal",
+                                                      "value": 1
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "type": "LogicalExpression"
+                                                }
+                                              ],
+                                              "type": "SequenceExpression"
+                                            },
+                                            "test": {
+                                              "left": {
+                                                "raw": "\"trap\"",
+                                                "type": "Literal",
+                                                "value": "trap"
+                                              },
+                                              "operator": "==",
+                                              "right": {
+                                                "computed": false,
+                                                "object": {
+                                                  "name": "doorRow",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "key",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

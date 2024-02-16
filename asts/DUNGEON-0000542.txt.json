@@ -1,0 +1,111 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "init": {
+                              "right": {
+                                "left": {
+                                  "type": "MemberExpression"
+                                },
+                                "operator": "-",
+                                "right": {
+                                  "raw": "1",
+                                  "type": "Literal",
+                                  "value": 1
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "AssignmentExpression"
+                            },
+                            "test": {
+                              "left": {
+                                "raw": "0",
+                                "type": "Literal",
+                                "value": 0
+                              },
+                              "operator": "<",
+                              "right": {
+                                "name": "d",
+                                "type": "Identifier"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "ForStatement",
+                            "update": {
+                              "argument": {
+                                "name": "d",
+                                "type": "Identifier"
+                              },
+                              "operator": "--",
+                              "prefix": false,
+                              "type": "UpdateExpression"
+                            }
+                          }
+                        ],
+                        "type": "BlockStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "left": {
+                              "left": {
+                                "name": "optionalPreferredDirection",
+                                "type": "Identifier"
+                              },
+                              "operator": "&&",
+                              "right": {
+                                "computed": false,
+                                "object": {
+                                  "name": "dungeonConfigSettings",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "straight_pct",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

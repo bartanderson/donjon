@@ -1,0 +1,93 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "test": {
+                            "expressions": [
+                              {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "right": {
+                                                "right": {
+                                                  "object": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "property": {
+                                                    "left": {
+                                                      "name": "f",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "+",
+                                                    "right": {
+                                                      "computed": true,
+                                                      "object": {
+                                                        "name": "e",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "raw": "1",
+                                                        "type": "Literal",
+                                                        "value": 1
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

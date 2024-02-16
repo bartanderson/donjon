@@ -1,0 +1,133 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "expression": {
+                          "right": {
+                            "properties": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "value": {
+                                  "left": {
+                                    "callee": {
+                                      "type": "MemberExpression"
+                                    },
+                                    "type": "CallExpression"
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "raw": "2",
+                                    "type": "Literal",
+                                    "value": 2
+                                  },
+                                  "type": "BinaryExpression"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "down",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "properties": [],
+                                  "type": "ObjectExpression"
+                                }
+                              }
+                            ],
+                            "type": "ObjectExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "dungeonConfig",
+                              "type": "Identifier"
+                            },
+                            "init": null,
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "body": {
+                          "expression": {
+                            "left": {
+                              "computed": true,
+                              "object": {
+                                "computed": false,
+                                "object": {
+                                  "name": "a",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "down",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

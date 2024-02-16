@@ -1,0 +1,210 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "alternate": {
+                          "body": [
+                            null,
+                            null,
+                            {
+                              "consequent": {
+                                "body": [
+                                  null,
+                                  {
+                                    "body": {
+                                      "body": [
+                                        null,
+                                        {
+                                          "expression": {
+                                            "right": {
+                                              "callee": {
+                                                "type": "MemberExpression"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "LogicalExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "init": {
+                                      "left": {
+                                        "name": "c",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "=",
+                                      "right": {
+                                        "name": "westBoundary",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "test": {
+                                      "left": {
+                                        "name": "c",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "<=",
+                                      "right": {
+                                        "name": "eastBoundary",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "ForStatement",
+                                    "update": {
+                                      "left": {
+                                        "name": "c",
+                                        "type": "Identifier"
+                                      },
+                                      "operator": "+=",
+                                      "right": {
+                                        "raw": "2",
+                                        "type": "Literal",
+                                        "value": 2
+                                      },
+                                      "type": "AssignmentExpression"
+                                    }
+                                  }
+                                ],
+                                "type": "BlockStatement"
+                              },
+                              "test": {
+                                "left": {
+                                  "raw": "3",
+                                  "type": "Literal",
+                                  "value": 3
+                                },
+                                "operator": "<=",
+                                "right": {
+                                  "name": "northBoundary",
+                                  "type": "Identifier"
+                                },
+                                "type": "BinaryExpression"
+                              },
+                              "type": "IfStatement"
+                            },
+                            {
+                              "alternate": null,
+                              "consequent": {
+                                "body": {
+                                  "body": [
+                                    {
+                                      "declarations": [
+                                        {
+                                          "id": {
+                                            "name": "potentialDoor",
+                                            "type": "Identifier"
+                                          },
+                                          "init": null,
+                                          "type": "VariableDeclarator"
+                                        }
+                                      ],
+                                      "kind": "let",
+                                      "type": "VariableDeclaration"
+                                    },
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "left": {
+                                            "name": "potentialDoor",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "arguments": [
+                                              {
+                                                "name": "grid",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "roomCriteria",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "southBoundary",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "name": "c",
+                                                "type": "Identifier"
+                                              },
+                                              {
+                                                "raw": "\"south\"",
+                                                "type": "Literal",
+                                                "value": "south"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "name": "canDoorBePLaced",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "CallExpression"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "operator": "&&",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "name": "potentialDoor",
+                                              "type": "Identifier"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "potentialDoorLocations",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "push",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

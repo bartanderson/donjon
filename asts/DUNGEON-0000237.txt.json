@@ -1,0 +1,86 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "properties": [
+                                {
+                                  "value": {
+                                    "arguments": [
+                                      {
+                                        "callee": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "CallExpression"
+                                      }
+                                    ],
+                                    "callee": {
+                                      "name": "set_prng_seed",
+                                      "type": "Identifier"
+                                    },
+                                    "type": "CallExpression"
+                                  }
+                                }
+                              ],
+                              "type": "ObjectExpression"
+                            },
+                            "type": "VariableDeclarator"
+                          }
+                        ],
+                        "kind": "let",
+                        "type": "VariableDeclaration"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "async": false,
+                              "body": {
+                                "body": [
+                                  {
+                                    "expression": {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "name": "a",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "c",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

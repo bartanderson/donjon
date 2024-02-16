@@ -1,0 +1,179 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "left": {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "&",
+                                          "right": {
+                                            "raw": "12582912",
+                                            "type": "Literal",
+                                            "value": 12582912
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "operator": "||",
+                                        "right": {
+                                          "arguments": [
+                                            {
+                                              "async": false,
+                                              "body": {
+                                                "body": [
+                                                  {
+                                                    "alternate": null,
+                                                    "consequent": {
+                                                      "body": [
+                                                        {
+                                                          "declarations": [
+                                                            {
+                                                              "id": {
+                                                                "name": "k",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "init": {
+                                                                "properties": [
+                                                                  {
+                                                                    "computed": false,
+                                                                    "key": {
+                                                                      "name": "row",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "kind": "init",
+                                                                    "method": false,
+                                                                    "shorthand": false,
+                                                                    "type": "Property",
+                                                                    "value": {
+                                                                      "name": "g",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "computed": false,
+                                                                    "key": {
+                                                                      "name": "col",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "kind": "init",
+                                                                    "method": false,
+                                                                    "shorthand": false,
+                                                                    "type": "Property",
+                                                                    "value": {
+                                                                      "name": "e",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "computed": false,
+                                                                    "key": {
+                                                                      "name": "dir",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "kind": "init",
+                                                                    "method": false,
+                                                                    "shorthand": false,
+                                                                    "type": "Property",
+                                                                    "value": {
+                                                                      "name": "h",
+                                                                      "type": "Identifier"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "type": "ObjectExpression"
+                                                              },
+                                                              "type": "VariableDeclarator"
+                                                            }
+                                                          ],
+                                                          "kind": "let",
+                                                          "type": "VariableDeclaration"
+                                                        },
+                                                        {
+                                                          "expression": {
+                                                            "left": {
+                                                              "name": "h",
+                                                              "type": "Identifier"
+                                                            },
+                                                            "operator": "=",
+                                                            "right": {
+                                                              "computed": false,
+                                                              "object": {
+                                                                "computed": true,
+                                                                "object": {
+                                                                  "name": "stairPlacementRules",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "name": "h",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

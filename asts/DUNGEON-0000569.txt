@@ -1,0 +1,2 @@
+json.body[1].expression.arguments[1].body.body[18].body.body[1].consequent.test.expressions[0].arguments[0].body.body[0].expression.left.right.right.object.property.right.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[18].body.body[1].consequent.test.expressions[0].arguments[0].body.body[0].expression.left.right.right.object.property.type = "BinaryExpression";

@@ -1,0 +1,131 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  {
+                                    "expression": {
+                                      "right": {
+                                        "callee": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "type": "CallExpression"
+                                      },
+                                      "type": "AssignmentExpression"
+                                    },
+                                    "type": "ExpressionStatement"
+                                  },
+                                  {
+                                    "declarations": [
+                                      {
+                                        "id": {
+                                          "name": "mapStyleInfo",
+                                          "type": "Identifier"
+                                        },
+                                        "init": {
+                                          "arguments": [
+                                            {
+                                              "left": {
+                                                "left": {
+                                                  "name": "dungeonStateWithStairs",
+                                                  "type": "Identifier"
+                                                },
+                                                "operator": "+",
+                                                "right": {
+                                                  "name": "stairColumn",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "operator": "/",
+                                              "right": {
+                                                "raw": "2",
+                                                "type": "Literal",
+                                                "value": 2
+                                              },
+                                              "type": "BinaryExpression"
+                                            }
+                                          ],
+                                          "callee": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "Math",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "floor",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

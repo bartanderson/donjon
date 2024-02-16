@@ -1,0 +1,316 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "expression": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "elements": [],
+                                    "type": "ArrayExpression"
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "ExpressionStatement"
+                              },
+                              {
+                                "alternate": {
+                                  "body": [
+                                    {
+                                      "body": [
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "adjacentRoomId",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "name": "dungeonConfig",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "var",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "declarations": [
+                                            {
+                                              "id": {
+                                                "name": "numRoomsToAdd",
+                                                "type": "Identifier"
+                                              },
+                                              "init": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "adjacentRoomId",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "calculateRoomCount",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "VariableDeclarator"
+                                            },
+                                            {
+                                              "id": {
+                                                "name": "currentRoomToAdd",
+                                                "type": "Identifier"
+                                              },
+                                              "init": null,
+                                              "type": "VariableDeclarator"
+                                            }
+                                          ],
+                                          "kind": "let",
+                                          "type": "VariableDeclaration"
+                                        },
+                                        {
+                                          "body": {
+                                            "expression": {
+                                              "left": {
+                                                "name": "adjacentRoomId",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "arguments": [
+                                                  {
+                                                    "name": "adjacentRoomId",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "addRoomToDungeon",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "type": "ExpressionStatement"
+                                          },
+                                          "init": {
+                                            "left": {
+                                              "name": "currentRoomToAdd",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "raw": "0",
+                                              "type": "Literal",
+                                              "value": 0
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "test": {
+                                            "left": {
+                                              "name": "currentRoomToAdd",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "<",
+                                            "right": {
+                                              "name": "numRoomsToAdd",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "type": "ForStatement",
+                                          "update": {
+                                            "argument": {
+                                              "name": "currentRoomToAdd",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "++",
+                                            "prefix": false,
+                                            "type": "UpdateExpression"
+                                          }
+                                        },
+                                        {
+                                          "alternate": null,
+                                          "consequent": {
+                                            "body": [
+                                              {
+                                                "declarations": [
+                                                  {
+                                                    "id": {
+                                                      "name": "numMediumSizeRoomsToAdd",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": {
+                                                      "arguments": [
+                                                        {
+                                                          "name": "adjacentRoomId",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "raw": "\"medium\"",
+                                                          "type": "Literal",
+                                                          "value": "medium"
+                                                        }
+                                                      ],
+                                                      "callee": {
+                                                        "name": "calculateRoomCount",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "type": "CallExpression"
+                                                    },
+                                                    "type": "VariableDeclarator"
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "name": "currentMediumSizeRoomBeingAdded",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "init": null,
+                                                    "type": "VariableDeclarator"
+                                                  }
+                                                ],
+                                                "kind": "let",
+                                                "type": "VariableDeclaration"
+                                              },
+                                              {
+                                                "body": {
+                                                  "expression": {
+                                                    "left": {
+                                                      "name": "adjacentRoomId",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "arguments": [
+                                                        {
+                                                          "name": "adjacentRoomId",
+                                                          "type": "Identifier"
+                                                        },
+                                                        {
+                                                          "properties": [
+                                                            {
+                                                              "computed": false,
+                                                              "key": {
+                                                                "name": "size",
+                                                                "type": "Identifier"
+                                                              },
+                                                              "kind": "init",
+                                                              "method": false,
+                                                              "shorthand": false,
+                                                              "type": "Property",
+                                                              "value": {
+                                                                "raw": "\"medium\"",
+                                                                "type": "Literal",
+                                                                "value": "medium"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "type": "ObjectExpression"
+                                                        }
+                                                      ],
+                                                      "callee": {
+                                                        "name": "addRoomToDungeon",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "type": "CallExpression"
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "type": "ExpressionStatement"
+                                                },
+                                                "init": {
+                                                  "left": {
+                                                    "name": "currentMediumSizeRoomBeingAdded",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "=",
+                                                  "right": {
+                                                    "raw": "0",
+                                                    "type": "Literal",
+                                                    "value": 0
+                                                  },
+                                                  "type": "AssignmentExpression"
+                                                },
+                                                "test": {
+                                                  "left": {
+                                                    "name": "currentMediumSizeRoomBeingAdded",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "<",
+                                                  "right": {
+                                                    "name": "numMediumSizeRoomsToAdd",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "type": "ForStatement",
+                                                "update": {
+                                                  "argument": {
+                                                    "name": "currentMediumSizeRoomBeingAdded",
+                                                    "type": "Identifier"
+                                                  },
+                                                  "operator": "++",
+                                                  "prefix": false,
+                                                  "type": "UpdateExpression"
+                                                }
+                                              }
+                                            ],
+                                            "type": "BlockStatement"
+                                          },
+                                          "test": {
+                                            "computed": false,
+                                            "object": {
+                                              "name": "adjacentRoomId",
+                                              "type": "Identifier"
+                                            },
+                                            "property": {
+                                              "name": "isHugeRoomEnabled",
+                                              "type": "Identifier"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

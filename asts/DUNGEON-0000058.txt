@@ -1,0 +1,16 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.left.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.operator = "|=";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.arguments = [];
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.arguments[0] = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.arguments[0].name = "x";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.arguments[0].type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.computed = false;
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.object = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.object.name = "q";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.object.type = "Identifier";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.property.name = "charCodeAt";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.right.left.callee.property.type = "Identifier";

@@ -1,0 +1,73 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "consequent": {
+                                "argument": {
+                                  "type": "MemberExpression"
+                                },
+                                "type": "ReturnStatement"
+                              },
+                              "test": {
+                                "computed": true,
+                                "object": {
+                                  "name": "palette",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "colorKey",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

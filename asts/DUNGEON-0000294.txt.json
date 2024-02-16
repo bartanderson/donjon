@@ -1,0 +1,65 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            null,
+                            null,
+                            {
+                              "body": {
+                                "expression": {
+                                  "expressions": [
+                                    null,
+                                    {
+                                      "left": {
+                                        "object": {
+                                          "property": {
+                                            "left": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "operator": "-",
+                                            "right": {
+                                              "name": "f",
+                                              "type": "Identifier"
+                                            },
+                                            "type": "BinaryExpression"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

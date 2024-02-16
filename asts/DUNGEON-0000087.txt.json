@@ -1,0 +1,103 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                null,
+                                                {
+                                                  "expression": {
+                                                    "left": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "name": "z",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "type": "ExpressionStatement"
+                                                }
+                                              ],
+                                              "type": "BlockStatement"
+                                            },
+                                            "test": {
+                                              "left": {
+                                                "raw": "0",
+                                                "type": "Literal",
+                                                "value": 0
+                                              },
+                                              "operator": "!=",
+                                              "right": {
+                                                "name": "t",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "BinaryExpression"
+                                            },
+                                            "type": "IfStatement"
+                                          }
+                                        ],
+                                        "type": "BlockStatement"
+                                      },
+                                      "test": {
+                                        "computed": false,
+                                        "object": {
+                                          "name": "B",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "length",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

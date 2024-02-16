@@ -1,0 +1,116 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "body": [
+                                          {
+                                            "test": {
+                                              "argument": {
+                                                "left": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "operator": "&",
+                                                "right": {
+                                                  "raw": "6",
+                                                  "type": "Literal",
+                                                  "value": 6
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "operator": "!",
+                                              "prefix": true,
+                                              "type": "UnaryExpression"
+                                            },
+                                            "type": "IfStatement"
+                                          },
+                                          {
+                                            "body": {
+                                              "body": [
+                                                {
+                                                  "declarations": [
+                                                    {
+                                                      "id": {
+                                                        "name": "C",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "init": {
+                                                        "left": {
+                                                          "left": {
+                                                            "computed": true,
+                                                            "object": {
+                                                              "computed": true,
+                                                              "object": {
+                                                                "computed": false,
+                                                                "object": {
+                                                                  "name": "v",
+                                                                  "type": "Identifier"
+                                                                },
+                                                                "property": {
+                                                                  "name": "cell",
+                                                                  "type": "Identifier"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

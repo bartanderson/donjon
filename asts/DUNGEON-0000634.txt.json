@@ -1,0 +1,133 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  null,
+                                  {
+                                    "expression": {
+                                      "arguments": [
+                                        {
+                                          "body": {
+                                            "body": [
+                                              null,
+                                              {
+                                                "expression": {
+                                                  "arguments": [
+                                                    {
+                                                      "body": {
+                                                        "body": [
+                                                          null,
+                                                          {
+                                                            "consequent": {
+                                                              "consequent": {
+                                                                "expression": {
+                                                                  "callee": {
+                                                                    "type": "MemberExpression"
+                                                                  },
+                                                                  "type": "CallExpression"
+                                                                },
+                                                                "type": "ExpressionStatement"
+                                                              },
+                                                              "test": {
+                                                                "expressions": [
+                                                                  {
+                                                                    "left": {
+                                                                      "name": "rowIndex",
+                                                                      "type": "Identifier"
+                                                                    },
+                                                                    "operator": "=",
+                                                                    "right": {
+                                                                      "arguments": [],
+                                                                      "callee": {
+                                                                        "computed": false,
+                                                                        "object": {
+                                                                          "elements": [
+                                                                            {
+                                                                              "name": "rowIndex",
+                                                                              "type": "Identifier"
+                                                                            },
+                                                                            {
+                                                                              "name": "colIndex",
+                                                                              "type": "Identifier"
+                                                                            }
+                                                                          ],
+                                                                          "type": "ArrayExpression"
+                                                                        },
+                                                                        "property": {
+                                                                          "name": "join",
+                                                                          "type": "Identifier"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

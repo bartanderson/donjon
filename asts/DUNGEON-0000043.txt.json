@@ -1,0 +1,169 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": {
+                                    "body": [
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      null,
+                                      {
+                                        "body": {
+                                          "body": [
+                                            null,
+                                            null,
+                                            {
+                                              "test": {
+                                                "argument": {
+                                                  "left": {
+                                                    "type": "MemberExpression"
+                                                  },
+                                                  "operator": "&",
+                                                  "right": {
+                                                    "raw": "4128768",
+                                                    "type": "Literal",
+                                                    "value": 4128768
+                                                  },
+                                                  "type": "BinaryExpression"
+                                                },
+                                                "operator": "!",
+                                                "prefix": true,
+                                                "type": "UnaryExpression"
+                                              },
+                                              "type": "IfStatement"
+                                            }
+                                          ],
+                                          "type": "BlockStatement"
+                                        },
+                                        "init": {
+                                          "left": {
+                                            "name": "numberOfDoors",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "raw": "0",
+                                            "type": "Literal",
+                                            "value": 0
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "test": {
+                                          "left": {
+                                            "name": "numberOfDoors",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "<",
+                                          "right": {
+                                            "name": "w",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "BinaryExpression"
+                                        },
+                                        "type": "ForStatement",
+                                        "update": {
+                                          "argument": {
+                                            "name": "numberOfDoors",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "++",
+                                          "prefix": false,
+                                          "type": "UpdateExpression"
+                                        }
+                                      },
+                                      {
+                                        "expression": {
+                                          "left": {
+                                            "name": "currentDungeonConfig",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "name": "dungeonState",
+                                            "type": "Identifier"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        },
+                                        "type": "ExpressionStatement"
+                                      }
+                                    ],
+                                    "type": "BlockStatement"
+                                  },
+                                  "label": {
+                                    "name": "a",
+                                    "type": "Identifier"
+                                  },
+                                  "type": "LabeledStatement"
+                                },
+                                "init": {
+                                  "left": {
+                                    "name": "roomIdIterator",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "=",
+                                  "right": {
+                                    "raw": "1",
+                                    "type": "Literal",
+                                    "value": 1
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "test": {
+                                  "left": {
+                                    "name": "roomIdIterator",
+                                    "type": "Identifier"
+                                  },
+                                  "operator": "<=",
+                                  "right": {
+                                    "computed": false,
+                                    "object": {
+                                      "name": "currentDungeonConfig",
+                                      "type": "Identifier"
+                                    },
+                                    "property": {
+                                      "name": "n_rooms",
+                                      "type": "Identifier"
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

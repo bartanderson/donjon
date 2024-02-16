@@ -1,0 +1,231 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "expression": {
+                            "expressions": [
+                              null,
+                              {
+                                "right": {
+                                  "left": {
+                                    "type": "MemberExpression"
+                                  },
+                                  "operator": "|=",
+                                  "right": {
+                                    "raw": "16",
+                                    "type": "Literal",
+                                    "value": 16
+                                  },
+                                  "type": "AssignmentExpression"
+                                },
+                                "type": "LogicalExpression"
+                              }
+                            ],
+                            "type": "SequenceExpression"
+                          },
+                          "type": "ExpressionStatement"
+                        },
+                        "init": {
+                          "left": {
+                            "name": "h",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "name": "g",
+                              "type": "Identifier"
+                            },
+                            "operator": "-",
+                            "right": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "h",
+                            "type": "Identifier"
+                          },
+                          "operator": "<=",
+                          "right": {
+                            "left": {
+                              "name": "c",
+                              "type": "Identifier"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ForStatement",
+                        "update": {
+                          "argument": {
+                            "name": "h",
+                            "type": "Identifier"
+                          },
+                          "operator": "++",
+                          "prefix": false,
+                          "type": "UpdateExpression"
+                        }
+                      },
+                      {
+                        "argument": {
+                          "name": "a",
+                          "type": "Identifier"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "addRoomToDungeon",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "b",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "argument": {
+                          "left": {
+                            "name": "a",
+                            "type": "Identifier"
+                          },
+                          "operator": "-",
+                          "right": {
+                            "name": "b",
+                            "type": "Identifier"
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "ReturnStatement"
+                      }
+                    ],
+                    "type": "BlockStatement"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "id": {
+                    "name": "N",
+                    "type": "Identifier"
+                  },
+                  "params": [
+                    {
+                      "name": "a",
+                      "type": "Identifier"
+                    },
+                    {
+                      "name": "b",
+                      "type": "Identifier"
+                    }
+                  ],
+                  "type": "FunctionDeclaration"
+                },
+                {
+                  "async": false,
+                  "body": {
+                    "body": [
+                      {
+                        "declarations": [
+                          {
+                            "id": {
+                              "name": "grid",
+                              "type": "Identifier"
+                            },
+                            "init": {
+                              "computed": false,
+                              "object": {
+                                "name": "dungeonLayout",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "cell",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

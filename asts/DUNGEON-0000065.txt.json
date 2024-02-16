@@ -1,0 +1,130 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "body": [
+                              null,
+                              null,
+                              null,
+                              null,
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "body": {
+                                        "expression": {
+                                          "left": {
+                                            "left": {
+                                              "type": "MemberExpression"
+                                            },
+                                            "operator": "&",
+                                            "right": {
+                                              "raw": "4",
+                                              "type": "Literal",
+                                              "value": 4
+                                            },
+                                            "type": "BinaryExpression"
+                                          },
+                                          "operator": "||",
+                                          "right": {
+                                            "left": {
+                                              "name": "k",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "arguments": [
+                                                {
+                                                  "name": "k",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "name": "l",
+                                                  "type": "Identifier"
+                                                },
+                                                {
+                                                  "name": "w",
+                                                  "type": "Identifier"
+                                                }
+                                              ],
+                                              "callee": {
+                                                "name": "generateCorridors",
+                                                "type": "Identifier"
+                                              },
+                                              "type": "CallExpression"
+                                            },
+                                            "type": "AssignmentExpression"
+                                          },
+                                          "type": "LogicalExpression"
+                                        },
+                                        "type": "ExpressionStatement"
+                                      },
+                                      "init": {
+                                        "left": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "=",
+                                        "right": {
+                                          "raw": "1",
+                                          "type": "Literal",
+                                          "value": 1
+                                        },
+                                        "type": "AssignmentExpression"
+                                      },
+                                      "test": {
+                                        "left": {
+                                          "name": "w",
+                                          "type": "Identifier"
+                                        },
+                                        "operator": "<",
+                                        "right": {
+                                          "computed": false,
+                                          "object": {
+                                            "name": "k",
+                                            "type": "Identifier"
+                                          },
+                                          "property": {
+                                            "name": "n_j",
+                                            "type": "Identifier"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

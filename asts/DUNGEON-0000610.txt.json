@@ -1,0 +1,118 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "body": {
+                                "body": [
+                                  {
+                                    "consequent": {
+                                      "body": [
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                          "consequent": {
+                                            "expression": {
+                                              "right": {
+                                                "arguments": [
+                                                  null,
+                                                  null,
+                                                  {
+                                                    "right": {
+                                                      "type": "MemberExpression"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  {
+                                                    "name": "deadEndRemovalRules",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "callee": {
+                                                  "name": "removeDeadEnd",
+                                                  "type": "Identifier"
+                                                },
+                                                "type": "CallExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "type": "ExpressionStatement"
+                                          },
+                                          "test": {
+                                            "left": {
+                                              "name": "c",
+                                              "type": "Identifier"
+                                            },
+                                            "operator": "=",
+                                            "right": {
+                                              "computed": false,
+                                              "object": {
+                                                "computed": true,
+                                                "object": {
+                                                  "name": "deadEndRemovalRules",
+                                                  "type": "Identifier"
+                                                },
+                                                "property": {
+                                                  "name": "c",
+                                                  "type": "Identifier"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

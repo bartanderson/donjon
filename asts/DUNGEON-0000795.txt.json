@@ -1,0 +1,129 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    null,
+                                                    {
+                                                      "expression": {
+                                                        "right": {
+                                                          "callee": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "AssignmentExpression"
+                                                      },
+                                                      "type": "ExpressionStatement"
+                                                    },
+                                                    {
+                                                      "expression": {
+                                                        "arguments": [
+                                                          {
+                                                            "name": "d",
+                                                            "type": "Identifier"
+                                                          },
+                                                          {
+                                                            "name": "b",
+                                                            "type": "Identifier"
+                                                          }
+                                                        ],
+                                                        "callee": {
+                                                          "computed": false,
+                                                          "object": {
+                                                            "name": "g",
+                                                            "type": "Identifier"
+                                                          },
+                                                          "property": {
+                                                            "name": "call",
+                                                            "type": "Identifier"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

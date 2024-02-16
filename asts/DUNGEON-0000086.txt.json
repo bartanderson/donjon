@@ -1,0 +1,131 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      {
+                        "body": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          null,
+                          {
+                            "consequent": {
+                              "body": [
+                                {
+                                  "body": [
+                                    null,
+                                    null,
+                                    {
+                                      "consequent": {
+                                        "body": [
+                                          null,
+                                          {
+                                            "consequent": {
+                                              "body": [
+                                                null,
+                                                {
+                                                  "body": {
+                                                    "body": [
+                                                      null,
+                                                      null,
+                                                      null,
+                                                      null,
+                                                      {
+                                                        "expression": {
+                                                          "callee": {
+                                                            "type": "MemberExpression"
+                                                          },
+                                                          "type": "CallExpression"
+                                                        },
+                                                        "type": "ExpressionStatement"
+                                                      }
+                                                    ],
+                                                    "type": "BlockStatement"
+                                                  },
+                                                  "init": {
+                                                    "left": {
+                                                      "name": "y",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "=",
+                                                    "right": {
+                                                      "raw": "0",
+                                                      "type": "Literal",
+                                                      "value": 0
+                                                    },
+                                                    "type": "AssignmentExpression"
+                                                  },
+                                                  "test": {
+                                                    "left": {
+                                                      "name": "y",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "<",
+                                                    "right": {
+                                                      "name": "t",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "type": "BinaryExpression"
+                                                  },
+                                                  "type": "ForStatement",
+                                                  "update": {
+                                                    "argument": {
+                                                      "name": "y",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "operator": "++",
+                                                    "prefix": false,
+                                                    "type": "UpdateExpression"
+                                                  }
+                                                },
+                                                {
+                                                  "expression": {
+                                                    "left": {
+                                                      "computed": false,
+                                                      "object": {
+                                                        "name": "m",
+                                                        "type": "Identifier"
+                                                      },
+                                                      "property": {
+                                                        "name": "stair",
+                                                        "type": "Identifier"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

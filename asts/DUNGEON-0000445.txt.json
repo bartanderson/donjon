@@ -1,0 +1,86 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "consequent": {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "body": {
+                                  "body": [
+                                    null,
+                                    {
+                                      "expression": {
+                                        "left": {
+                                          "type": "MemberExpression"
+                                        },
+                                        "operator": "&&",
+                                        "right": {
+                                          "left": {
+                                            "name": "potentialDoorLocations",
+                                            "type": "Identifier"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "arguments": [
+                                              {
+                                                "name": "subCriteria",
+                                                "type": "Identifier"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "potentialDoorLocations",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "concat",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

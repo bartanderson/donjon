@@ -1,0 +1,90 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "test": {
+                          "type": "MemberExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "k",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "arguments": [],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "arguments": [
+                                  {
+                                    "name": "k",
+                                    "type": "Identifier"
+                                  }
+                                ],
+                                "callee": {
+                                  "name": "$H",
+                                  "type": "Identifier"
+                                },
+                                "type": "CallExpression"
+                              },
+                              "property": {
+                                "name": "keys",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "consequent": {
+                          "test": {
+                            "expressions": [
+                              {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "left": {
+                                              "right": {
+                                                "left": {
+                                                  "type": "MemberExpression"
+                                                },
+                                                "operator": "&",
+                                                "right": {
+                                                  "raw": "6",
+                                                  "type": "Literal",
+                                                  "value": 6
+                                                },
+                                                "type": "BinaryExpression"
+                                              },
+                                              "type": "LogicalExpression"
+                                            },
+                                            "operator": "&&",
+                                            "right": {
+                                              "left": {
+                                                "name": "g",
+                                                "type": "Identifier"
+                                              },
+                                              "operator": "=",
+                                              "right": {
+                                                "argument": {
+                                                  "raw": "1",
+                                                  "type": "Literal",
+                                                  "value": 1
+                                                },
+                                                "operator": "!",
+                                                "prefix": true,
+                                                "type": "UnaryExpression"
+                                              },
+                                              "type": "AssignmentExpression"
+                                            },
+                                            "type": "LogicalExpression"
+                                          },
+                                          "type": "ExpressionStatement"
+                                        }
+                                      ],
+                                      "type": "BlockStatement"
+                                    },
+                                    "expression": false,
+                                    "generator": false,
+                                    "id": null,
+                                    "params": [
+                                      {
+                                        "name": "e",
+                                        "type": "Identifier"
+                                      }
+                                    ],
+                                    "type": "ArrowFunctionExpression"
+                                  }
+                                ],
+                                "callee": {
+                                  "computed": false,
+                                  "object": {
+                                    "name": "d",
+                                    "type": "Identifier"
+                                  },
+                                  "property": {
+                                    "name": "forEach",
+                                    "type": "Identifier"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

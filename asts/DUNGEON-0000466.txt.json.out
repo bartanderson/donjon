@@ -1,0 +1,117 @@
+
+#+begin_src input
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "declarations": [
+                                {
+                                  "init": {
+                                    "right": {
+                                      "left": {
+                                        "type": "MemberExpression"
+                                      },
+                                      "operator": "*",
+                                      "right": {
+                                        "name": "m",
+                                        "type": "Identifier"
+                                      },
+                                      "type": "BinaryExpression"
+                                    },
+                                    "type": "BinaryExpression"
+                                  },
+                                  "type": "VariableDeclarator"
+                                },
+                                {
+                                  "id": {
+                                    "name": "z",
+                                    "type": "Identifier"
+                                  },
+                                  "init": {
+                                    "left": {
+                                      "name": "h",
+                                      "type": "Identifier"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "left": {
+                                        "computed": true,
+                                        "object": {
+                                          "name": "directionColumnOffsets",
+                                          "type": "Identifier"
+                                        },
+                                        "property": {
+                                          "name": "k",
+                                          "type": "Identifier"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+#+end_src
+#+begin_src output mixtral
+ Result: This code appears to be an abstract syntax tree (AST) generated from a JavaScript source code, which has been passed through some kind of code generation or transformation process. It is not a complete program but rather a representation of part of the structure and syntax of the original source code in a tree format. Here's a breakdown of the key concepts:
+
+* The root node of this AST represents an object with a single property called "body", which contains an array of expressions.
+* The first element in the "body" array is null, which could be an indication that there was an empty statement or a missing expression at this location in the original code.
+* The second element in the "body" array is another object with a property called "expression". This indicates that the corresponding node in the source code was an expression statement.
+* The "expression" property contains an object with an "arguments" property, which is an array of arguments passed to a function or method call.
+* The first argument is null, which suggests that there may have been a missing argument or a bug in the code generation process.
+* The second argument is another object with a "body" property, which is an AST representing a block statement containing multiple statements.
+* Each of the 14 statements in this block is currently represented as null, which could mean that they were empty statements or that they have been optimized away during some kind of code transformation process.
+* The 15th statement is another object with a "body" property, representing another block statement containing multiple statements.
+* The first statement in this block declares two variables, x and z, using the var keyword. The initial value of x is obtained by multiplying the member expression (m.\*), where m is an identifier. The initial value of z is calculated as h + directionColumnOffsets[k], where h is an identifier and k is an index in the array directionColumnOffsets.
+* The second statement is null, which suggests that there may have been another missing or optimized-away statement here.
+
+Overall, this AST represents a code snippet that declares two variables x and z using the var keyword and initializes their values based on some expressions involving other identifiers and array indexing. However, several statements in this block appear to be empty or missing, which suggests that there may have been some issues with the original source code or the code generation/transformation process.
+#+end_src

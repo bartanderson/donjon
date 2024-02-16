@@ -1,0 +1,238 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "right": {
+                            "type": "MemberExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "alternate": null,
+                        "consequent": {
+                          "argument": {
+                            "argument": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "operator": "!",
+                            "prefix": true,
+                            "type": "UnaryExpression"
+                          },
+                          "type": "ReturnStatement"
+                        },
+                        "test": {
+                          "left": {
+                            "name": "dungeonLayout2DGrid",
+                            "type": "Identifier"
+                          },
+                          "operator": "&",
+                          "right": {
+                            "raw": "1",
+                            "type": "Literal",
+                            "value": 1
+                          },
+                          "type": "BinaryExpression"
+                        },
+                        "type": "IfStatement"
+                      },
+                      {
+                        "expression": {
+                          "left": {
+                            "name": "dungeonLayout2DGrid",
+                            "type": "Identifier"
+                          },
+                          "operator": "=",
+                          "right": {
+                            "left": {
+                              "left": {
+                                "name": "dungeonLayout2DGrid",
+                                "type": "Identifier"
+                              },
+                              "operator": "&",
+                              "right": {
+                                "raw": "65472",
+                                "type": "Literal",
+                                "value": 65472
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "operator": ">>",
+                            "right": {
+                              "raw": "6",
+                              "type": "Literal",
+                              "value": 6
+                            },
+                            "type": "BinaryExpression"
+                          },
+                          "type": "AssignmentExpression"
+                        },
+                        "type": "ExpressionStatement"
+                      },
+                      {
+                        "argument": {
+                          "alternate": {
+                            "properties": [
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "sill_r",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "rowIndex",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "sill_c",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "colIndex",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "dir",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "doorDirection",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "door_r",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "c",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "door_c",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "e",
+                                  "type": "Identifier"
+                                }
+                              },
+                              {
+                                "computed": false,
+                                "key": {
+                                  "name": "out_id",
+                                  "type": "Identifier"
+                                },
+                                "kind": "init",
+                                "method": false,
+                                "shorthand": false,
+                                "type": "Property",
+                                "value": {
+                                  "name": "dungeonLayout2DGrid",
+                                  "type": "Identifier"
+                                }
+                              }
+                            ],
+                            "type": "ObjectExpression"
+                          },
+                          "consequent": {
+                            "argument": {
+                              "raw": "1",
+                              "type": "Literal",
+                              "value": 1
+                            },
+                            "operator": "!",
+                            "prefix": true,
+                            "type": "UnaryExpression"
+                          },
+                          "test": {
+                            "left": {
+                              "name": "dungeonLayout2DGrid",
+                              "type": "Identifier"
+                            },
+                            "operator": "==",
+                            "right": {
+                              "computed": false,
+                              "object": {
+                                "name": "doorData",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "id",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

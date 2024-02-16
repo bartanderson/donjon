@@ -1,0 +1,4 @@
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.left.object.object.type = "MemberExpression";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.left.object.property = {};
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.left.object.property.name = "middleRow";
+json.body[1].expression.arguments[1].body.body[2].body.body[0].body[3].body[2].body.body[1].body.expression.left.object.property.type = "Identifier";

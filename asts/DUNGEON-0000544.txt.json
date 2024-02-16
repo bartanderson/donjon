@@ -1,0 +1,74 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      {
+                        "expression": {
+                          "left": {
+                            "right": {
+                              "right": {
+                                "type": "MemberExpression"
+                              },
+                              "type": "BinaryExpression"
+                            },
+                            "type": "LogicalExpression"
+                          },
+                          "operator": "&&",
+                          "right": {
+                            "arguments": [
+                              {
+                                "name": "optionalPreferredDirection",
+                                "type": "Identifier"
+                              }
+                            ],
+                            "callee": {
+                              "computed": false,
+                              "object": {
+                                "name": "f",
+                                "type": "Identifier"
+                              },
+                              "property": {
+                                "name": "unshift",
+                                "type": "Identifier"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

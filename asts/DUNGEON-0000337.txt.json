@@ -1,0 +1,60 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "declarations": [
+                          {
+                            "init": {
+                              "object": {
+                                "type": "MemberExpression"
+                              },
+                              "property": {
+                                "computed": false,
+                                "object": {
+                                  "name": "b",
+                                  "type": "Identifier"
+                                },
+                                "property": {
+                                  "name": "size",
+                                  "type": "Identifier"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

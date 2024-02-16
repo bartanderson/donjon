@@ -1,0 +1,104 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "body": {
+                    "body": [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      {
+                        "expression": {
+                          "alternate": {
+                            "alternate": {
+                              "alternate": {
+                                "alternate": {
+                                  "alternate": {
+                                    "right": {
+                                      "expressions": [
+                                        null,
+                                        null,
+                                        {
+                                          "left": {
+                                            "type": "MemberExpression"
+                                          },
+                                          "operator": "=",
+                                          "right": {
+                                            "raw": "\"Portcullis\"",
+                                            "type": "Literal",
+                                            "value": "Portcullis"
+                                          },
+                                          "type": "AssignmentExpression"
+                                        }
+                                      ],
+                                      "type": "SequenceExpression"
+                                    },
+                                    "type": "LogicalExpression"
+                                  },
+                                  "consequent": {
+                                    "expressions": [
+                                      {
+                                        "left": {
+                                          "computed": true,
+                                          "object": {
+                                            "computed": true,
+                                            "object": {
+                                              "computed": false,
+                                              "object": {
+                                                "name": "a",
+                                                "type": "Identifier"
+                                              },
+                                              "property": {
+                                                "name": "cell",
+                                                "type": "Identifier"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

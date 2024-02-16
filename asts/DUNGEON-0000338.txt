@@ -1,0 +1,1 @@
+json.body[1].expression.arguments[1].body.body[10].body.body[4].declarations[0].init.property.type = "MemberExpression";

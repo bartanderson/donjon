@@ -1,0 +1,131 @@
+{
+  "body": [
+    null,
+    {
+      "expression": {
+        "arguments": [
+          null,
+          {
+            "body": {
+              "body": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "expression": {
+                    "arguments": [
+                      null,
+                      {
+                        "body": {
+                          "body": [
+                            {
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "body": {
+                                      "body": [
+                                        {
+                                          "expression": {
+                                            "arguments": [
+                                              {
+                                                "body": {
+                                                  "body": [
+                                                    null,
+                                                    null,
+                                                    null,
+                                                    {
+                                                      "expression": {
+                                                        "callee": {
+                                                          "type": "MemberExpression"
+                                                        },
+                                                        "type": "CallExpression"
+                                                      },
+                                                      "type": "ExpressionStatement"
+                                                    }
+                                                  ],
+                                                  "type": "BlockStatement"
+                                                },
+                                                "expression": false,
+                                                "generator": false,
+                                                "id": null,
+                                                "params": [
+                                                  {
+                                                    "name": "b",
+                                                    "type": "Identifier"
+                                                  }
+                                                ],
+                                                "type": "ArrowFunctionExpression"
+                                              }
+                                            ],
+                                            "callee": {
+                                              "computed": false,
+                                              "object": {
+                                                "arguments": [
+                                                  {
+                                                    "computed": true,
+                                                    "object": {
+                                                      "name": "dungeonConfigConstants",
+                                                      "type": "Identifier"
+                                                    },
+                                                    "property": {
+                                                      "name": "a",
+                                                      "type": "Identifier"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
