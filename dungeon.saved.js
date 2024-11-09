@@ -20,8 +20,6 @@
 		updateDungeonConfiguration()
 	}
 
-	let exportConfig = {};
-
 	function updateDungeonConfiguration() {
 		{
 			let dungeonDimensions = stairDimensions(); {
@@ -75,7 +73,6 @@
 			    // console.log('Number of Rooms (${roomLayoutType}):', dungeonConfig.n_rooms);
 			    // console.log('Room Sizes and Positions (${roomLayoutType}):', dungeonConfig.room);
 			    // console.log('Complexity and Hugeness Settings (${roomLayoutType}):', dungeonConfig.isComplexRoomEnabled, dungeonConfig.isHugeRoomEnabled);
-			    exportConfig = dungeonConfig
 			} {
 				var currentDungeonConfig = dungeonConfig;
 				mappedRoomConnections = {};
@@ -1429,71 +1426,25 @@
 			tag: "white"
 		}
 
-	function testDownload() {
-	    let dataStr = "data:text/plain;charset=utf-8," + encodeURIComponent("This is a test file.");
-	    let downloadAnchorNode = document.createElement('a');
-	    downloadAnchorNode.setAttribute("href", dataStr);
-	    downloadAnchorNode.setAttribute("download", "test.txt");
-	    document.body.appendChild(downloadAnchorNode);
-	    downloadAnchorNode.click();
-	    document.body.removeChild(downloadAnchorNode);
-	}
-
 	// Function to export the current dungeon data as JSON
 	function exportDungeonData() {
-	    let dungeonName = $("dungeon_name").getValue();
-	    let dungeonData = {
-	        name: dungeonName,
-	        config: defaultDungeonConfig,
-	        dimensions: stairDimensions(),
-	        rooms: exportConfig.room,
-	        stairs: exportConfig.stair,
-	        cells: exportConfig.cell,
-	        doors: exportConfig.door
-	    };
-        
-
-	    // Log the dungeon data to the console for inspection
-	    console.log("Dungeon Data to be exported:", dungeonData);
-
-	    let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dungeonData, null, 2));
-
-	    // Log the JSON string to the console for inspection
-	    console.log("JSON String to be downloaded:", dataStr);
-
-	    let downloadAnchorNode = document.createElement('a');
-	    downloadAnchorNode.setAttribute("href", dataStr);
-	    downloadAnchorNode.setAttribute("download", dungeonName + ".json");
-
-	    // Log the download link to the console for inspection
-	    console.log("Download Link:", downloadAnchorNode);
-
-	    document.body.appendChild(downloadAnchorNode);
-	    downloadAnchorNode.click();
-	    document.body.removeChild(downloadAnchorNode);
-
-	    // Log a message indicating that the download has been triggered
-	    console.log("Download triggered for dungeon data.");
-	}
-
-	// Function to load dungeon data from a JSON file
-	function loadDungeonData(file) {
-		let reader = new FileReader();
-		reader.onload = function(event) {
-			let dungeonData = JSON.parse(event.target.result);
-			// Set the dungeon configuration and dimensions
-			dungeonConfig = dungeonData.config;
-			dungeonConfig.room = dungeonData.rooms;
-			dungeonConfig.stair = dungeonData.stairs;
-			dungeonConfig.cell = dungeonData.cells;
-			dungeonConfig.door = dungeonData.doors;
-			// Update the dungeon title
-			$("dungeon_name").setValue(dungeonData.name);
-			updateDungeonTitle();
-			// Render the dungeon
-			renderDungeon(dungeonConfig);
+		let dungeonName = $("dungeon_name").getValue();
+		let dungeonData = {
+			name: dungeonName,
+			config: defaultDungeonConfig,
+			dimensions: stairDimensions(),
+			rooms: dungeonConfig.room,
+			stairs: dungeonConfig.stair,
+			cells: dungeonConfig.cell,
+			doors: dungeonConfig.door
 		};
-		reader.readAsText(file);
+		let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dungeonData, null, 2));
+		let downloadAnchorNode = document.createElement('a');
+		downloadAnchorNode.setAttribute("href", dataStr);
+		downloadAnchorNode.setAttribute("download", dungeonName + ".json");
+		document.body.appendChild(downloadAnchorNode);
+		downloadAnchorNode.click();
+		downloadAnchorNode.remove();
 	}
 
 	// Add an export button to the UI
@@ -1522,31 +1473,18 @@
 		$("print_map").observe("click", () => {
 			window.print()
 		});
-
-        // Create and insert the export button
+		// let exportButton = new Element("button", { id: "export_data" }).update("Export Dungeon Data");
+		// $("controls").insert(exportButton);
+		// $("export_data").observe("click", exportDungeonData);
+		// Create and insert the export button
         let controlsElement = $("form"); // Use the existing form element
         if (controlsElement) {
             let exportButton = new Element("button", { id: "export_data" }).update("Export Dungeon Data");
             controlsElement.insert(exportButton);
-
             $("export_data").observe("click", exportDungeonData);
         } else {
             console.error("Form element not found.");
         }
-
-        if (controlsElement) {
-            let loadButton = new Element("input", { id: "load_data", type: "file", accept: ".json" });
-            controlsElement.insert(loadButton);
-            $("load_data").observe("change", function(event) {
-			let file = event.target.files[0];
-			if (file) {
-				loadDungeonData(file);
-			}
-		});
-        } else {
-            console.error("Form element not found.");
-        }
-        //exportDungeonData();
-        loadDungeonData("The Lost Gauntlet of Horror.json")
 	});
+
 });

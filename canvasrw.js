@@ -57,7 +57,7 @@ function colorToRgb(colorCode) {
 		element = $(element);
 		element.width = width;
 		element.height = height;
-		element = element.getContext("2d");
+		element = element.getContext("2d", {willReadFrequently: true});
 		fillRect(element, 0, 0, width, height, "#ffffff");
 		return element
 	};
